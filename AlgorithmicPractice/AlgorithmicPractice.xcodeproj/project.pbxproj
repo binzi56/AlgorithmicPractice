@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		183F6BEC21562BA500D3EC63 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6BEB21562BA500D3EC63 /* main.cpp */; };
-		183F6BF421572F4000D3EC63 /* Demo1_1_1_strStr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6BF221572F3F00D3EC63 /* Demo1_1_1_strStr.cpp */; };
+		183F6BF72157EB7B00D3EC63 /* Demo1_1_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6BF62157EB7B00D3EC63 /* Demo1_1_1.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +26,7 @@
 /* Begin PBXFileReference section */
 		183F6BE821562BA500D3EC63 /* AlgorithmicPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmicPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		183F6BEB21562BA500D3EC63 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		183F6BF221572F3F00D3EC63 /* Demo1_1_1_strStr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo1_1_1_strStr.cpp; sourceTree = "<group>"; };
-		183F6BF321572F4000D3EC63 /* Demo1_1_1_strStr.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Demo1_1_1_strStr.hpp; sourceTree = "<group>"; };
+		183F6BF62157EB7B00D3EC63 /* Demo1_1_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo1_1_1.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +68,7 @@
 		183F6BF521572F4A00D3EC63 /* Demo1 */ = {
 			isa = PBXGroup;
 			children = (
-				183F6BF321572F4000D3EC63 /* Demo1_1_1_strStr.hpp */,
-				183F6BF221572F3F00D3EC63 /* Demo1_1_1_strStr.cpp */,
+				183F6BF62157EB7B00D3EC63 /* Demo1_1_1.cpp */,
 			);
 			path = Demo1;
 			sourceTree = "<group>";
@@ -131,7 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				183F6BF421572F4000D3EC63 /* Demo1_1_1_strStr.cpp in Sources */,
+				183F6BF72157EB7B00D3EC63 /* Demo1_1_1.cpp in Sources */,
 				183F6BEC21562BA500D3EC63 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
