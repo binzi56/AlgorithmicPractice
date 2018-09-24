@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		183F6BEC21562BA500D3EC63 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6BEB21562BA500D3EC63 /* main.cpp */; };
-		183F6BFC2157EE0400D3EC63 /* Demo1_1_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6BFA2157EE0400D3EC63 /* Demo1_1_1.cpp */; };
+		183F6C0221587D5D00D3EC63 /* Demo1_1_1_strStr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6C0021587D5D00D3EC63 /* Demo1_1_1_strStr.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +26,9 @@
 /* Begin PBXFileReference section */
 		183F6BE821562BA500D3EC63 /* AlgorithmicPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmicPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		183F6BEB21562BA500D3EC63 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		183F6BFA2157EE0400D3EC63 /* Demo1_1_1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Demo1_1_1.cpp; sourceTree = "<group>"; };
 		183F6BFB2157EE0400D3EC63 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		183F6C0021587D5D00D3EC63 /* Demo1_1_1_strStr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo1_1_1_strStr.cpp; sourceTree = "<group>"; };
+		183F6C0121587D5D00D3EC63 /* Demo1_1_1_strStr.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Demo1_1_1_strStr.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +86,9 @@
 		183F6BF92157EE0400D3EC63 /* String */ = {
 			isa = PBXGroup;
 			children = (
-				183F6BFA2157EE0400D3EC63 /* Demo1_1_1.cpp */,
 				183F6BFB2157EE0400D3EC63 /* README.md */,
+				183F6C0021587D5D00D3EC63 /* Demo1_1_1_strStr.cpp */,
+				183F6C0121587D5D00D3EC63 /* Demo1_1_1_strStr.hpp */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -147,7 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				183F6BFC2157EE0400D3EC63 /* Demo1_1_1.cpp in Sources */,
+				183F6C0221587D5D00D3EC63 /* Demo1_1_1_strStr.cpp in Sources */,
 				183F6BEC21562BA500D3EC63 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
