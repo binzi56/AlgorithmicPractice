@@ -15,7 +15,7 @@ int main(int argc, const char * argv[]) {
 #pragma mark - 一.基础数据结构
 #pragma mark - 1.1 字符串
 //1.1.1 实现strStr()函数
-    printf("Demo1_1_1_strStr.hpp:\n%d", strStr("aaaaa", "bba"));
+    printf("1.1.1 实现strStr()函数:\n%d", strStr("aaaaa", "bba"));
 
     
 #pragma mark - 1.2 数组
