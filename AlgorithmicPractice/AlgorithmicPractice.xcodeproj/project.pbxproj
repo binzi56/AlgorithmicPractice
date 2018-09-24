@@ -36,6 +36,7 @@
 		183F6C702159399100D3EC63 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		183F6C722159408A00D3EC63 /* Demo1_2_1_deleteArrRepeat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo1_2_1_deleteArrRepeat.cpp; sourceTree = "<group>"; };
 		183F6C732159408A00D3EC63 /* Demo1_2_1_deleteArrRepeat.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Demo1_2_1_deleteArrRepeat.hpp; sourceTree = "<group>"; };
+		183F6C75215940ED00D3EC63 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +132,7 @@
 		183F6C712159405100D3EC63 /* Demo1_2_1 */ = {
 			isa = PBXGroup;
 			children = (
+				183F6C75215940ED00D3EC63 /* README.md */,
 				183F6C722159408A00D3EC63 /* Demo1_2_1_deleteArrRepeat.cpp */,
 				183F6C732159408A00D3EC63 /* Demo1_2_1_deleteArrRepeat.hpp */,
 			);
