@@ -62,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				183F6BEB21562BA500D3EC63 /* main.cpp */,
+				183F6C03215884B900D3EC63 /* Demo2 */,
 				183F6BF521572F4A00D3EC63 /* Demo1 */,
 			);
 			path = AlgorithmicPractice;
@@ -91,6 +92,13 @@
 				183F6C0121587D5D00D3EC63 /* Demo1_1_1_strStr.hpp */,
 			);
 			path = String;
+			sourceTree = "<group>";
+		};
+		183F6C03215884B900D3EC63 /* Demo2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Demo2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
