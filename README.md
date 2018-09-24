@@ -5,6 +5,8 @@
 #### 1.1 字符串
 [1.1.1 实现strStr()函数](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/String/Demo1_1_1)
 
+[1.1.2 反转字符串](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/String/Demo1_1_2)
+
 #### 3.2 数组
 
 ### 二.链表
