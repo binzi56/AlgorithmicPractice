@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		183F6BEC21562BA500D3EC63 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6BEB21562BA500D3EC63 /* main.cpp */; };
 		183F6C0221587D5D00D3EC63 /* Demo1_1_1_strStr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6C0021587D5D00D3EC63 /* Demo1_1_1_strStr.cpp */; };
+		183F6C6F2159396300D3EC63 /* Demo1_1_2_reverseString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6C6D2159396300D3EC63 /* Demo1_1_2_reverseString.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,9 @@
 		183F6BFB2157EE0400D3EC63 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		183F6C0021587D5D00D3EC63 /* Demo1_1_1_strStr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo1_1_1_strStr.cpp; sourceTree = "<group>"; };
 		183F6C0121587D5D00D3EC63 /* Demo1_1_1_strStr.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Demo1_1_1_strStr.hpp; sourceTree = "<group>"; };
+		183F6C6D2159396300D3EC63 /* Demo1_1_2_reverseString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo1_1_2_reverseString.cpp; sourceTree = "<group>"; };
+		183F6C6E2159396300D3EC63 /* Demo1_1_2_reverseString.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Demo1_1_2_reverseString.hpp; sourceTree = "<group>"; };
+		183F6C702159399100D3EC63 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +91,8 @@
 		183F6BF92157EE0400D3EC63 /* String */ = {
 			isa = PBXGroup;
 			children = (
-				183F6BFB2157EE0400D3EC63 /* README.md */,
-				183F6C0021587D5D00D3EC63 /* Demo1_1_1_strStr.cpp */,
-				183F6C0121587D5D00D3EC63 /* Demo1_1_1_strStr.hpp */,
+				183F6C6B215938EC00D3EC63 /* Demo1_1_1 */,
+				183F6C6C2159390700D3EC63 /* Demo1_1_2 */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -99,6 +102,26 @@
 			children = (
 			);
 			path = Demo2;
+			sourceTree = "<group>";
+		};
+		183F6C6B215938EC00D3EC63 /* Demo1_1_1 */ = {
+			isa = PBXGroup;
+			children = (
+				183F6BFB2157EE0400D3EC63 /* README.md */,
+				183F6C0021587D5D00D3EC63 /* Demo1_1_1_strStr.cpp */,
+				183F6C0121587D5D00D3EC63 /* Demo1_1_1_strStr.hpp */,
+			);
+			path = Demo1_1_1;
+			sourceTree = "<group>";
+		};
+		183F6C6C2159390700D3EC63 /* Demo1_1_2 */ = {
+			isa = PBXGroup;
+			children = (
+				183F6C702159399100D3EC63 /* README.md */,
+				183F6C6D2159396300D3EC63 /* Demo1_1_2_reverseString.cpp */,
+				183F6C6E2159396300D3EC63 /* Demo1_1_2_reverseString.hpp */,
+			);
+			path = Demo1_1_2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +182,7 @@
 			files = (
 				183F6C0221587D5D00D3EC63 /* Demo1_1_1_strStr.cpp in Sources */,
 				183F6BEC21562BA500D3EC63 /* main.cpp in Sources */,
+				183F6C6F2159396300D3EC63 /* Demo1_1_2_reverseString.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
