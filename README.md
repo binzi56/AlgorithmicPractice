@@ -8,6 +8,7 @@
 [1.1.2 反转字符串](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/String/Demo1_1_2)
 
 #### 3.2 数组
+[1.2.1 删除排序数组中的重复项](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/Array/Demo1_2_1)
 
 ### 二.链表
 
