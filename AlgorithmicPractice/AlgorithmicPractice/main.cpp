@@ -21,6 +21,7 @@ int main(int argc, const char * argv[]) {
     printf("1.1.2 反转字符串:\n%s", reverseString("A man, a plan, a canal: Panama").c_str());
     
 #pragma mark - 1.2 数组
+//1.2.1 删除排序数组中的重复项
                          
 #pragma mark - 二.链表
                          
