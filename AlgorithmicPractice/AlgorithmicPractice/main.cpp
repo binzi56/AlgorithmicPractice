@@ -16,9 +16,9 @@ int main(int argc, const char * argv[]) {
 #pragma mark - 一.基础数据结构
 #pragma mark - 1.1 字符串
 //1.1.1 实现strStr()函数
-    printf("1.1.1 实现strStr()函数:\n%d", strStr("aaaaa", "bba"));
+    printf("1.1.1 实现strStr()函数:\n%d\n", strStr("aaaaa", "bba"));
 //1.1.2 反转字符串
-    printf("1.1.2 反转字符串:\n%s", reverseString("A man, a plan, a canal: Panama").c_str());
+    printf("1.1.2 反转字符串:\n%s\n", reverseString("A man, a plan, a canal: Panama").c_str());
     
 #pragma mark - 1.2 数组
 //1.2.1 删除排序数组中的重复项
