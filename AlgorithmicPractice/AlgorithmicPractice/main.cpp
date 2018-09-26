@@ -10,9 +10,12 @@
 //工具类
 #include "CommonTools.hpp"
 //Demo相关类
+//string
 #include "Demo1_1_1_strStr.hpp"
 #include "Demo1_1_2_reverseString.hpp"
+//array
 #include "Demo1_2_1_deleteArrRepeat.hpp"
+#include "Demo1_2_2_middleNumForArr.hpp"
 
 int main(int argc, const char * argv[]) {
     
@@ -28,7 +31,9 @@ int main(int argc, const char * argv[]) {
     vector<int> vecArr{0,0,1,1,1,2,2,3,3,4};
     printf("1.2.1 删除排序数组中的重复项:\n%d\n", removeDuplicates(vecArr));
 //1.2.2 两个排序数组的中位数
-    
+    vector<int> vecArr1{1, 2};
+    vector<int> vecArr2{3, 4};
+    printf("1.2.2 两个排序数组的中位数:\n%f\n", findMedianSortedArrays(vecArr1, vecArr2));
 
 #pragma mark - 二.链表
                          

@@ -9,7 +9,7 @@
 
 #### 3.2 数组
 [1.2.1 删除排序数组中的重复项](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/Array/Demo1_2_1)
-
+[1.2.2 两个排序数组的中位数](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/Array/Demo1_2_2)
 ### 二.链表
 
 ### 三.栈和队列

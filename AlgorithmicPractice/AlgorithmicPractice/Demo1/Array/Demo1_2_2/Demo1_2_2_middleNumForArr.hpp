@@ -12,5 +12,6 @@
 #include <stdio.h>
 #include <vector>
 using namespace std;
+double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2);
 
 #endif /* Demo1_2_2_middleNumForArr_hpp */
