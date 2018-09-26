@@ -43,6 +43,7 @@
 		18A01E00215B2BDD0083EC54 /* CommonTools.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CommonTools.hpp; sourceTree = "<group>"; };
 		18A01E20215BDFE90083EC54 /* Demo1_2_2_middleNumForArr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo1_2_2_middleNumForArr.cpp; sourceTree = "<group>"; };
 		18A01E21215BDFE90083EC54 /* Demo1_2_2_middleNumForArr.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Demo1_2_2_middleNumForArr.hpp; sourceTree = "<group>"; };
+		18A01E23215BE0480083EC54 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +160,7 @@
 		18A01E1F215BDFBD0083EC54 /* Demo1_2_2 */ = {
 			isa = PBXGroup;
 			children = (
+				18A01E23215BE0480083EC54 /* README.md */,
 				18A01E20215BDFE90083EC54 /* Demo1_2_2_middleNumForArr.cpp */,
 				18A01E21215BDFE90083EC54 /* Demo1_2_2_middleNumForArr.hpp */,
 			);

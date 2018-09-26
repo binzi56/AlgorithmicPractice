@@ -10,5 +10,7 @@
 #define Demo1_2_2_middleNumForArr_hpp
 
 #include <stdio.h>
+#include <vector>
+using namespace std;
 
 #endif /* Demo1_2_2_middleNumForArr_hpp */

@@ -27,6 +27,8 @@ int main(int argc, const char * argv[]) {
 //1.2.1 删除排序数组中的重复项
     vector<int> vecArr{0,0,1,1,1,2,2,3,3,4};
     printf("1.2.1 删除排序数组中的重复项:\n%d\n", removeDuplicates(vecArr));
+//1.2.2 两个排序数组的中位数
+    
 
 #pragma mark - 二.链表
                          
