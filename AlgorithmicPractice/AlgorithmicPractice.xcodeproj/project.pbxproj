@@ -11,6 +11,7 @@
 		183F6C0221587D5D00D3EC63 /* Demo1_1_1_strStr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6C0021587D5D00D3EC63 /* Demo1_1_1_strStr.cpp */; };
 		183F6C6F2159396300D3EC63 /* Demo1_1_2_reverseString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6C6D2159396300D3EC63 /* Demo1_1_2_reverseString.cpp */; };
 		183F6C742159408A00D3EC63 /* Demo1_2_1_deleteArrRepeat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6C722159408A00D3EC63 /* Demo1_2_1_deleteArrRepeat.cpp */; };
+		18A01E01215B2BDD0083EC54 /* CommonTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18A01DFF215B2BDD0083EC54 /* CommonTools.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		183F6C722159408A00D3EC63 /* Demo1_2_1_deleteArrRepeat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo1_2_1_deleteArrRepeat.cpp; sourceTree = "<group>"; };
 		183F6C732159408A00D3EC63 /* Demo1_2_1_deleteArrRepeat.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Demo1_2_1_deleteArrRepeat.hpp; sourceTree = "<group>"; };
 		183F6C75215940ED00D3EC63 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		18A01DFF215B2BDD0083EC54 /* CommonTools.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CommonTools.cpp; sourceTree = "<group>"; };
+		18A01E00215B2BDD0083EC54 /* CommonTools.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CommonTools.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				183F6BEB21562BA500D3EC63 /* main.cpp */,
+				18A01DFE215B2BBB0083EC54 /* Common */,
 				183F6C03215884B900D3EC63 /* Demo2 */,
 				183F6BF521572F4A00D3EC63 /* Demo1 */,
 			);
@@ -139,6 +143,15 @@
 			path = Demo1_2_1;
 			sourceTree = "<group>";
 		};
+		18A01DFE215B2BBB0083EC54 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				18A01DFF215B2BDD0083EC54 /* CommonTools.cpp */,
+				18A01E00215B2BDD0083EC54 /* CommonTools.hpp */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -195,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A01E01215B2BDD0083EC54 /* CommonTools.cpp in Sources */,
 				183F6C0221587D5D00D3EC63 /* Demo1_1_1_strStr.cpp in Sources */,
 				183F6C742159408A00D3EC63 /* Demo1_2_1_deleteArrRepeat.cpp in Sources */,
 				183F6BEC21562BA500D3EC63 /* main.cpp in Sources */,

@@ -7,9 +7,12 @@
 //
 
 #include <iostream>
+//工具类
+#include "CommonTools.hpp"
+//Demo相关类
 #include "Demo1_1_1_strStr.hpp"
 #include "Demo1_1_2_reverseString.hpp"
-
+#include "Demo1_2_1_deleteArrRepeat.hpp"
 
 int main(int argc, const char * argv[]) {
     
@@ -22,7 +25,9 @@ int main(int argc, const char * argv[]) {
     
 #pragma mark - 1.2 数组
 //1.2.1 删除排序数组中的重复项
-                         
+    vector<int> vecArr{0,0,1,1,1,2,2,3,3,4};
+    printf("1.2.1 删除排序数组中的重复项:\n%d\n", removeDuplicates(vecArr));
+
 #pragma mark - 二.链表
                          
 #pragma mark - 三.栈和队列
