@@ -12,6 +12,7 @@
 		183F6C6F2159396300D3EC63 /* Demo1_1_2_reverseString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6C6D2159396300D3EC63 /* Demo1_1_2_reverseString.cpp */; };
 		183F6C742159408A00D3EC63 /* Demo1_2_1_deleteArrRepeat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6C722159408A00D3EC63 /* Demo1_2_1_deleteArrRepeat.cpp */; };
 		18A01E01215B2BDD0083EC54 /* CommonTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18A01DFF215B2BDD0083EC54 /* CommonTools.cpp */; };
+		18A01E22215BDFE90083EC54 /* Demo1_2_2_middleNumForArr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18A01E20215BDFE90083EC54 /* Demo1_2_2_middleNumForArr.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,8 @@
 		183F6C75215940ED00D3EC63 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		18A01DFF215B2BDD0083EC54 /* CommonTools.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CommonTools.cpp; sourceTree = "<group>"; };
 		18A01E00215B2BDD0083EC54 /* CommonTools.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CommonTools.hpp; sourceTree = "<group>"; };
+		18A01E20215BDFE90083EC54 /* Demo1_2_2_middleNumForArr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo1_2_2_middleNumForArr.cpp; sourceTree = "<group>"; };
+		18A01E21215BDFE90083EC54 /* Demo1_2_2_middleNumForArr.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Demo1_2_2_middleNumForArr.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,7 @@
 		183F6BF82157EE0400D3EC63 /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				18A01E1F215BDFBD0083EC54 /* Demo1_2_2 */,
 				183F6C712159405100D3EC63 /* Demo1_2_1 */,
 			);
 			path = Array;
@@ -152,6 +156,15 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
+		18A01E1F215BDFBD0083EC54 /* Demo1_2_2 */ = {
+			isa = PBXGroup;
+			children = (
+				18A01E20215BDFE90083EC54 /* Demo1_2_2_middleNumForArr.cpp */,
+				18A01E21215BDFE90083EC54 /* Demo1_2_2_middleNumForArr.hpp */,
+			);
+			path = Demo1_2_2;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -210,6 +223,7 @@
 			files = (
 				18A01E01215B2BDD0083EC54 /* CommonTools.cpp in Sources */,
 				183F6C0221587D5D00D3EC63 /* Demo1_1_1_strStr.cpp in Sources */,
+				18A01E22215BDFE90083EC54 /* Demo1_2_2_middleNumForArr.cpp in Sources */,
 				183F6C742159408A00D3EC63 /* Demo1_2_1_deleteArrRepeat.cpp in Sources */,
 				183F6BEC21562BA500D3EC63 /* main.cpp in Sources */,
 				183F6C6F2159396300D3EC63 /* Demo1_1_2_reverseString.cpp in Sources */,
