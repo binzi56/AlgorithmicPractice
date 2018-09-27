@@ -26,3 +26,15 @@ template <typename T> void printfArr (vector<T>& arr){
     printf("%6]\n============Array============");
 }
 
+void printfIntArr (vector<int>& arr){
+//    printf("============Array============\nArray:[");
+    printf("Array:[");
+    for (int i = 0; i < arr.size(); i++) {
+        if (i < arr.size() - 1) {
+            printf("%d,", arr[i]);
+        }else{
+            printf("%d]\n", arr[i]);
+        }
+    }
+//    printf("============Array============\n");
+}

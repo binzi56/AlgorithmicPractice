@@ -22,4 +22,6 @@ using namespace std;
 
 template <typename T> void printfArr (vector<T>& arr);
 
+void printfIntArr (vector<int>& arr);
+
 #endif /* CommonTools_hpp */

@@ -16,6 +16,7 @@
 //array
 #include "Demo1_2_1_deleteArrRepeat.hpp"
 #include "Demo1_2_2_middleNumForArr.hpp"
+#include "Demo1_2_3_mergingTwoOrderlyArr.hpp"
 
 int main(int argc, const char * argv[]) {
     
@@ -35,7 +36,12 @@ int main(int argc, const char * argv[]) {
     vector<int> vecArr2{3, 4};
     printf("1.2.2 两个排序数组的中位数:\n%f\n", findMedianSortedArrays(vecArr1, vecArr2));
 //1.2.3 合并两个有序数组
+    vector<int> vecArr3{1,2,3,0,0,0};
+    vector<int> vecArr4{2,5,6};
+    printf("1.2.3 合并两个有序数组:\n");
+    merge(vecArr3, 3, vecArr4, 3);
 
+    
 #pragma mark - 二.链表
                          
 #pragma mark - 三.栈和队列
