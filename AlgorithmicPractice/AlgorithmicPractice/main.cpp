@@ -34,6 +34,7 @@ int main(int argc, const char * argv[]) {
     vector<int> vecArr1{1, 2};
     vector<int> vecArr2{3, 4};
     printf("1.2.2 两个排序数组的中位数:\n%f\n", findMedianSortedArrays(vecArr1, vecArr2));
+//1.2.3 合并两个有序数组
 
 #pragma mark - 二.链表
                          
