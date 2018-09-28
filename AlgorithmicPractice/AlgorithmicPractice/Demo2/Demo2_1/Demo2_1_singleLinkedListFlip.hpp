@@ -19,4 +19,10 @@ struct ListNode {
     ListNode(int x) : val(x), next(NULL) {}
 };
 
+//迭代
+ListNode* reverseList(ListNode* head);
+
+//递归
+ListNode* reverseList1(ListNode* head);
+
 #endif /* Demo2_1_singleLinkedListFlip_hpp */

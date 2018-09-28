@@ -9,6 +9,28 @@
 
 #include "Demo2_1_singleLinkedListFlip.hpp"
 
+//迭代
 ListNode* reverseList(ListNode* head) {
-    
+    ListNode* pre = nullptr;
+    ListNode* cur = head;
+    while (cur != nullptr)
+    {
+        ListNode* lat = cur->next;
+        cur->next = pre;
+        pre = cur;
+        cur = lat;
+    }
+    return pre;
+}
+
+//递归
+ListNode* reverseList1(ListNode* head) {
+    if(head == nullptr || head->next == nullptr){
+        return head;
+    }else{
+        ListNode *h = reverseList(head->next);
+        head->next->next = head;
+        head->next = nullptr;
+        return h;
+    }
 }

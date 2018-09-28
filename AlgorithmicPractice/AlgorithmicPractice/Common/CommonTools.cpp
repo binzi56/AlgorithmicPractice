@@ -38,3 +38,12 @@ void printfIntArr (vector<int>& arr){
     }
 //    printf("============Array============\n");
 }
+
+
+void printList(ListNode *head){
+    ListNode *p = head->next;      //定义一个结点指针p指向头结点的下一个结点
+    while(p){                    //如果p不为空则循环
+        printf("%d->",p->val);
+        p = p->next;               //移动指针p遍历链表
+    }
+}

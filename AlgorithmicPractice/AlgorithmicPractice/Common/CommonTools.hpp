@@ -18,10 +18,14 @@ std::vector<type> name(name##_a, name##_a + sizeof(name##_a) / sizeof(*name##_a)
 #include <stdio.h>
 #include <vector>
 #include <string>
+#include "Demo2_1_singleLinkedListFlip.hpp"
 using namespace std;
 
 template <typename T> void printfArr (vector<T>& arr);
 
 void printfIntArr (vector<int>& arr);
+
+void printList(ListNode *head);
+
 
 #endif /* CommonTools_hpp */
