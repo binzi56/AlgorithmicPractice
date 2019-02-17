@@ -22,13 +22,16 @@
 #include "Demo2/Demo2_2/Demo2_2_twoNumberAdd.hpp"
 int main(int argc, const char * argv[]) {
     
+    printf("\n#pragma mark - 一.基础数据结构\n");
 #pragma mark - 一.基础数据结构
+    printf("\n#pragma mark - 1.1 字符串\n");
 #pragma mark - 1.1 字符串
 //1.1.1 实现strStr()函数
     printf("1.1.1 实现strStr()函数:\n%d\n", strStr("aaaaa", "bba"));
 //1.1.2 反转字符串
     printf("1.1.2 反转字符串:\n%s\n", reverseString("A man, a plan, a canal: Panama").c_str());
     
+    printf("\n#pragma mark - 1.2 数组\n");
 #pragma mark - 1.2 数组
 //1.2.1 删除排序数组中的重复项
     vector<int> vecArr{0,0,1,1,1,2,2,3,3,4};
@@ -42,10 +45,16 @@ int main(int argc, const char * argv[]) {
     vector<int> vecArr4{2,5,6};
     printf("1.2.3 合并两个有序数组:\n");
     merge(vecArr3, 3, vecArr4, 3);
-
     
+    printf("\n\n#pragma mark - 二.链表\n");
 #pragma mark - 二.链表
 //2.1 反转链表(单链表)
+    int reverteArr[] = {1,2,3,4,5};
+    int reverteN = sizeof(reverteArr)/ sizeof(int);
+    ListNode *reList = createLinkedList(reverteArr, reverteN);
+    ListNode *reverteList = reverseList(reList);
+    printf("2.1 反转链表(单链表):");
+    printLinkedList(reverteList);
 
 //2.2 两数相加
     int l1Arr[] = {2,4,3};
@@ -59,7 +68,6 @@ int main(int argc, const char * argv[]) {
     printf("2.2 两数相加:");
     printLinkedList(resultList);
     
-                         
 #pragma mark - 三.栈和队列
    
     
