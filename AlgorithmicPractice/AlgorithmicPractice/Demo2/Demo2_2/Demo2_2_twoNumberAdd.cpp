@@ -10,16 +10,18 @@
 
 //解法一:
 ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-    ListNode* head = new ListNode(0), *r=head;
-    int up = 0;
-    while (l1!= NULL || l2!= NULL ||up ) {
-        r->next=new ListNode(((l1==NULL?0:l1->val) + (l2==NULL?0:l2->val) + up) % 10);
-        up = ((l1==NULL ? 0 : l1->val) + (l2==NULL ? 0 : l2->val) + up) / 10;
-        r = r->next;
-        if(l1!=NULL)        l1 = l1->next;
-        if (l2!=NULL)        l2 = l2->next;
+    ListNode *result = new ListNode(0);
+    ListNode *head = result;
+    int temp =0;
+    while(l1!=NULL || l2!=NULL || temp!=0){
+        int sum =l1->val+l2->val+temp;
+        temp=sum/10;
+        head->next = new ListNode(sum%10);
+        head = head->next;
+        l1 = l1->next;
+        l2 = l2->next;
     }
-    return head->next;
+    return result->next;
 };
 
 //解法二:

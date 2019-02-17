@@ -16,4 +16,6 @@ using namespace std;
 
 ListNode* addTwoNumbers(ListNode* l1, ListNode* l2);
 
+ListNode* addTwoNumbers1(ListNode* l1, ListNode* l2);
+
 #endif /* Demo2_2_twoNumberAdd_hpp */
