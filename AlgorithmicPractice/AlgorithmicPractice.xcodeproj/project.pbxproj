@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182588DC22196EA80059726C /* Demo2_2_twoNumberAdd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 182588DA22196EA80059726C /* Demo2_2_twoNumberAdd.cpp */; };
 		183F6BEC21562BA500D3EC63 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6BEB21562BA500D3EC63 /* main.cpp */; };
 		183F6C0221587D5D00D3EC63 /* Demo1_1_1_strStr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6C0021587D5D00D3EC63 /* Demo1_1_1_strStr.cpp */; };
 		183F6C6F2159396300D3EC63 /* Demo1_1_2_reverseString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6C6D2159396300D3EC63 /* Demo1_1_2_reverseString.cpp */; };
@@ -30,6 +31,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		182588DA22196EA80059726C /* Demo2_2_twoNumberAdd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo2_2_twoNumberAdd.cpp; sourceTree = "<group>"; };
+		182588DB22196EA80059726C /* Demo2_2_twoNumberAdd.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Demo2_2_twoNumberAdd.hpp; sourceTree = "<group>"; };
+		182588DD22196ED20059726C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		182588DE221973720059726C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 		183F6BE821562BA500D3EC63 /* AlgorithmicPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmicPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		183F6BEB21562BA500D3EC63 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		183F6BFB2157EE0400D3EC63 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -65,6 +70,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		182588D622196E3C0059726C /* Demo2_2 */ = {
+			isa = PBXGroup;
+			children = (
+				182588DD22196ED20059726C /* README.md */,
+				182588DA22196EA80059726C /* Demo2_2_twoNumberAdd.cpp */,
+				182588DB22196EA80059726C /* Demo2_2_twoNumberAdd.hpp */,
+			);
+			path = Demo2_2;
+			sourceTree = "<group>";
+		};
 		183F6BDF21562BA500D3EC63 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +99,7 @@
 		183F6BEA21562BA500D3EC63 /* AlgorithmicPractice */ = {
 			isa = PBXGroup;
 			children = (
+				182588DE221973720059726C /* README.md */,
 				183F6BEB21562BA500D3EC63 /* main.cpp */,
 				18A01DFE215B2BBB0083EC54 /* Common */,
 				18A01E2D215E4B7B0083EC54 /* Demo3 */,
@@ -124,6 +140,7 @@
 		183F6C03215884B900D3EC63 /* Demo2 */ = {
 			isa = PBXGroup;
 			children = (
+				182588D622196E3C0059726C /* Demo2_2 */,
 				18A01E2E215E4BA20083EC54 /* Demo2_1 */,
 			);
 			path = Demo2;
@@ -266,6 +283,7 @@
 				183F6C0221587D5D00D3EC63 /* Demo1_1_1_strStr.cpp in Sources */,
 				18A01E22215BDFE90083EC54 /* Demo1_2_2_middleNumForArr.cpp in Sources */,
 				183F6C742159408A00D3EC63 /* Demo1_2_1_deleteArrRepeat.cpp in Sources */,
+				182588DC22196EA80059726C /* Demo2_2_twoNumberAdd.cpp in Sources */,
 				183F6BEC21562BA500D3EC63 /* main.cpp in Sources */,
 				18A01E31215E4BF60083EC54 /* Demo2_1_singleLinkedListFlip.cpp in Sources */,
 				183F6C6F2159396300D3EC63 /* Demo1_1_2_reverseString.cpp in Sources */,

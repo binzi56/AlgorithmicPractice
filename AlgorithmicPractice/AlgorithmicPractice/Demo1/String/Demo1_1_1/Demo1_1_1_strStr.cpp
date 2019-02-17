@@ -5,6 +5,11 @@
 //  Created by 帅斌 on 2018/9/24.
 //  Copyright © 2018年 personal. All rights reserved.
 //
+/*
+ C:
+ str长度
+ length == sizeof(str) / sizeof(str[0])
+ */
 
 #include "Demo1_1_1_strStr.hpp"
 
