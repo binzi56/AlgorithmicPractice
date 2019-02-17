@@ -11,7 +11,7 @@
 
 //迭代
 ListNode* reverseList(ListNode* head) {
-    ListNode* pre = nullptr;
+    ListNode* pre = NULL;
     ListNode* cur = head;
     while (cur != nullptr)
     {

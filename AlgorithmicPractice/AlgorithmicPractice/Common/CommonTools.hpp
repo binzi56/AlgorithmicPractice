@@ -25,7 +25,13 @@ template <typename T> void printfArr (vector<T>& arr);
 
 void printfIntArr (vector<int>& arr);
 
-void printList(ListNode *head);
+void printLinkedList(ListNode *head);
+
+int calculateLength(ListNode *head);
+
+//生成链表
+ListNode* createLinkedList(int arr[], int n);
+
 
 
 #endif /* CommonTools_hpp */

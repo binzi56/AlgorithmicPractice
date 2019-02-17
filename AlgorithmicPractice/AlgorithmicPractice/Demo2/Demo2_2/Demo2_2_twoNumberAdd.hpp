@@ -10,13 +10,10 @@
 #define Demo2_2_twoNumberAdd_hpp
 
 #include <stdio.h>
+#include <iostream>
+#include "Demo2_1_singleLinkedListFlip.hpp"
 using namespace std;
-struct ListNode {
-    int val;
-    struct ListNode *next;
-};
 
-struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2);
-
+ListNode* addTwoNumbers(ListNode* l1, ListNode* l2);
 
 #endif /* Demo2_2_twoNumberAdd_hpp */

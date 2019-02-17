@@ -20,7 +20,6 @@
 //Linked List
 #include "Demo2/Demo2_1/Demo2_1_singleLinkedListFlip.hpp"
 #include "Demo2/Demo2_2/Demo2_2_twoNumberAdd.hpp"
-
 int main(int argc, const char * argv[]) {
     
 #pragma mark - 一.基础数据结构
@@ -49,6 +48,16 @@ int main(int argc, const char * argv[]) {
 //2.1 反转链表(单链表)
 
 //2.2 两数相加
+    int l1Arr[] = {2,4,3};
+    int l1N = sizeof(l1Arr)/ sizeof(int);
+    int l2Arr[] = {5,6,4};
+    int l2N = sizeof(l2Arr)/ sizeof(int);
+    ListNode *l1 = createLinkedList(l1Arr, l1N);
+    ListNode *l2 = createLinkedList(l2Arr, l2N);
+    
+    ListNode *resultList = addTwoNumbers(l1, l2);
+    printf("2.2 两数相加:");
+    printLinkedList(resultList);
     
                          
 #pragma mark - 三.栈和队列

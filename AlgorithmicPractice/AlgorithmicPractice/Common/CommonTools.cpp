@@ -47,3 +47,30 @@ void printList(ListNode *head){
         p = p->next;               //移动指针p遍历链表
     }
 }
+
+//打印链表
+void printLinkedList(ListNode *head) {
+    ListNode *currentNode = head;
+    printf("\n");
+    while (currentNode != NULL) {
+        printf("%d->",currentNode->val);
+        currentNode = currentNode->next;
+    }
+    printf("NULL\n");
+}
+
+//生成链表
+ListNode* createLinkedList(int arr[], int n){
+    if (n == 0){
+        return NULL;
+    }
+    
+    ListNode *head = new ListNode(arr[0]);
+    ListNode *currentNode = head;
+    
+    for (int i = 1; i < n; ++i) {
+        currentNode->next = new ListNode(arr[i]);
+        currentNode = currentNode->next;
+    }
+    return head;
+}
