@@ -1,6 +1,11 @@
 # AlgorithmicPractice
 
 本篇是关于算法练习的总结，内容划分为以下章节：
+
+***注:***  
+***`main.cpp`展示测试效果;*** 
+
+
 ### 一.基础数据结构
 #### 1.1 字符串
 [1.1.1 实现strStr()函数](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/String/Demo1_1_1)
@@ -28,3 +33,4 @@
 ### 六.搜索
 
 ### 七.动态规划
+
