@@ -5,6 +5,10 @@
 //  Created by 帅斌 on 2018/9/26.
 //  Copyright © 2018年 personal. All rights reserved.
 //
+/*
+ >> 位运算
+ 将数字转换为二进制后所有数字右移一位;
+ */
 
 #include "Demo1_2_2_middleNumForArr.hpp"
 
@@ -33,5 +37,4 @@ double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
     } else {
         return ((double)numsAll[middle] + (double)numsAll[middle-1]) / 2.0;
     }
-    
 }

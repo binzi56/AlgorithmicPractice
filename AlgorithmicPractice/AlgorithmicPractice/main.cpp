@@ -68,6 +68,7 @@ int main(int argc, const char * argv[]) {
     printf("2.2 两数相加:");
     printLinkedList(resultList);
     
+    printf("\n\n#pragma mark - 三.栈和队列\n");
 #pragma mark - 三.栈和队列
    
     
