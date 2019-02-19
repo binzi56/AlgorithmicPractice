@@ -74,3 +74,24 @@ ListNode* createLinkedList(int arr[], int n){
     }
     return head;
 }
+
+
+ListNode* createCycleList(int num) // 创建环形链表
+{
+    if (num <= 0)
+        return NULL;
+    ListNode* cur = NULL;
+    ListNode* head = NULL;
+    ListNode* node = (ListNode*)malloc(sizeof(ListNode));
+    node->val = 1;
+    head = cur = node;
+    for (int i = 1; i < num; i++)
+    {
+        ListNode* node = (ListNode*)malloc(sizeof(ListNode));
+        node->val = i + 1;
+        cur->next = node;
+        cur = node;
+    }
+    cur->next = head;//让最后一个元素的指针域指向头结点，形成环
+    return head;
+}

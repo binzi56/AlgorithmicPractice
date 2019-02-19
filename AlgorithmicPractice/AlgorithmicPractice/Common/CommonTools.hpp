@@ -31,7 +31,7 @@ int calculateLength(ListNode *head);
 
 //生成链表
 ListNode* createLinkedList(int arr[], int n);
-
-
+//生成环形链表(首位相连)
+ListNode* createCycleList(int num);
 
 #endif /* CommonTools_hpp */
