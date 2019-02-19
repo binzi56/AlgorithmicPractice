@@ -13,7 +13,7 @@
 ListNode* reverseList(ListNode* head) {
     ListNode* pre = NULL;
     ListNode* cur = head;
-    while (cur != nullptr)
+    while (cur != NULL)
     {
         ListNode* lat = cur->next;
         cur->next = pre;
@@ -25,12 +25,12 @@ ListNode* reverseList(ListNode* head) {
 
 //递归
 ListNode* reverseList1(ListNode* head) {
-    if(head == nullptr || head->next == nullptr){
+    if(head == NULL || head->next == NULL){
         return head;
     }else{
         ListNode *h = reverseList(head->next);
         head->next->next = head;
-        head->next = nullptr;
+        head->next = NULL;
         return h;
     }
 }

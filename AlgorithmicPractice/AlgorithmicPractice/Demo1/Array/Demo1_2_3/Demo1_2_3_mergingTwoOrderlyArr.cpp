@@ -24,6 +24,7 @@ void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
         }
         
     }
+    printfIntArr(nums1);
     while (j >= 0) {
         nums1[k] = nums2[j];
         k--;
