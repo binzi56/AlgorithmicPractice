@@ -14,4 +14,6 @@
 
 bool isBalanced(TreeNode *root);
 
+int height(TreeNode* root);
+
 #endif /* Demo4_3_BalancedBinaryTree_hpp */

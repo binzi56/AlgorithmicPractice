@@ -26,7 +26,9 @@
 //Binary Tree
 #include "Demo4_1_MaximumDepthOfBinaryTree.hpp"
 #include "Demo4_2_InvertBinaryTree.hpp"
-
+#include "Demo4_3_BalancedBinaryTree.hpp"
+#include "Demo4_4_SymmetricTree.hpp"
+#include "Demo4_5_SameTree.hpp"
 
 //sort
 #include "Demo5/Demo5_1/Demo5_1_SortList.hpp"
@@ -101,6 +103,7 @@ int main(int argc, const char * argv[]) {
     
     printf("\n\n#pragma mark - 四.二叉树\n");
 #pragma mark - 四.二叉树
+//
     
     printf("\n\n#pragma mark - 五.排序\n");
 #pragma mark - 五.排序

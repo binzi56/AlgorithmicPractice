@@ -14,6 +14,8 @@
 		18323897221D91B00033AF7B /* Demo4_1_MaximumDepthOfBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18323895221D91B00033AF7B /* Demo4_1_MaximumDepthOfBinaryTree.cpp */; };
 		1832389B221D937E0033AF7B /* Demo4_2_InvertBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18323899221D937E0033AF7B /* Demo4_2_InvertBinaryTree.cpp */; };
 		183238A0221D99A10033AF7B /* Demo4_3_BalancedBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1832389E221D99A10033AF7B /* Demo4_3_BalancedBinaryTree.cpp */; };
+		183238A5221D9B040033AF7B /* Demo4_4_SymmetricTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183238A3221D9B040033AF7B /* Demo4_4_SymmetricTree.cpp */; };
+		183238AB221D9D500033AF7B /* Demo4_5_SameTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183238A9221D9D500033AF7B /* Demo4_5_SameTree.cpp */; };
 		183F6BEC21562BA500D3EC63 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6BEB21562BA500D3EC63 /* main.cpp */; };
 		183F6C0221587D5D00D3EC63 /* Demo1_1_1_strStr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6C0021587D5D00D3EC63 /* Demo1_1_1_strStr.cpp */; };
 		183F6C6F2159396300D3EC63 /* Demo1_1_2_reverseString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6C6D2159396300D3EC63 /* Demo1_1_2_reverseString.cpp */; };
@@ -59,6 +61,12 @@
 		1832389E221D99A10033AF7B /* Demo4_3_BalancedBinaryTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo4_3_BalancedBinaryTree.cpp; sourceTree = "<group>"; };
 		1832389F221D99A10033AF7B /* Demo4_3_BalancedBinaryTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Demo4_3_BalancedBinaryTree.hpp; sourceTree = "<group>"; };
 		183238A1221D99C00033AF7B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		183238A3221D9B040033AF7B /* Demo4_4_SymmetricTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo4_4_SymmetricTree.cpp; sourceTree = "<group>"; };
+		183238A4221D9B040033AF7B /* Demo4_4_SymmetricTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Demo4_4_SymmetricTree.hpp; sourceTree = "<group>"; };
+		183238A6221D9B2D0033AF7B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		183238A8221D9C770033AF7B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		183238A9221D9D500033AF7B /* Demo4_5_SameTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo4_5_SameTree.cpp; sourceTree = "<group>"; };
+		183238AA221D9D500033AF7B /* Demo4_5_SameTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Demo4_5_SameTree.hpp; sourceTree = "<group>"; };
 		183F6BE821562BA500D3EC63 /* AlgorithmicPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmicPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		183F6BEB21562BA500D3EC63 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		183F6BFB2157EE0400D3EC63 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -127,6 +135,8 @@
 		18323870221CFF070033AF7B /* Demo4 */ = {
 			isa = PBXGroup;
 			children = (
+				183238A7221D9C4A0033AF7B /* Demo4_5 */,
+				183238A2221D9AE90033AF7B /* Demo4_4 */,
 				1832389D221D94AB0033AF7B /* Demo4_3 */,
 				18323894221D8F6A0033AF7B /* Demo4_2 */,
 				18323893221D8F5D0033AF7B /* Demo4_1 */,
@@ -194,6 +204,26 @@
 				1832389F221D99A10033AF7B /* Demo4_3_BalancedBinaryTree.hpp */,
 			);
 			path = Demo4_3;
+			sourceTree = "<group>";
+		};
+		183238A2221D9AE90033AF7B /* Demo4_4 */ = {
+			isa = PBXGroup;
+			children = (
+				183238A6221D9B2D0033AF7B /* README.md */,
+				183238A3221D9B040033AF7B /* Demo4_4_SymmetricTree.cpp */,
+				183238A4221D9B040033AF7B /* Demo4_4_SymmetricTree.hpp */,
+			);
+			path = Demo4_4;
+			sourceTree = "<group>";
+		};
+		183238A7221D9C4A0033AF7B /* Demo4_5 */ = {
+			isa = PBXGroup;
+			children = (
+				183238A8221D9C770033AF7B /* README.md */,
+				183238A9221D9D500033AF7B /* Demo4_5_SameTree.cpp */,
+				183238AA221D9D500033AF7B /* Demo4_5_SameTree.hpp */,
+			);
+			path = Demo4_5;
 			sourceTree = "<group>";
 		};
 		183F6BDF21562BA500D3EC63 = {
@@ -402,8 +432,10 @@
 			files = (
 				18A01E01215B2BDD0083EC54 /* CommonTools.cpp in Sources */,
 				18A01E27215C75490083EC54 /* Demo1_2_3_mergingTwoOrderlyArr.cpp in Sources */,
+				183238A5221D9B040033AF7B /* Demo4_4_SymmetricTree.cpp in Sources */,
 				18323877221CFFAC0033AF7B /* Demo5_1_SortList.cpp in Sources */,
 				183F6C0221587D5D00D3EC63 /* Demo1_1_1_strStr.cpp in Sources */,
+				183238AB221D9D500033AF7B /* Demo4_5_SameTree.cpp in Sources */,
 				18A01E22215BDFE90083EC54 /* Demo1_2_2_middleNumForArr.cpp in Sources */,
 				183F6C742159408A00D3EC63 /* Demo1_2_1_deleteArrRepeat.cpp in Sources */,
 				182588DC22196EA80059726C /* Demo2_2_twoNumberAdd.cpp in Sources */,

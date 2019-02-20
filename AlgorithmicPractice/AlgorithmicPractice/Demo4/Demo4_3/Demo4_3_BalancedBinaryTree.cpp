@@ -10,7 +10,6 @@
 
 
 int height(TreeNode* root) {
-    
     if(root==NULL){
         return 0;
     }else{
@@ -21,13 +20,9 @@ int height(TreeNode* root) {
 }
 
 bool isBalanced(TreeNode *root) {
-    
     if(root==NULL){
-        
         return true;
-        
     }else{
-        
         int l,r;
         
         l=height(root->left);

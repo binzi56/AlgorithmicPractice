@@ -31,6 +31,16 @@
 ### 三.栈和队列
 
 ### 四.二叉树
+[4.1 二叉树的最大深度](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_1)
+
+[4.2 翻转二叉树](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_2)
+
+[4.3 平衡二叉树](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_3)
+
+[4.4 对称二叉树](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_4)
+
+[4.5 相同的树](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_5)
+
 
 ### 五.排序
 [5.1 排序链表](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_1)
