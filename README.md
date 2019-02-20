@@ -26,7 +26,7 @@
 
 [2.3 环形链表](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo2/Demo2_3)
 
-[2.4 合并两个有序链表]()
+[2.4 合并两个有序链表](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo2/Demo2_4)
 
 ### 三.栈和队列
 
