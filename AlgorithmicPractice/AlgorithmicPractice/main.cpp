@@ -23,6 +23,11 @@
 #include "Demo2/Demo2_3/Demo2_3_LinkedListCycle.hpp"
 #include "Demo2/Demo2_4/Demo2_4_MergeTwoSortedLists.hpp"
 
+//Binary Tree
+#include "Demo4_1_MaximumDepthOfBinaryTree.hpp"
+#include "Demo4_2_InvertBinaryTree.hpp"
+
+
 //sort
 #include "Demo5/Demo5_1/Demo5_1_SortList.hpp"
 
