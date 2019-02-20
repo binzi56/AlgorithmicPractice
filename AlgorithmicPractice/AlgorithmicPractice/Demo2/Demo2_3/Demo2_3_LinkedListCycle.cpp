@@ -8,7 +8,6 @@
 
 #include "Demo2_3_LinkedListCycle.hpp"
 
-
 bool hasCycle(ListNode *head) {
     ListNode* slowerNode = head;
     ListNode* fasterNode = head;

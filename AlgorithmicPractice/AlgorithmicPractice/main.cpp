@@ -21,6 +21,10 @@
 #include "Demo2/Demo2_1/Demo2_1_singleLinkedListFlip.hpp"
 #include "Demo2/Demo2_2/Demo2_2_twoNumberAdd.hpp"
 #include "Demo2/Demo2_3/Demo2_3_LinkedListCycle.hpp"
+#include "Demo2/Demo2_4/Demo2_4_MergeTwoSortedLists.hpp"
+
+
+
 int main(int argc, const char * argv[]) {
     
     printf("\n#pragma mark - 一.基础数据结构\n");
@@ -72,8 +76,19 @@ int main(int argc, const char * argv[]) {
 //2.3 环形链表
     ListNode *cycleList = createCycleList(2);
     bool isHas = hasCycle(cycleList);
-    printf("2.3 环形链表:\n是否有环形链表---%d", isHas);
+    printf("2.3 环形链表:\n是否有环形链表---%d\n", isHas);
     
+//2.4 合并两个有序链表
+    int a1Arr[] = {1,2,4};
+    int a1N = sizeof(a1Arr)/ sizeof(int);
+    int a2Arr[] = {1,3,4};
+    int a2N = sizeof(l2Arr)/ sizeof(int);
+    ListNode *a1 = createLinkedList(a1Arr, a1N);
+    ListNode *a2 = createLinkedList(a2Arr, a2N);
+    
+    ListNode *mergeList = mergeTwoLists(a1, a2);
+    printf("2.4 合并两个有序链表:");
+    printLinkedList(mergeList);
     
     printf("\n\n#pragma mark - 三.栈和队列\n");
 #pragma mark - 三.栈和队列
