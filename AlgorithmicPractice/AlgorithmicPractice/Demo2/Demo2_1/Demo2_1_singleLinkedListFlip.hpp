@@ -7,6 +7,8 @@
 //
 //  链表翻转的图文讲解（递归与迭代两种实现）
 //  https://blog.csdn.net/FX677588/article/details/72357389
+//  Leetcode链表总结
+//  https://blog.csdn.net/wonner_/article/details/79766037
 
 #ifndef Demo2_1_singleLinkedListFlip_hpp
 #define Demo2_1_singleLinkedListFlip_hpp

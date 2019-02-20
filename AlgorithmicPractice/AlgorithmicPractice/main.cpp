@@ -23,7 +23,8 @@
 #include "Demo2/Demo2_3/Demo2_3_LinkedListCycle.hpp"
 #include "Demo2/Demo2_4/Demo2_4_MergeTwoSortedLists.hpp"
 
-
+//sort
+#include "Demo5/Demo5_1/Demo5_1_SortList.hpp"
 
 int main(int argc, const char * argv[]) {
     
@@ -92,16 +93,26 @@ int main(int argc, const char * argv[]) {
     
     printf("\n\n#pragma mark - 三.栈和队列\n");
 #pragma mark - 三.栈和队列
-   
     
+    printf("\n\n#pragma mark - 四.二叉树\n");
 #pragma mark - 四.二叉树
-                         
+    
+    printf("\n\n#pragma mark - 五.排序\n");
 #pragma mark - 五.排序
-                         
+//5.1 排序链表
+    int a5Arr[] = {4,2,1,3};
+    int a5N = sizeof(a5Arr)/ sizeof(int);
+    ListNode *a5 = createLinkedList(a5Arr, a5N);
+    ListNode *sort5 = sortList(a5);
+    printf("5.1 排序链表:");
+    printLinkedList(sort5);
+    
+    printf("\n\n#pragma mark - 六.搜索\n");
 #pragma mark - 六.搜索
-                         
+    
+    printf("\n\n#pragma mark - 七.动态规划\n");
 #pragma mark - 七.动态规划
-
+    
     printf("\n");
     return 0;
 }
