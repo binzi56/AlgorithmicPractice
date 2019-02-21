@@ -8,7 +8,6 @@
 
 #include "Demo4_2_InvertBinaryTree.hpp"
 
-
 TreeNode* invertTree(TreeNode* root) {
     if ( root == NULL){
         return NULL;

@@ -8,7 +8,6 @@
 
 #include "Demo4_1_MaximumDepthOfBinaryTree.hpp"
 
-
 int maxDepth(TreeNode* root) {
     if (root == NULL){
         return 0;
