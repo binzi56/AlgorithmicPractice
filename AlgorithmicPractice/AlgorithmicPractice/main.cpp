@@ -30,9 +30,15 @@
 #include "Demo4_4_SymmetricTree.hpp"
 #include "Demo4_5_SameTree.hpp"
 
-//sort
+//Sort
 #include "Demo5/Demo5_1/Demo5_1_SortList.hpp"
 #include "Demo5/Demo5_2/Demo5_2_sort.hpp"
+
+//Search
+
+
+//Dynamic programming
+#include "Demo7_1_ClimbingStairs.hpp"
 
 int main(int argc, const char * argv[]) {
     
@@ -115,15 +121,19 @@ int main(int argc, const char * argv[]) {
     printLinkedList(sort5);
     
 //5.2 排序算法集合
-    
+    printf("5.2 排序算法集合:");
+    sortDemoTest();
     
     printf("\n\n#pragma mark - 六.搜索\n");
 #pragma mark - 六.搜索
     
     printf("\n\n#pragma mark - 七.动态规划\n");
 #pragma mark - 七.动态规划
+//7.1 爬楼梯(斐波那契数列问题)
+    int sumStairWay = climbStairs(3);
+    printf("7.1 爬楼梯:\n%d", sumStairWay);
     
-    printf("\n");
+    printf("\n\n");
     return 0;
 }
 
