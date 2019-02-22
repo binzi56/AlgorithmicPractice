@@ -16,6 +16,7 @@
 		183238A0221D99A10033AF7B /* Demo4_3_BalancedBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1832389E221D99A10033AF7B /* Demo4_3_BalancedBinaryTree.cpp */; };
 		183238A5221D9B040033AF7B /* Demo4_4_SymmetricTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183238A3221D9B040033AF7B /* Demo4_4_SymmetricTree.cpp */; };
 		183238AB221D9D500033AF7B /* Demo4_5_SameTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183238A9221D9D500033AF7B /* Demo4_5_SameTree.cpp */; };
+		1835F9C2221EDC08007C8A3A /* Demo5_2_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1835F9C0221EDC08007C8A3A /* Demo5_2_sort.cpp */; };
 		183F6BEC21562BA500D3EC63 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6BEB21562BA500D3EC63 /* main.cpp */; };
 		183F6C0221587D5D00D3EC63 /* Demo1_1_1_strStr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6C0021587D5D00D3EC63 /* Demo1_1_1_strStr.cpp */; };
 		183F6C6F2159396300D3EC63 /* Demo1_1_2_reverseString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6C6D2159396300D3EC63 /* Demo1_1_2_reverseString.cpp */; };
@@ -67,6 +68,16 @@
 		183238A8221D9C770033AF7B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		183238A9221D9D500033AF7B /* Demo4_5_SameTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo4_5_SameTree.cpp; sourceTree = "<group>"; };
 		183238AA221D9D500033AF7B /* Demo4_5_SameTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Demo4_5_SameTree.hpp; sourceTree = "<group>"; };
+		1835F9BC221EDA73007C8A3A /* 排序比较图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "排序比较图.png"; sourceTree = "<group>"; };
+		1835F9C0221EDC08007C8A3A /* Demo5_2_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo5_2_sort.cpp; sourceTree = "<group>"; };
+		1835F9C1221EDC08007C8A3A /* Demo5_2_sort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Demo5_2_sort.hpp; sourceTree = "<group>"; };
+		1835F9C4221EDC95007C8A3A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1835F9C6221EDC95007C8A3A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1835F9C8221EDC95007C8A3A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1835F9CA221EDC95007C8A3A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1835F9CC221EDC95007C8A3A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1835F9CD221EDCA3007C8A3A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1835F9CF221FAD1C007C8A3A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		183F6BE821562BA500D3EC63 /* AlgorithmicPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmicPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		183F6BEB21562BA500D3EC63 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		183F6BFB2157EE0400D3EC63 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -154,6 +165,7 @@
 		18323872221CFF4D0033AF7B /* Demo5 */ = {
 			isa = PBXGroup;
 			children = (
+				1835F9B8221ED857007C8A3A /* Demo5_2 */,
 				18323874221CFF750033AF7B /* Demo5_1 */,
 			);
 			path = Demo5;
@@ -224,6 +236,71 @@
 				183238AA221D9D500033AF7B /* Demo4_5_SameTree.hpp */,
 			);
 			path = Demo4_5;
+			sourceTree = "<group>";
+		};
+		1835F9B8221ED857007C8A3A /* Demo5_2 */ = {
+			isa = PBXGroup;
+			children = (
+				1835F9C7221EDC95007C8A3A /* Demo5_2_1 */,
+				1835F9CB221EDC95007C8A3A /* Demo5_2_2 */,
+				1835F9C9221EDC95007C8A3A /* Demo5_2_3 */,
+				1835F9C3221EDC95007C8A3A /* Demo5_2_4 */,
+				1835F9C5221EDC95007C8A3A /* Demo5_2_5 */,
+				1835F9CE221FACEA007C8A3A /* Demo5_2_6 */,
+				1835F9BC221EDA73007C8A3A /* 排序比较图.png */,
+				1835F9C0221EDC08007C8A3A /* Demo5_2_sort.cpp */,
+				1835F9C1221EDC08007C8A3A /* Demo5_2_sort.hpp */,
+				1835F9CD221EDCA3007C8A3A /* README.md */,
+			);
+			path = Demo5_2;
+			sourceTree = "<group>";
+		};
+		1835F9C3221EDC95007C8A3A /* Demo5_2_4 */ = {
+			isa = PBXGroup;
+			children = (
+				1835F9C4221EDC95007C8A3A /* README.md */,
+			);
+			path = Demo5_2_4;
+			sourceTree = "<group>";
+		};
+		1835F9C5221EDC95007C8A3A /* Demo5_2_5 */ = {
+			isa = PBXGroup;
+			children = (
+				1835F9C6221EDC95007C8A3A /* README.md */,
+			);
+			path = Demo5_2_5;
+			sourceTree = "<group>";
+		};
+		1835F9C7221EDC95007C8A3A /* Demo5_2_1 */ = {
+			isa = PBXGroup;
+			children = (
+				1835F9C8221EDC95007C8A3A /* README.md */,
+			);
+			path = Demo5_2_1;
+			sourceTree = "<group>";
+		};
+		1835F9C9221EDC95007C8A3A /* Demo5_2_3 */ = {
+			isa = PBXGroup;
+			children = (
+				1835F9CA221EDC95007C8A3A /* README.md */,
+			);
+			path = Demo5_2_3;
+			sourceTree = "<group>";
+		};
+		1835F9CB221EDC95007C8A3A /* Demo5_2_2 */ = {
+			isa = PBXGroup;
+			children = (
+				1835F9CC221EDC95007C8A3A /* README.md */,
+			);
+			path = Demo5_2_2;
+			sourceTree = "<group>";
+		};
+		1835F9CE221FACEA007C8A3A /* Demo5_2_6 */ = {
+			isa = PBXGroup;
+			children = (
+				1835F9CF221FAD1C007C8A3A /* README.md */,
+			);
+			path = Demo5_2_6;
 			sourceTree = "<group>";
 		};
 		183F6BDF21562BA500D3EC63 = {
@@ -435,6 +512,7 @@
 				183238A5221D9B040033AF7B /* Demo4_4_SymmetricTree.cpp in Sources */,
 				18323877221CFFAC0033AF7B /* Demo5_1_SortList.cpp in Sources */,
 				183F6C0221587D5D00D3EC63 /* Demo1_1_1_strStr.cpp in Sources */,
+				1835F9C2221EDC08007C8A3A /* Demo5_2_sort.cpp in Sources */,
 				183238AB221D9D500033AF7B /* Demo4_5_SameTree.cpp in Sources */,
 				18A01E22215BDFE90083EC54 /* Demo1_2_2_middleNumForArr.cpp in Sources */,
 				183F6C742159408A00D3EC63 /* Demo1_2_1_deleteArrRepeat.cpp in Sources */,

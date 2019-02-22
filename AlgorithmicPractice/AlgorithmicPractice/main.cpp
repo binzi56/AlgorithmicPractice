@@ -32,6 +32,7 @@
 
 //sort
 #include "Demo5/Demo5_1/Demo5_1_SortList.hpp"
+#include "Demo5/Demo5_2/Demo5_2_sort.hpp"
 
 int main(int argc, const char * argv[]) {
     
@@ -112,6 +113,9 @@ int main(int argc, const char * argv[]) {
     ListNode *sort5 = sortList(a5);
     printf("5.1 排序链表:");
     printLinkedList(sort5);
+    
+//5.2 排序算法集合
+    
     
     printf("\n\n#pragma mark - 六.搜索\n");
 #pragma mark - 六.搜索
