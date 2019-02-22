@@ -43,7 +43,7 @@
 
 
 ### 五.排序
-#### 5.1 排序链表]
+#### 5.1 排序链表
 [5.1 排序链表](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_1)
 
 #### [5.2 排序算法](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2)
