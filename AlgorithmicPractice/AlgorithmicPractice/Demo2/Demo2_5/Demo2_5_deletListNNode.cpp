@@ -16,6 +16,8 @@ ListNode* removeNthFromEnd(ListNode* head, int n) {
         right = right->next;
     }
     
+    //right->val == 3
+    
     if (right == NULL) {
         head = head->next;
         return head;
@@ -24,6 +26,8 @@ ListNode* removeNthFromEnd(ListNode* head, int n) {
         left = left->next;
         right = right->next;
     }
+    
+    //left->next->val == 4;
     left->next = left->next->next;
     return head;
 }

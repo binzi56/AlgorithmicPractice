@@ -19,6 +19,7 @@
 		1835F9C2221EDC08007C8A3A /* Demo5_2_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1835F9C0221EDC08007C8A3A /* Demo5_2_sort.cpp */; };
 		1835F9D3221FB9E2007C8A3A /* Demo7_1_ClimbingStairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1835F9D1221FB9E2007C8A3A /* Demo7_1_ClimbingStairs.cpp */; };
 		1835F9ED22217E75007C8A3A /* Demo2_5_deletListNNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1835F9EB22217E75007C8A3A /* Demo2_5_deletListNNode.cpp */; };
+		1835F9F222218878007C8A3A /* Demo2_6_middleNodeForList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1835F9F022218878007C8A3A /* Demo2_6_middleNodeForList.cpp */; };
 		183F6BEC21562BA500D3EC63 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6BEB21562BA500D3EC63 /* main.cpp */; };
 		183F6C0221587D5D00D3EC63 /* Demo1_1_1_strStr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6C0021587D5D00D3EC63 /* Demo1_1_1_strStr.cpp */; };
 		183F6C6F2159396300D3EC63 /* Demo1_1_2_reverseString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6C6D2159396300D3EC63 /* Demo1_1_2_reverseString.cpp */; };
@@ -86,6 +87,9 @@
 		1835F9EB22217E75007C8A3A /* Demo2_5_deletListNNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo2_5_deletListNNode.cpp; sourceTree = "<group>"; };
 		1835F9EC22217E75007C8A3A /* Demo2_5_deletListNNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Demo2_5_deletListNNode.hpp; sourceTree = "<group>"; };
 		1835F9EE22217E96007C8A3A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1835F9F022218878007C8A3A /* Demo2_6_middleNodeForList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo2_6_middleNodeForList.cpp; sourceTree = "<group>"; };
+		1835F9F122218878007C8A3A /* Demo2_6_middleNodeForList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Demo2_6_middleNodeForList.hpp; sourceTree = "<group>"; };
+		1835F9F322218892007C8A3A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		183F6BE821562BA500D3EC63 /* AlgorithmicPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmicPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		183F6BEB21562BA500D3EC63 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		183F6BFB2157EE0400D3EC63 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -332,6 +336,16 @@
 			path = Demo2_5;
 			sourceTree = "<group>";
 		};
+		1835F9EF22218854007C8A3A /* Demo2_6 */ = {
+			isa = PBXGroup;
+			children = (
+				1835F9F322218892007C8A3A /* README.md */,
+				1835F9F022218878007C8A3A /* Demo2_6_middleNodeForList.cpp */,
+				1835F9F122218878007C8A3A /* Demo2_6_middleNodeForList.hpp */,
+			);
+			path = Demo2_6;
+			sourceTree = "<group>";
+		};
 		183F6BDF21562BA500D3EC63 = {
 			isa = PBXGroup;
 			children = (
@@ -396,6 +410,7 @@
 		183F6C03215884B900D3EC63 /* Demo2 */ = {
 			isa = PBXGroup;
 			children = (
+				1835F9EF22218854007C8A3A /* Demo2_6 */,
 				1835F9EA22217E53007C8A3A /* Demo2_5 */,
 				1832386B221CF8ED0033AF7B /* Demo2_4 */,
 				18323866221C57890033AF7B /* Demo2_3 */,
@@ -548,6 +563,7 @@
 				18A01E22215BDFE90083EC54 /* Demo1_2_2_middleNumForArr.cpp in Sources */,
 				183F6C742159408A00D3EC63 /* Demo1_2_1_deleteArrRepeat.cpp in Sources */,
 				1835F9D3221FB9E2007C8A3A /* Demo7_1_ClimbingStairs.cpp in Sources */,
+				1835F9F222218878007C8A3A /* Demo2_6_middleNodeForList.cpp in Sources */,
 				182588DC22196EA80059726C /* Demo2_2_twoNumberAdd.cpp in Sources */,
 				183F6BEC21562BA500D3EC63 /* main.cpp in Sources */,
 				18323897221D91B00033AF7B /* Demo4_1_MaximumDepthOfBinaryTree.cpp in Sources */,
