@@ -22,6 +22,7 @@
 #include "Demo2/Demo2_2/Demo2_2_twoNumberAdd.hpp"
 #include "Demo2/Demo2_3/Demo2_3_LinkedListCycle.hpp"
 #include "Demo2/Demo2_4/Demo2_4_MergeTwoSortedLists.hpp"
+#include "Demo2/Demo2_5/Demo2_5_deletListNNode.hpp"
 
 //Binary Tree
 #include "Demo4_1_MaximumDepthOfBinaryTree.hpp"
@@ -105,6 +106,15 @@ int main(int argc, const char * argv[]) {
     printf("2.4 合并两个有序链表:");
     printLinkedList(mergeList);
     
+//2.5 删除链表的倒数第N个节点
+    int a3Arr[] = {1,2,3,4,5};
+    int a3N = sizeof(a3Arr)/ sizeof(int);
+    ListNode *a3 = createLinkedList(a3Arr, a3N);
+    
+    ListNode *deleteList = removeNthFromEnd(a3, 2);
+    printf("2.5 删除链表的倒数第N个节点:");
+    printLinkedList(deleteList);
+
     printf("\n\n#pragma mark - 三.栈和队列\n");
 #pragma mark - 三.栈和队列
     
