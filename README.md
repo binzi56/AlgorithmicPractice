@@ -28,6 +28,8 @@
 
 [2.4 合并两个有序链表](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo2/Demo2_4)
 
+[2.5 删除链表的倒数第N个节点](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo2/Demo2_5)
+
 ### 三.栈和队列
 
 ### 四.二叉树
