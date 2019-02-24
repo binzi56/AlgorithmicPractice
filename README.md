@@ -35,6 +35,9 @@
 [2.5 删除链表的倒数第N个节点](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo2/Demo2_5)
 
 ### 三.栈和队列
+[3.1 有效的括号](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo3/Demo3_1)
+
+[3.2 最长有效括号](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo3/Demo3_2)
 
 ### 四.二叉树
 [4.1 二叉树的最大深度](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_1)

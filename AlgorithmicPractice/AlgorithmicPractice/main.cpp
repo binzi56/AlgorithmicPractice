@@ -26,6 +26,10 @@
 #include "Demo2/Demo2_4/Demo2_4_MergeTwoSortedLists.hpp"
 #include "Demo2/Demo2_5/Demo2_5_deletListNNode.hpp"
 #include "Demo2/Demo2_6/Demo2_6_middleNodeForList.hpp"
+//stack
+#include "Demo3_1_ValidParentheses.hpp"
+#include "Demo3_2_LongestValidParentheses.hpp"
+
 
 //Binary Tree
 #include "Demo4_1_MaximumDepthOfBinaryTree.hpp"
