@@ -72,9 +72,8 @@
 
 [5.2.6 归并排序](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2/Demo5_2_6)
 
-[5.3 Sqrt(x)](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_3)
-
-### 六.搜索
+### 六.二分查找
+[6.1 Sqrt(x)](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_3)
 
 ### 七.动态规划
 [7.1 爬楼梯](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo7/Demo7_1)

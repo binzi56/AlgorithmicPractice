@@ -1,4 +1,4 @@
-# 5.3 Sqrt(x)
+# 6.1 Sqrt(x)
 
 实现 int sqrt(int x) 函数。
 

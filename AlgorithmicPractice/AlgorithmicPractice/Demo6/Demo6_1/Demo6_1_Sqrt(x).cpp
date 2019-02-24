@@ -1,13 +1,14 @@
 //
-//  Demo5_3_Sqrt(x).cpp
+//  Demo6_1_Sqrt(x).cpp
 //  AlgorithmicPractice
 //
 //  Created by 帅斌 on 2019/2/24.
 //  Copyright © 2019 personal. All rights reserved.
 //
 
-#include "Demo5_3_Sqrt(x).hpp"
+#include "Demo6_1_Sqrt(x).hpp"
 
+//二分法
 int mySqrt(int x) {
     if (x <= 1) return x;
     int left = 0, right = x;

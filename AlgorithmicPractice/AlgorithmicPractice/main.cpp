@@ -44,8 +44,8 @@
 #include "Demo5/Demo5_1/Demo5_1_SortList.hpp"
 #include "Demo5/Demo5_2/Demo5_2_sort.hpp"
 
-//Search
-
+//Binary search
+#include "Demo6_1_Sqrt(x).hpp"
 
 //Dynamic programming
 #include "Demo7_1_ClimbingStairs.hpp"
@@ -168,8 +168,8 @@ int main(int argc, const char * argv[]) {
     printf("5.2 排序算法集合:");
     sortDemoTest();
     
-    printf("\n\n#pragma mark - 六.搜索\n");
-#pragma mark - 六.搜索
+    printf("\n\n#pragma mark - 六.二分查找\n");
+#pragma mark - 六.二分查找
     
     printf("\n\n#pragma mark - 七.动态规划\n");
 #pragma mark - 七.动态规划
