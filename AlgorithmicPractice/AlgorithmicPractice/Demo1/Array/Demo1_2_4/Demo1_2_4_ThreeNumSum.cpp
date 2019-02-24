@@ -6,7 +6,7 @@
 //  Copyright © 2019 personal. All rights reserved.
 //
 
-#include "Demo1_2_7_ThreeNumSum.hpp"
+#include "Demo1_2_4_ThreeNumSum.hpp"
 
 vector<vector<int>> threeSum(vector<int>& nums) {
     vector<vector<int>> ans;
