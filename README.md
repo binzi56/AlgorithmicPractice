@@ -39,6 +39,8 @@
 
 [3.2 最长有效括号](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo3/Demo3_2)
 
+[3.3 逆波兰表达式求值](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo3/Demo3_3)
+
 ### 四.二叉树
 [4.1 二叉树的最大深度](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_1)
 
