@@ -23,6 +23,7 @@
 #include "Demo2/Demo2_3/Demo2_3_LinkedListCycle.hpp"
 #include "Demo2/Demo2_4/Demo2_4_MergeTwoSortedLists.hpp"
 #include "Demo2/Demo2_5/Demo2_5_deletListNNode.hpp"
+#include "Demo2/Demo2_6/Demo2_6_middleNodeForList.hpp"
 
 //Binary Tree
 #include "Demo4_1_MaximumDepthOfBinaryTree.hpp"
@@ -114,7 +115,16 @@ int main(int argc, const char * argv[]) {
     ListNode *deleteList = removeNthFromEnd(a3, 2);
     printf("2.5 删除链表的倒数第N个节点:");
     printLinkedList(deleteList);
-
+    
+//2.6 链表的中间结点
+    int a4Arr[] = {1,2,3,4,5,6};
+    int a4N = sizeof(a4Arr)/ sizeof(int);
+    ListNode *a4 = createLinkedList(a4Arr, a4N);
+    
+    ListNode *middleListNode = middleNode(a4);
+    printf("2.6 链表的中间结点");
+    printLinkedList(middleListNode);
+    
     printf("\n\n#pragma mark - 三.栈和队列\n");
 #pragma mark - 三.栈和队列
     
