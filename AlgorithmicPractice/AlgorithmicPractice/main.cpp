@@ -17,6 +17,7 @@
 #include "Demo1_2_1_deleteArrRepeat.hpp"
 #include "Demo1_2_2_middleNumForArr.hpp"
 #include "Demo1_2_3_mergingTwoOrderlyArr.hpp"
+#include "Demo1_2_7_ThreeNumSum.hpp"
 //Linked List
 #include "Demo2/Demo2_1/Demo2_1_singleLinkedListFlip.hpp"
 #include "Demo2/Demo2_2/Demo2_2_twoNumberAdd.hpp"
@@ -67,6 +68,17 @@ int main(int argc, const char * argv[]) {
     vector<int> vecArr4{2,5,6};
     printf("1.2.3 合并两个有序数组:\n");
     merge(vecArr3, 3, vecArr4, 3);
+    
+//1.2.4 三数之和
+    vector<int> vecThree{-1, 0, 1, 2, -1, -4};
+    printf("1.2.4 三数之和:\n");
+    vector<vector<int>> vecFinal = threeSum(vecThree);
+    printf("[\n");
+    for (int i = 0; i < vecFinal.size(); i++) {
+        vector<int> tempVec = vecFinal[i];
+        printfIntArr(tempVec);
+    }
+    printf("[");
     
     printf("\n\n#pragma mark - 二.链表\n");
 #pragma mark - 二.链表

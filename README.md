@@ -19,6 +19,8 @@
 
 [1.2.3 合并两个有序数组](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/Array/Demo1_2_3)
 
+[1.2.4 三数之和](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/Array/Demo1_2_4)
+
 ### 二.链表
 [2.1 反转链表(单链表)](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo2/Demo2_1)
 
