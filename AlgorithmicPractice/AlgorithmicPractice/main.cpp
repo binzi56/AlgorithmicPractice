@@ -81,7 +81,10 @@ int main(int argc, const char * argv[]) {
     }
     printf("[");
     
-//
+//1.2.5 求众数
+    vector<int> vecMajorityElement{2,2,1,1,1,2,2};
+    printf("1.2.5 求众数:\n");
+    printf("%d", majorityElement(vecMajorityElement));
     
     printf("\n\n#pragma mark - 二.链表\n");
 #pragma mark - 二.链表
