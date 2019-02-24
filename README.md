@@ -72,6 +72,8 @@
 
 [5.2.6 归并排序](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2/Demo5_2_6)
 
+[5.3 Sqrt(x)](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_3)
+
 ### 六.搜索
 
 ### 七.动态规划
