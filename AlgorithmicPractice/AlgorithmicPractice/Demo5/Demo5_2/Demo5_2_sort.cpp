@@ -28,7 +28,7 @@ void bubbleSort(vector<int>& nums, int n){
 void selectSort(vector<int>& nums, int n){
     for (int i = 0; i < n; i++){
         int min = i;
-        for (int j = i + 1; j < n ; ++j) {
+        for (int j = i + 1; j < n ; j++) {
             if (nums[j] < nums[min]){
                 min = j;
             }
