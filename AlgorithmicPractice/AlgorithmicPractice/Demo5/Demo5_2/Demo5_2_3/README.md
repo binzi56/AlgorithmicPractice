@@ -5,6 +5,7 @@
 
 ```
 //插入排序
+解法一:
 void insertSort(vector<int>& nums, int n){
     for (int i = 1; i < n; ++i) {
         for (int j = i; j > 0  ; j--) {
@@ -13,6 +14,22 @@ void insertSort(vector<int>& nums, int n){
             } else{
                 break;
             }
+        }
+    }
+}
+
+解法二:
+void insertSort1(vector<int>& nums, int n){
+    for (int i = 1; i < n; ++i) {
+        int value = nums[i];
+        int j = i - 1;
+        for (; j >= 0; --j) {
+            if (nums[j] > value) {
+                nums[j+1] = nums[j]; //数据移动
+            }else {
+                break;
+            }
+            nums[j+1] = value;       //插入数据
         }
     }
 }
