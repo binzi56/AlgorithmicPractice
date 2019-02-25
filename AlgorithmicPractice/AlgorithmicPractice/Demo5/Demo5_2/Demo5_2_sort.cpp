@@ -10,10 +10,12 @@
 
 
 void sortDemoTest(){
-    int a[] = {80,30,60,40,20,10,50,70};
+    vector<int> a {80,30,60,40,20,10,50,70};
     int len = (sizeof(a)) / (sizeof(a[0]));
-//    mergeSortUpToDown(a, 0, len-1);        // 归并排序(从上往下)
+    mergeSortUpToDown(a, 0, len-1);        // 归并排序(从上往下)
 //    mergeSortDownToUp(a, len);            // 归并排序(从下往上)
+    printf("\n归并排序结果:\n");
+    printfIntArr(a);
 }
 
 //冒泡排序
@@ -107,6 +109,20 @@ void __quickSort(vector<int>& nums, int low,int high){
     __quickSort(nums, first+1, high);
 }
 
+
+//归并排序(从上往下)
+void mergeSortUpToDown(vector<int>& nums, int start, int end){
+    if(nums.empty() || start >= end){
+        return;
+    }
+    
+    int mid = (end + start)/2;
+    mergeSortUpToDown(nums, start, mid);
+    mergeSortUpToDown(nums, mid+1, end);
+    
+    __merge(nums, start, mid, end);
+}
+
 //归并排序
 void __merge(vector<int>& nums, int start, int mid, int end){
     int *temp = new int[end-start+1];    //temp是汇总2个有序区的临时区域
@@ -114,6 +130,7 @@ void __merge(vector<int>& nums, int start, int mid, int end){
     int j = mid + 1;                     //第2个有序区的索引
     int k = 0;                           //临时区域的索引
     
+    //将部分小的移动到前面
     while(i <= mid && j <= end){
         if (nums[i] <= nums[j])
             temp[k++] = nums[i++];
@@ -127,48 +144,27 @@ void __merge(vector<int>& nums, int start, int mid, int end){
     while(j <= end)
         temp[k++] = nums[j++];
     
-    // 将排序后的元素，全部都整合到数组a中
+    //将排序后的元素，全部都整合到数组nums中
     for (i = 0; i < k; i++)
         nums[start + i] = temp[i];
     
     delete[] temp;
 }
 
-//归并排序(从上往下)
-void mergeSortUpToDown(vector<int>& nums, int start, int end){
-    if(nums.empty() || start >= end){
-        return;
-    }
-    
-    int mid = (end + start)/2;
-    mergeSortUpToDown(nums, start, mid);  //递归排序nums[start...mid]
-    mergeSortUpToDown(nums, mid+1, end);  //递归排序nums[mid+1...end]
-    
-    //nums[start...mid] 和 nums[mid...end]是两个有序空间
-    //将它们排序成一个有序空间nums[start...end]
-    __merge(nums, start, mid, end);
-}
 
 
-/*
- * 对数组a做若干次合并：数组a的总长度为len，将它分为若干个长度为gap的子数组；
- *             将"每2个相邻的子数组" 进行合并排序
- *
- * 参数说明：
- *     nums -- 待排序的数组
- *     len -- 数组的长度
- *     gap -- 子数组的长度
- */
+
+//对数组a做若干次合并：数组a的总长度为len，将它分为若干个长度为gap的子数组；将"每2个相邻的子数组" 进行合并排序
 void __mergeGroups(vector<int>& nums, int len, int gap){
     int i;
-    // 将"每2个相邻的子数组" 进行合并排序
+    //将"每2个相邻的子数组" 进行合并排序
     for(i = 0; i+2*gap-1 < len; i+=(2*gap))
     {
         __merge(nums, i, i+gap-1, i+2*gap-1);
     }
     
-    // 若 i+gap-1 < len-1，则剩余一个子数组没有配对
-    // 将该子数组合并到已排序的数组中
+    //若i+gap-1 < len-1，则剩余一个子数组没有配对
+    //将该子数组合并到已排序的数组中
     if ( i+gap-1 < len-1)
     {
         __merge(nums, i, i + gap - 1, len - 1);

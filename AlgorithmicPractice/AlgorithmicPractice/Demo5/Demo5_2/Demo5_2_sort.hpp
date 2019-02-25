@@ -12,6 +12,7 @@
 
 #include <stdio.h>
 #include "Demo1_2_1_deleteArrRepeat.hpp"
+#include "CommonTools.hpp"
 
 void sortDemoTest();
 
