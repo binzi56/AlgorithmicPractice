@@ -85,23 +85,22 @@ void __quickSort(vector<int>& nums, int low,int high){
     }
     int first = low;
     int last = high;
-    int key = nums[first];/*用字表的第一个记录作为枢轴*/
+    int key = nums[first];//用字表的第一个记录作为枢轴
     
     while(first < last){
         while(first < last && nums[last] >= key){
             --last;
         }
         
-        nums[first] = nums[last];/*将比第一个小的移到低端*/
+        nums[first] = nums[last];//将比第一个小的移到低端
         
         while(first < last && nums[first] <= key){
             ++first;
         }
         
-        nums[last] = nums[first];
-        /*将比第一个大的移到高端*/
+        nums[last] = nums[first];//将比第一个大的移到高端
     }
-    nums[first] = key;/*枢轴记录到位*/
+    nums[first] = key;//枢轴记录到位
     __quickSort(nums, low, first-1);
     __quickSort(nums, first+1, high);
 }
