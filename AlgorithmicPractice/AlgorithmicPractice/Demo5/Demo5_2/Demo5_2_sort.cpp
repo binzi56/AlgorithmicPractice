@@ -77,7 +77,6 @@ void shellSort(vector<int>& nums, int n){
 //快速排序
 void quickSort(vector<int>& nums, int n){
     __quickSort(nums,0,n - 1);
-    
 }
 void __quickSort(vector<int>& nums, int low,int high){
     if(low >= high){
