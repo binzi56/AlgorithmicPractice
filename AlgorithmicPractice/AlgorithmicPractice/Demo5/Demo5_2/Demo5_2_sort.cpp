@@ -79,41 +79,34 @@ void quickSort(vector<int>& nums, int n){
     __quickSort(nums,0,n - 1);
     
 }
-void __quickSort(vector<int>& nums, int left,int right){
-    if (left > right){
+void __quickSort(vector<int>& nums, int low,int high){
+    if(low >= high){
         return;
     }
+    int first = low;
+    int last = high;
+    int key = nums[first];/*用字表的第一个记录作为枢轴*/
     
-    int mid = (left + right) / 2;
-    
-    if (nums[left] > nums[right])
-        __swap(nums[left], nums[right]);
-    if (nums[mid] > nums[right])
-        __swap(nums[mid], nums[right]);
-    if (nums[mid] > nums[left])
-        __swap(nums[left], nums[mid]);
-    
-    int temp = nums[left];
-    int i = left;
-    int j = right;
-    
-    while (i != j){
-        while (nums[j] >= temp && i<j)
-            j--;
-        while (nums[i] <= temp&& i<j)
-            i++;
-        
-        if (i != j){
-            __swap(nums[i], nums[j]);
+    while(first < last){
+        while(first < last && nums[last] >= key){
+            --last;
         }
+        
+        nums[first] = nums[last];/*将比第一个小的移到低端*/
+        
+        while(first < last && nums[first] <= key){
+            ++first;
+        }
+        
+        nums[last] = nums[first];
+        /*将比第一个大的移到高端*/
     }
-
-    nums[left] = nums[j];
-    nums[j] = temp;
-    
-    __quickSort(nums,left, j - 1);
-    __quickSort(nums, j + 1, right);
+    nums[first] = key;/*枢轴记录到位*/
+    __quickSort(nums, low, first-1);
+    __quickSort(nums, first+1, high);
 }
+
+
 
 
 //归并排序
