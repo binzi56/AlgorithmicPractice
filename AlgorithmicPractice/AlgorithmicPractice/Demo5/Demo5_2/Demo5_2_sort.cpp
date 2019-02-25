@@ -48,15 +48,20 @@ void selectSort(vector<int>& nums, int n){
 //插入排序
 void insertSort(vector<int>& nums, int n){
     for (int i = 1; i < n; ++i) {
-        for (int j = i; j > 0; j--) {
-            if (nums[j] < nums[j - 1]){
-                __swap(nums[j],nums[j -1]);
-            } else{
+        int value = nums[i];
+        int j = i - 1;
+        for (; j >= 0; --j) {
+            if (nums[j] > value) {
+                nums[j+1] = nums[j]; // 数据移动
+            }else {
                 break;
             }
+            nums[j+1] = value; // 插入数据
         }
     }
 }
+
+
 
 //希尔排序
 void shellSort(vector<int>& nums, int n){
