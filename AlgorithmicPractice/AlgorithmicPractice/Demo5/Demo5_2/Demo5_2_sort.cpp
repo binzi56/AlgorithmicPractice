@@ -10,7 +10,10 @@
 
 
 void sortDemoTest(){
-    
+    int a[] = {80,30,60,40,20,10,50,70};
+    int len = (sizeof(a)) / (sizeof(a[0]));
+//    mergeSortUpToDown(a, 0, len-1);        // 归并排序(从上往下)
+//    mergeSortDownToUp(a, len);            // 归并排序(从下往上)
 }
 
 //冒泡排序
@@ -43,7 +46,7 @@ void selectSort(vector<int>& nums, int n){
 //插入排序
 void insertSort(vector<int>& nums, int n){
     for (int i = 1; i < n; ++i) {
-        for (int j = i; j > 0  ; j--) {
+        for (int j = i; j > 0; j--) {
             if (nums[j] < nums[j - 1]){
                 __swap(nums[j],nums[j -1]);
             } else{
@@ -104,52 +107,98 @@ void __quickSort(vector<int>& nums, int low,int high){
     __quickSort(nums, first+1, high);
 }
 
-
-
-
 //归并排序
-void mergeSort(vector<int>& nums,int n){
-    __cutSortArray(nums, 0, n - 1);
-}
-void __cutSortArray(vector<int>& nums,int low,int high){
-    int mid = (low + high) / 2;
-    if (low < high){
-        __cutSortArray(nums, low, mid);
-        __cutSortArray(nums, mid + 1, high);
-        __mergeCutSort(nums, low, mid, high);
-    }
-}
-void __mergeCutSort(vector<int>& nums, int low, int mid, int high){
-    int i = low;
-    int j = mid + 1;
-    int *temp = new int[high - low + 1];
-    int count = 0;
+/*
+ * 将一个数组中的两个相邻有序区间合并成一个
+ *
+ * 参数说明：
+ *     nums -- 包含两个有序区间的数组
+ *     start -- 第1个有序区间的起始地址。
+ *     mid   -- 第1个有序区间的结束地址,也是第2个有序区间的起始地址。
+ *     end   -- 第2个有序区间的结束地址。
+ */
+void __merge(vector<int>& nums, int start, int mid, int end){
+    int *tmp = new int[end-start+1];    // tmp是汇总2个有序区的临时区域
+    int i = start;            // 第1个有序区的索引
+    int j = mid + 1;        // 第2个有序区的索引
+    int k = 0;                // 临时区域的索引
     
-    while (i <= mid && j <= high){
-        if (nums[i] <= nums[j]){
-            temp[count++] = nums[i++];
-        }else{
-            temp[count++] = nums[j++];
-        }
+    while(i <= mid && j <= end)
+    {
+        if (nums[i] <= nums[j])
+            tmp[k++] = nums[i++];
+        else
+            tmp[k++] = nums[j++];
     }
     
-    while (i <= mid){
-        temp[count++] = nums[i++];
-    }
+    while(i <= mid)
+        tmp[k++] = nums[i++];
     
-    while (j <= high){
-        temp[count++] = nums[j++];
-    }
+    while(j <= end)
+        tmp[k++] = nums[j++];
     
-    for (int i = low,k=0; i <= high; i++,k++){
-        nums[i] = temp[k];
-    }
+    // 将排序后的元素，全部都整合到数组a中。
+    for (i = 0; i < k; i++)
+        nums[start + i] = tmp[i];
+    
+    delete[] tmp;
 }
 
+//归并排序(从上往下)
+void mergeSortUpToDown(vector<int>& nums, int start, int end){
+    if(nums.empty() || start >= end){
+        return;
+    }
+    
+    int mid = (end + start)/2;
+    mergeSortUpToDown(nums, start, mid); // 递归排序nums[start...mid]
+    mergeSortUpToDown(nums, mid+1, end); // 递归排序nums[mid+1...end]
+    
+    // nums[start...mid] 和 nums[mid...end]是两个有序空间，
+    // 将它们排序成一个有序空间nums[start...end]
+    __merge(nums, start, mid, end);
+}
 
 
+/*
+ * 对数组a做若干次合并：数组a的总长度为len，将它分为若干个长度为gap的子数组；
+ *             将"每2个相邻的子数组" 进行合并排序。
+ *
+ * 参数说明：
+ *     nums -- 待排序的数组
+ *     len -- 数组的长度
+ *     gap -- 子数组的长度
+ */
+void __mergeGroups(vector<int>& nums, int len, int gap){
+    int i;
+    // 将"每2个相邻的子数组" 进行合并排序
+    for(i = 0; i+2*gap-1 < len; i+=(2*gap))
+    {
+        __merge(nums, i, i+gap-1, i+2*gap-1);
+    }
+    
+    // 若 i+gap-1 < len-1，则剩余一个子数组没有配对
+    // 将该子数组合并到已排序的数组中
+    if ( i+gap-1 < len-1)
+    {
+        __merge(nums, i, i + gap - 1, len - 1);
+    }
+}
 
+//归并排序(从下往上)
+void mergeSortDownToUp(vector<int>& nums, int n)
+{
+    int first = 0;
+    
+    if (nums.empty() || n<=0){
+        return;
+    }
+    for(n = 1; first < n; n*=2){
+        __mergeGroups(nums, n, first);
+    }
+}
 
+//交互数组元素
 void __swap(int &a, int &b){
     int temp = a;
     a = b;
