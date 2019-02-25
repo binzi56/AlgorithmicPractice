@@ -119,9 +119,9 @@ void __quickSort(vector<int>& nums, int low,int high){
  */
 void __merge(vector<int>& nums, int start, int mid, int end){
     int *tmp = new int[end-start+1];    // tmp是汇总2个有序区的临时区域
-    int i = start;            // 第1个有序区的索引
-    int j = mid + 1;        // 第2个有序区的索引
-    int k = 0;                // 临时区域的索引
+    int i = start;                      // 第1个有序区的索引
+    int j = mid + 1;                    // 第2个有序区的索引
+    int k = 0;                          // 临时区域的索引
     
     while(i <= mid && j <= end)
     {
@@ -137,7 +137,7 @@ void __merge(vector<int>& nums, int start, int mid, int end){
     while(j <= end)
         tmp[k++] = nums[j++];
     
-    // 将排序后的元素，全部都整合到数组a中。
+    // 将排序后的元素，全部都整合到数组a中
     for (i = 0; i < k; i++)
         nums[start + i] = tmp[i];
     
@@ -151,18 +151,18 @@ void mergeSortUpToDown(vector<int>& nums, int start, int end){
     }
     
     int mid = (end + start)/2;
-    mergeSortUpToDown(nums, start, mid); // 递归排序nums[start...mid]
-    mergeSortUpToDown(nums, mid+1, end); // 递归排序nums[mid+1...end]
+    mergeSortUpToDown(nums, start, mid);  //递归排序nums[start...mid]
+    mergeSortUpToDown(nums, mid+1, end);  //递归排序nums[mid+1...end]
     
-    // nums[start...mid] 和 nums[mid...end]是两个有序空间，
-    // 将它们排序成一个有序空间nums[start...end]
+    //nums[start...mid] 和 nums[mid...end]是两个有序空间，
+    //将它们排序成一个有序空间nums[start...end]
     __merge(nums, start, mid, end);
 }
 
 
 /*
  * 对数组a做若干次合并：数组a的总长度为len，将它分为若干个长度为gap的子数组；
- *             将"每2个相邻的子数组" 进行合并排序。
+ *             将"每2个相邻的子数组" 进行合并排序
  *
  * 参数说明：
  *     nums -- 待排序的数组
@@ -193,6 +193,7 @@ void mergeSortDownToUp(vector<int>& nums, int n)
     if (nums.empty() || n<=0){
         return;
     }
+    
     for(n = 1; first < n; n*=2){
         __mergeGroups(nums, n, first);
     }
