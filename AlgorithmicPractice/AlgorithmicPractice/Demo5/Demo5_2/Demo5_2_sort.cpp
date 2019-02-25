@@ -52,11 +52,11 @@ void insertSort(vector<int>& nums, int n){
         int j = i - 1;
         for (; j >= 0; --j) {
             if (nums[j] > value) {
-                nums[j+1] = nums[j]; // 数据移动
+                nums[j+1] = nums[j]; //数据移动
             }else {
                 break;
             }
-            nums[j+1] = value; // 插入数据
+            nums[j+1] = value;       //插入数据
         }
     }
 }
