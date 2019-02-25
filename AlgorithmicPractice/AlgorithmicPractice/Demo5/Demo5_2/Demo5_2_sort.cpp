@@ -8,10 +8,14 @@
 
 #include "Demo5_2_sort.hpp"
 
-
 void sortDemoTest(){
     vector<int> a {80,30,60,40,20,10,50,70};
     int len = (sizeof(a)) / (sizeof(a[0]));
+    
+//    insertSort(a, len);
+//    printf("\n插入排序结果:\n");
+//    printfIntArr(a);
+    
     mergeSortUpToDown(a, 0, len-1);        // 归并排序(从上往下)
 //    mergeSortDownToUp(a, len);            // 归并排序(从下往上)
     printf("\n归并排序结果:\n");
@@ -48,20 +52,15 @@ void selectSort(vector<int>& nums, int n){
 //插入排序
 void insertSort(vector<int>& nums, int n){
     for (int i = 1; i < n; ++i) {
-        int value = nums[i];
-        int j = i - 1;
-        for (; j >= 0; --j) {
-            if (nums[j] > value) {
-                nums[j+1] = nums[j]; //数据移动
-            }else {
+        for (int j = i; j > 0; j--) {
+            if (nums[j] < nums[j - 1]){
+                __swap(nums[j],nums[j -1]);
+            } else{
                 break;
             }
-            nums[j+1] = value;       //插入数据
         }
     }
 }
-
-
 
 //希尔排序
 void shellSort(vector<int>& nums, int n){
