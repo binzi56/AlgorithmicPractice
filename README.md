@@ -58,6 +58,7 @@
 
 [4.7 二叉树的层次遍历](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_7)
 
+[4.8 验证二叉搜索树](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_8)
 
 ### 五.排序
 #### 5.1 排序链表
