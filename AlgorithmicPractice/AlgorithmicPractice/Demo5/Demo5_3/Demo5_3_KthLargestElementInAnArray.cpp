@@ -23,11 +23,11 @@ int findKLargestElement(int k, vector<int>& nums, int low, int high){
         while (first < last && nums[last] <= key) {
             --last;
         }
-        nums[first] = nums[last];
+        nums[first] = nums[last];          //将比第一个大的移到低端
         while (first < last && nums[first] >= key) {
             ++first;
         }
-        nums[last] = nums[first];
+        nums[last] = nums[first];          //将比第一个小的移到高端
     }
     nums[first] = key;
 
