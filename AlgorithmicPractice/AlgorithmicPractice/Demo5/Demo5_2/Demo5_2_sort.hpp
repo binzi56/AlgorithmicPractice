@@ -23,6 +23,8 @@ void __mergeGroups(vector<int>& nums, int len, int gap);
 
 //插入排序
 void insertSort(vector<int>& nums, int n);
+//快速排序
+void quickSort(vector<int>& nums, int n);
 
 //归并排序(从上往下)
 void mergeSortUpToDown(vector<int>& nums, int start, int end);

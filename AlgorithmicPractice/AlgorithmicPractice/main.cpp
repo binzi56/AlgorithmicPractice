@@ -43,7 +43,7 @@
 //Sort
 #include "Demo5/Demo5_1/Demo5_1_SortList.hpp"
 #include "Demo5/Demo5_2/Demo5_2_sort.hpp"
-#include "Demo5_3_KthLargestElementInAnArray.hpp"
+#include "Demo5/Demo5_3/Demo5_3_KthLargestElementInAnArray.hpp"
 
 //Binary search
 #include "Demo6_1_Sqrt(x).hpp"
@@ -168,6 +168,11 @@ int main(int argc, const char * argv[]) {
 //5.2 排序算法集合
     printf("5.2 排序算法集合:");
     sortDemoTest();
+    
+//5.3 数组中的第K个最大元素
+    vector<int> vecK{3,2,1,5,6,4};
+    int kth = findKthLargest(vecK, 2);
+    printf("5.3 数组中的第K个最大元素:\n%d\n", kth);
     
     printf("\n\n#pragma mark - 六.二分查找\n");
 #pragma mark - 六.二分查找

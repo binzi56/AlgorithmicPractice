@@ -10,8 +10,7 @@
 #define Demo5_3_KthLargestElementInAnArray_hpp
 
 #include <stdio.h>
-#include <vector>
-using namespace std;
+#include "Demo1_2_1_deleteArrRepeat.hpp"
 
 int findKthLargest(vector<int>& nums, int k);
 int findKLargestElement(int k, vector<int>& nums, int low, int high);

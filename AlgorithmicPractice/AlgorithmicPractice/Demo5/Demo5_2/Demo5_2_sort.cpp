@@ -16,10 +16,14 @@ void sortDemoTest(){
 //    printf("\n插入排序结果:\n");
 //    printfIntArr(a);
     
-    mergeSortUpToDown(a, 0, len-1);        // 归并排序(从上往下)
-//    mergeSortDownToUp(a, len);            // 归并排序(从下往上)
-    printf("\n归并排序结果:\n");
+    quickSort(a, len);
+    printf("\n快速排序结果:\n");
     printfIntArr(a);
+    
+//    mergeSortUpToDown(a, 0, len-1);        // 归并排序(从上往下)
+//    mergeSortDownToUp(a, len);            // 归并排序(从下往上)
+//    printf("\n归并排序结果:\n");
+//    printfIntArr(a);
 }
 
 //冒泡排序

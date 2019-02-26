@@ -10,29 +10,33 @@
 
 
 int findKthLargest(vector<int>& nums, int k) {
-    return findKLargestElement(k, nums, 0, nums.size()-1);
+    int length = (int)nums.size();
+    return findKLargestElement(k, nums, 0, length-1);
 }
 
-int findKLargestElement(int k, vector<int>& nums, int low, int high) {
-    int left = low;
-    int right = high;
-    int key = nums[left];
-    while (left < right) {
-        while (left < right && nums[right] < key) --right;
-        nums[left] = nums[right];
-        while (left < right && nums[left] >= key) ++left;
-        nums[right] = nums[left];
+int findKLargestElement(int k, vector<int>& nums, int low, int high){
+    int first = low;
+    int last = high;
+    int key = nums[first];
+
+    while (first < last) {
+        while (first < last && nums[last] <= key) {
+            --last;
+        }
+        nums[first] = nums[last];
+        while (first < last && nums[first] >= key) {
+            ++first;
+        }
+        nums[last] = nums[first];
     }
-    nums[left] = key;
-    if (left < (k-1)) {
-        return findKLargestElement(k, nums, left+1, high);
-    }
-    else if (left > (k-1)) {
-        return findKLargestElement(k, nums, low, left-1);
-    }
-    else {
+    nums[first] = key;
+
+    if (first < k - 1) {
+        return findKLargestElement(k, nums, first + 1, high);
+    }else if (first > k - 1){
+        return findKLargestElement(k, nums, low, first - 1);
+    }else{
         return key;
     }
 }
-
 
