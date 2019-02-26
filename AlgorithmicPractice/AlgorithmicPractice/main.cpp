@@ -39,6 +39,10 @@
 #include "Demo4_3_BalancedBinaryTree.hpp"
 #include "Demo4_4_SymmetricTree.hpp"
 #include "Demo4_5_SameTree.hpp"
+#include "Demo4_6_BinaryTreePreorderTraversal.hpp"
+#include "Demo4_7_BinaryTreeLevelOrderTraversal.hpp"
+#include "Demo4_8_ValidateBinarySearchTree.hpp"
+
 
 //Sort
 #include "Demo5/Demo5_1/Demo5_1_SortList.hpp"
