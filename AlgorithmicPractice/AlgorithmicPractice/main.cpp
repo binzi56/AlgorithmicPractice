@@ -43,6 +43,7 @@
 //Sort
 #include "Demo5/Demo5_1/Demo5_1_SortList.hpp"
 #include "Demo5/Demo5_2/Demo5_2_sort.hpp"
+#include "Demo5_3_KthLargestElementInAnArray.hpp"
 
 //Binary search
 #include "Demo6_1_Sqrt(x).hpp"
