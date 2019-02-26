@@ -27,6 +27,7 @@
 		1835FA0B2222CA8E007C8A3A /* Demo3_3_EvaluateReversePolishNotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1835FA092222CA8E007C8A3A /* Demo3_3_EvaluateReversePolishNotation.cpp */; };
 		1835FA102222CDB4007C8A3A /* Demo3_4_DesignCircularDeque.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1835FA0E2222CDB4007C8A3A /* Demo3_4_DesignCircularDeque.cpp */; };
 		1835FA152222D0A5007C8A3A /* Demo6_1_Sqrt(x).cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1835FA132222D0A5007C8A3A /* Demo6_1_Sqrt(x).cpp */; };
+		1835FA1A222527D6007C8A3A /* Demo5_3_KthLargestElementInAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1835FA18222527D6007C8A3A /* Demo5_3_KthLargestElementInAnArray.cpp */; };
 		183F6BEC21562BA500D3EC63 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6BEB21562BA500D3EC63 /* main.cpp */; };
 		183F6C0221587D5D00D3EC63 /* Demo1_1_1_strStr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6C0021587D5D00D3EC63 /* Demo1_1_1_strStr.cpp */; };
 		183F6C6F2159396300D3EC63 /* Demo1_1_2_reverseString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6C6D2159396300D3EC63 /* Demo1_1_2_reverseString.cpp */; };
@@ -118,6 +119,9 @@
 		1835FA132222D0A5007C8A3A /* Demo6_1_Sqrt(x).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Demo6_1_Sqrt(x).cpp"; sourceTree = "<group>"; };
 		1835FA142222D0A5007C8A3A /* Demo6_1_Sqrt(x).hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Demo6_1_Sqrt(x).hpp"; sourceTree = "<group>"; };
 		1835FA162222D0BF007C8A3A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1835FA18222527D6007C8A3A /* Demo5_3_KthLargestElementInAnArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo5_3_KthLargestElementInAnArray.cpp; sourceTree = "<group>"; };
+		1835FA19222527D6007C8A3A /* Demo5_3_KthLargestElementInAnArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Demo5_3_KthLargestElementInAnArray.hpp; sourceTree = "<group>"; };
+		1835FA1B222527EF007C8A3A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		183F6BE821562BA500D3EC63 /* AlgorithmicPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmicPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		183F6BEB21562BA500D3EC63 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		183F6BFB2157EE0400D3EC63 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -206,6 +210,7 @@
 		18323872221CFF4D0033AF7B /* Demo5 */ = {
 			isa = PBXGroup;
 			children = (
+				1835FA17222527A4007C8A3A /* Demo5_3 */,
 				1835F9B8221ED857007C8A3A /* Demo5_2 */,
 				18323874221CFF750033AF7B /* Demo5_1 */,
 			);
@@ -445,6 +450,16 @@
 			path = Demo6_1;
 			sourceTree = "<group>";
 		};
+		1835FA17222527A4007C8A3A /* Demo5_3 */ = {
+			isa = PBXGroup;
+			children = (
+				1835FA1B222527EF007C8A3A /* README.md */,
+				1835FA18222527D6007C8A3A /* Demo5_3_KthLargestElementInAnArray.cpp */,
+				1835FA19222527D6007C8A3A /* Demo5_3_KthLargestElementInAnArray.hpp */,
+			);
+			path = Demo5_3;
+			sourceTree = "<group>";
+		};
 		183F6BDF21562BA500D3EC63 = {
 			isa = PBXGroup;
 			children = (
@@ -678,6 +693,7 @@
 				183F6BEC21562BA500D3EC63 /* main.cpp in Sources */,
 				18323897221D91B00033AF7B /* Demo4_1_MaximumDepthOfBinaryTree.cpp in Sources */,
 				1832389B221D937E0033AF7B /* Demo4_2_InvertBinaryTree.cpp in Sources */,
+				1835FA1A222527D6007C8A3A /* Demo5_3_KthLargestElementInAnArray.cpp in Sources */,
 				18A01E31215E4BF60083EC54 /* Demo2_1_singleLinkedListFlip.cpp in Sources */,
 				183238A0221D99A10033AF7B /* Demo4_3_BalancedBinaryTree.cpp in Sources */,
 				183F6C6F2159396300D3EC63 /* Demo1_1_2_reverseString.cpp in Sources */,

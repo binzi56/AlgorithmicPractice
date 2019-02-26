@@ -51,6 +51,7 @@ void selectSort(vector<int>& nums, int n){
 
 //插入排序
 void insertSort(vector<int>& nums, int n){
+    if(n <= 1) return;
     for (int i = 1; i < n; ++i) {
         for (int j = i; j > 0; j--) {
             if (nums[j] < nums[j - 1]){
