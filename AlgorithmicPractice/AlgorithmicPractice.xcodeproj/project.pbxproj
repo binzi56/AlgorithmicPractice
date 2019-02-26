@@ -28,6 +28,8 @@
 		1835FA102222CDB4007C8A3A /* Demo3_4_DesignCircularDeque.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1835FA0E2222CDB4007C8A3A /* Demo3_4_DesignCircularDeque.cpp */; };
 		1835FA152222D0A5007C8A3A /* Demo6_1_Sqrt(x).cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1835FA132222D0A5007C8A3A /* Demo6_1_Sqrt(x).cpp */; };
 		1835FA1A222527D6007C8A3A /* Demo5_3_KthLargestElementInAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1835FA18222527D6007C8A3A /* Demo5_3_KthLargestElementInAnArray.cpp */; };
+		1835FA1F222538D8007C8A3A /* Demo4_6_BinaryTreePreorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1835FA1D222538D8007C8A3A /* Demo4_6_BinaryTreePreorderTraversal.cpp */; };
+		1835FA2422253F1D007C8A3A /* Demo4_7_BinaryTreeLevelOrderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1835FA2222253F1D007C8A3A /* Demo4_7_BinaryTreeLevelOrderTraversal.cpp */; };
 		183F6BEC21562BA500D3EC63 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6BEB21562BA500D3EC63 /* main.cpp */; };
 		183F6C0221587D5D00D3EC63 /* Demo1_1_1_strStr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6C0021587D5D00D3EC63 /* Demo1_1_1_strStr.cpp */; };
 		183F6C6F2159396300D3EC63 /* Demo1_1_2_reverseString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6C6D2159396300D3EC63 /* Demo1_1_2_reverseString.cpp */; };
@@ -122,6 +124,12 @@
 		1835FA18222527D6007C8A3A /* Demo5_3_KthLargestElementInAnArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo5_3_KthLargestElementInAnArray.cpp; sourceTree = "<group>"; };
 		1835FA19222527D6007C8A3A /* Demo5_3_KthLargestElementInAnArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Demo5_3_KthLargestElementInAnArray.hpp; sourceTree = "<group>"; };
 		1835FA1B222527EF007C8A3A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1835FA1D222538D8007C8A3A /* Demo4_6_BinaryTreePreorderTraversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo4_6_BinaryTreePreorderTraversal.cpp; sourceTree = "<group>"; };
+		1835FA1E222538D8007C8A3A /* Demo4_6_BinaryTreePreorderTraversal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Demo4_6_BinaryTreePreorderTraversal.hpp; sourceTree = "<group>"; };
+		1835FA2022253909007C8A3A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1835FA2222253F1D007C8A3A /* Demo4_7_BinaryTreeLevelOrderTraversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo4_7_BinaryTreeLevelOrderTraversal.cpp; sourceTree = "<group>"; };
+		1835FA2322253F1D007C8A3A /* Demo4_7_BinaryTreeLevelOrderTraversal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Demo4_7_BinaryTreeLevelOrderTraversal.hpp; sourceTree = "<group>"; };
+		1835FA2522253F36007C8A3A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		183F6BE821562BA500D3EC63 /* AlgorithmicPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmicPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		183F6BEB21562BA500D3EC63 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		183F6BFB2157EE0400D3EC63 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -190,6 +198,8 @@
 		18323870221CFF070033AF7B /* Demo4 */ = {
 			isa = PBXGroup;
 			children = (
+				1835FA2122253E3D007C8A3A /* Demo4_7 */,
+				1835FA1C222538B6007C8A3A /* Demo4_6 */,
 				183238A7221D9C4A0033AF7B /* Demo4_5 */,
 				183238A2221D9AE90033AF7B /* Demo4_4 */,
 				1832389D221D94AB0033AF7B /* Demo4_3 */,
@@ -460,6 +470,26 @@
 			path = Demo5_3;
 			sourceTree = "<group>";
 		};
+		1835FA1C222538B6007C8A3A /* Demo4_6 */ = {
+			isa = PBXGroup;
+			children = (
+				1835FA2022253909007C8A3A /* README.md */,
+				1835FA1D222538D8007C8A3A /* Demo4_6_BinaryTreePreorderTraversal.cpp */,
+				1835FA1E222538D8007C8A3A /* Demo4_6_BinaryTreePreorderTraversal.hpp */,
+			);
+			path = Demo4_6;
+			sourceTree = "<group>";
+		};
+		1835FA2122253E3D007C8A3A /* Demo4_7 */ = {
+			isa = PBXGroup;
+			children = (
+				1835FA2522253F36007C8A3A /* README.md */,
+				1835FA2222253F1D007C8A3A /* Demo4_7_BinaryTreeLevelOrderTraversal.cpp */,
+				1835FA2322253F1D007C8A3A /* Demo4_7_BinaryTreeLevelOrderTraversal.hpp */,
+			);
+			path = Demo4_7;
+			sourceTree = "<group>";
+		};
 		183F6BDF21562BA500D3EC63 = {
 			isa = PBXGroup;
 			children = (
@@ -697,9 +727,11 @@
 				18A01E31215E4BF60083EC54 /* Demo2_1_singleLinkedListFlip.cpp in Sources */,
 				183238A0221D99A10033AF7B /* Demo4_3_BalancedBinaryTree.cpp in Sources */,
 				183F6C6F2159396300D3EC63 /* Demo1_1_2_reverseString.cpp in Sources */,
+				1835FA1F222538D8007C8A3A /* Demo4_6_BinaryTreePreorderTraversal.cpp in Sources */,
 				18323869221C57A40033AF7B /* Demo2_3_LinkedListCycle.cpp in Sources */,
 				1832386E221CF9190033AF7B /* Demo2_4_MergeTwoSortedLists.cpp in Sources */,
 				1835FA012222C4DD007C8A3A /* Demo3_1_ValidParentheses.cpp in Sources */,
+				1835FA2422253F1D007C8A3A /* Demo4_7_BinaryTreeLevelOrderTraversal.cpp in Sources */,
 				1835F9FC2222BF8A007C8A3A /* Demo1_2_5_MajorityElement.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

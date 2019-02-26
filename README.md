@@ -54,6 +54,10 @@
 
 [4.5 相同的树](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_5)
 
+[4.6 二叉树的前、中、后序遍历](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_6)
+
+[4.7 二叉树的层次遍历](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_7)
+
 
 ### 五.排序
 #### 5.1 排序链表
@@ -71,6 +75,7 @@
 [5.2.5 快速排序](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2/Demo5_2_5)
 
 [5.2.6 归并排序](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2/Demo5_2_6)
+
 
 [5.3 数组中的第K个最大元素](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_3)
 
