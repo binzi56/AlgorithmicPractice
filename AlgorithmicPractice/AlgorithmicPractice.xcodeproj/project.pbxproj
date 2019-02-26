@@ -31,6 +31,7 @@
 		1835FA1F222538D8007C8A3A /* Demo4_6_BinaryTreePreorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1835FA1D222538D8007C8A3A /* Demo4_6_BinaryTreePreorderTraversal.cpp */; };
 		1835FA2422253F1D007C8A3A /* Demo4_7_BinaryTreeLevelOrderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1835FA2222253F1D007C8A3A /* Demo4_7_BinaryTreeLevelOrderTraversal.cpp */; };
 		1835FA2922255BC7007C8A3A /* Demo4_8_ValidateBinarySearchTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1835FA2722255BC7007C8A3A /* Demo4_8_ValidateBinarySearchTree.cpp */; };
+		1835FA2E22256270007C8A3A /* Demo4_9_PathSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1835FA2C22256270007C8A3A /* Demo4_9_PathSum.cpp */; };
 		183F6BEC21562BA500D3EC63 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6BEB21562BA500D3EC63 /* main.cpp */; };
 		183F6C0221587D5D00D3EC63 /* Demo1_1_1_strStr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6C0021587D5D00D3EC63 /* Demo1_1_1_strStr.cpp */; };
 		183F6C6F2159396300D3EC63 /* Demo1_1_2_reverseString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6C6D2159396300D3EC63 /* Demo1_1_2_reverseString.cpp */; };
@@ -134,6 +135,9 @@
 		1835FA2722255BC7007C8A3A /* Demo4_8_ValidateBinarySearchTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo4_8_ValidateBinarySearchTree.cpp; sourceTree = "<group>"; };
 		1835FA2822255BC7007C8A3A /* Demo4_8_ValidateBinarySearchTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Demo4_8_ValidateBinarySearchTree.hpp; sourceTree = "<group>"; };
 		1835FA2A22255BDD007C8A3A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1835FA2C22256270007C8A3A /* Demo4_9_PathSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo4_9_PathSum.cpp; sourceTree = "<group>"; };
+		1835FA2D22256270007C8A3A /* Demo4_9_PathSum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Demo4_9_PathSum.hpp; sourceTree = "<group>"; };
+		1835FA2F22256287007C8A3A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		183F6BE821562BA500D3EC63 /* AlgorithmicPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmicPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		183F6BEB21562BA500D3EC63 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		183F6BFB2157EE0400D3EC63 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -202,6 +206,7 @@
 		18323870221CFF070033AF7B /* Demo4 */ = {
 			isa = PBXGroup;
 			children = (
+				1835FA2B22256250007C8A3A /* Demo4_9 */,
 				1835FA2622255B9F007C8A3A /* Demo4_8 */,
 				1835FA2122253E3D007C8A3A /* Demo4_7 */,
 				1835FA1C222538B6007C8A3A /* Demo4_6 */,
@@ -505,6 +510,16 @@
 			path = Demo4_8;
 			sourceTree = "<group>";
 		};
+		1835FA2B22256250007C8A3A /* Demo4_9 */ = {
+			isa = PBXGroup;
+			children = (
+				1835FA2F22256287007C8A3A /* README.md */,
+				1835FA2C22256270007C8A3A /* Demo4_9_PathSum.cpp */,
+				1835FA2D22256270007C8A3A /* Demo4_9_PathSum.hpp */,
+			);
+			path = Demo4_9;
+			sourceTree = "<group>";
+		};
 		183F6BDF21562BA500D3EC63 = {
 			isa = PBXGroup;
 			children = (
@@ -746,6 +761,7 @@
 				1835FA1F222538D8007C8A3A /* Demo4_6_BinaryTreePreorderTraversal.cpp in Sources */,
 				18323869221C57A40033AF7B /* Demo2_3_LinkedListCycle.cpp in Sources */,
 				1832386E221CF9190033AF7B /* Demo2_4_MergeTwoSortedLists.cpp in Sources */,
+				1835FA2E22256270007C8A3A /* Demo4_9_PathSum.cpp in Sources */,
 				1835FA012222C4DD007C8A3A /* Demo3_1_ValidParentheses.cpp in Sources */,
 				1835FA2422253F1D007C8A3A /* Demo4_7_BinaryTreeLevelOrderTraversal.cpp in Sources */,
 				1835F9FC2222BF8A007C8A3A /* Demo1_2_5_MajorityElement.cpp in Sources */,

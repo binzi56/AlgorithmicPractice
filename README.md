@@ -60,6 +60,8 @@
 
 [4.8 验证二叉搜索树](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_8)
 
+[4.9 路径总和](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_9)
+
 ### 五.排序
 #### 5.1 排序链表
 [5.1 排序链表](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_1)
