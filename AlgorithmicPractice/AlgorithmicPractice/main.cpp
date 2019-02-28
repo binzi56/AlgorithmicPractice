@@ -156,7 +156,9 @@ int main(int argc, const char * argv[]) {
     
     printf("\n\n#pragma mark - 三.栈和队列\n");
 #pragma mark - 三.栈和队列
-    
+//3.3 最长有效括号
+    string longStr = ")()())";
+    printf("3.3 最长有效括号:\n%d", longestValidParentheses(longStr));
     printf("\n\n#pragma mark - 四.二叉树\n");
 #pragma mark - 四.二叉树
     printf("\n\n#pragma mark - 五.排序\n");

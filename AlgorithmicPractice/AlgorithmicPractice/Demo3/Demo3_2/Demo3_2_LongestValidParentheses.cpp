@@ -8,6 +8,7 @@
 
 #include "Demo3_2_LongestValidParentheses.hpp"
 
+
 int longestValidParentheses(string s) {
     int res = 0, start = 0;
     stack<int> m;
