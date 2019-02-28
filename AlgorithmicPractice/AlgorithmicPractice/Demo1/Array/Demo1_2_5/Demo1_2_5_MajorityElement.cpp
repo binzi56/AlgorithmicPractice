@@ -8,6 +8,8 @@
 
 #include "Demo1_2_5_MajorityElement.hpp"
 
+
+
 //解法一
 int majorityElement(vector<int>& nums) {
     int result = nums[0];
