@@ -12,6 +12,10 @@
 
 [1.1.2 反转字符串](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/String/Demo1_1_2)
 
+[1.1.3 翻转字符串里的单词](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/String/Demo1_1_3)
+
+[1.1.4 字符串转换整数 (atoi)](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/String/Demo1_1_4)
+
 #### 1.2 数组
 [1.2.1 删除排序数组中的重复项](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/Array/Demo1_2_1)
 

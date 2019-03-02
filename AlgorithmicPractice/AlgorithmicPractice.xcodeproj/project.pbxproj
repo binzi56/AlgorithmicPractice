@@ -32,6 +32,8 @@
 		1835FA2422253F1D007C8A3A /* Demo4_7_BinaryTreeLevelOrderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1835FA2222253F1D007C8A3A /* Demo4_7_BinaryTreeLevelOrderTraversal.cpp */; };
 		1835FA2922255BC7007C8A3A /* Demo4_8_ValidateBinarySearchTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1835FA2722255BC7007C8A3A /* Demo4_8_ValidateBinarySearchTree.cpp */; };
 		1835FA2E22256270007C8A3A /* Demo4_9_PathSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1835FA2C22256270007C8A3A /* Demo4_9_PathSum.cpp */; };
+		1835FA33222A54BE007C8A3A /* Demo1_1_3_ReverseWordsInAString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1835FA31222A54BE007C8A3A /* Demo1_1_3_ReverseWordsInAString.cpp */; };
+		1835FA37222A54F1007C8A3A /* Demo1_1_4_StringToInteger (atoi).cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1835FA35222A54F1007C8A3A /* Demo1_1_4_StringToInteger (atoi).cpp */; };
 		183F6BEC21562BA500D3EC63 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6BEB21562BA500D3EC63 /* main.cpp */; };
 		183F6C0221587D5D00D3EC63 /* Demo1_1_1_strStr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6C0021587D5D00D3EC63 /* Demo1_1_1_strStr.cpp */; };
 		183F6C6F2159396300D3EC63 /* Demo1_1_2_reverseString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6C6D2159396300D3EC63 /* Demo1_1_2_reverseString.cpp */; };
@@ -138,6 +140,12 @@
 		1835FA2C22256270007C8A3A /* Demo4_9_PathSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo4_9_PathSum.cpp; sourceTree = "<group>"; };
 		1835FA2D22256270007C8A3A /* Demo4_9_PathSum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Demo4_9_PathSum.hpp; sourceTree = "<group>"; };
 		1835FA2F22256287007C8A3A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1835FA31222A54BE007C8A3A /* Demo1_1_3_ReverseWordsInAString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo1_1_3_ReverseWordsInAString.cpp; sourceTree = "<group>"; };
+		1835FA32222A54BE007C8A3A /* Demo1_1_3_ReverseWordsInAString.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Demo1_1_3_ReverseWordsInAString.hpp; sourceTree = "<group>"; };
+		1835FA35222A54F1007C8A3A /* Demo1_1_4_StringToInteger (atoi).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Demo1_1_4_StringToInteger (atoi).cpp"; sourceTree = "<group>"; };
+		1835FA36222A54F1007C8A3A /* Demo1_1_4_StringToInteger (atoi).hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Demo1_1_4_StringToInteger (atoi).hpp"; sourceTree = "<group>"; };
+		1835FA38222A550F007C8A3A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1835FA39222A5517007C8A3A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		183F6BE821562BA500D3EC63 /* AlgorithmicPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmicPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		183F6BEB21562BA500D3EC63 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		183F6BFB2157EE0400D3EC63 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -520,6 +528,26 @@
 			path = Demo4_9;
 			sourceTree = "<group>";
 		};
+		1835FA30222A543B007C8A3A /* Demo1_1_3 */ = {
+			isa = PBXGroup;
+			children = (
+				1835FA38222A550F007C8A3A /* README.md */,
+				1835FA31222A54BE007C8A3A /* Demo1_1_3_ReverseWordsInAString.cpp */,
+				1835FA32222A54BE007C8A3A /* Demo1_1_3_ReverseWordsInAString.hpp */,
+			);
+			path = Demo1_1_3;
+			sourceTree = "<group>";
+		};
+		1835FA34222A54C6007C8A3A /* Demo1_1_4 */ = {
+			isa = PBXGroup;
+			children = (
+				1835FA39222A5517007C8A3A /* README.md */,
+				1835FA35222A54F1007C8A3A /* Demo1_1_4_StringToInteger (atoi).cpp */,
+				1835FA36222A54F1007C8A3A /* Demo1_1_4_StringToInteger (atoi).hpp */,
+			);
+			path = Demo1_1_4;
+			sourceTree = "<group>";
+		};
 		183F6BDF21562BA500D3EC63 = {
 			isa = PBXGroup;
 			children = (
@@ -577,8 +605,10 @@
 		183F6BF92157EE0400D3EC63 /* String */ = {
 			isa = PBXGroup;
 			children = (
-				183F6C6B215938EC00D3EC63 /* Demo1_1_1 */,
+				1835FA34222A54C6007C8A3A /* Demo1_1_4 */,
+				1835FA30222A543B007C8A3A /* Demo1_1_3 */,
 				183F6C6C2159390700D3EC63 /* Demo1_1_2 */,
+				183F6C6B215938EC00D3EC63 /* Demo1_1_1 */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -735,6 +765,7 @@
 				18A01E01215B2BDD0083EC54 /* CommonTools.cpp in Sources */,
 				18A01E27215C75490083EC54 /* Demo1_2_3_mergingTwoOrderlyArr.cpp in Sources */,
 				1835FA102222CDB4007C8A3A /* Demo3_4_DesignCircularDeque.cpp in Sources */,
+				1835FA33222A54BE007C8A3A /* Demo1_1_3_ReverseWordsInAString.cpp in Sources */,
 				183238A5221D9B040033AF7B /* Demo4_4_SymmetricTree.cpp in Sources */,
 				1835FA0B2222CA8E007C8A3A /* Demo3_3_EvaluateReversePolishNotation.cpp in Sources */,
 				1835F9F72222BA0D007C8A3A /* Demo1_2_4_ThreeNumSum.cpp in Sources */,
@@ -752,6 +783,7 @@
 				1835F9F222218878007C8A3A /* Demo2_6_middleNodeForList.cpp in Sources */,
 				182588DC22196EA80059726C /* Demo2_2_twoNumberAdd.cpp in Sources */,
 				183F6BEC21562BA500D3EC63 /* main.cpp in Sources */,
+				1835FA37222A54F1007C8A3A /* Demo1_1_4_StringToInteger (atoi).cpp in Sources */,
 				18323897221D91B00033AF7B /* Demo4_1_MaximumDepthOfBinaryTree.cpp in Sources */,
 				1832389B221D937E0033AF7B /* Demo4_2_InvertBinaryTree.cpp in Sources */,
 				1835FA1A222527D6007C8A3A /* Demo5_3_KthLargestElementInAnArray.cpp in Sources */,
