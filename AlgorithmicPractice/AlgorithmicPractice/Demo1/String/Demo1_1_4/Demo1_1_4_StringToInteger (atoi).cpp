@@ -19,9 +19,9 @@ int myAtoi(string str) {
         index++;
     }
     int res=0;
-    while(index<str.size()){
-        if(str[index]<'0' || str[index]>'9'){
-            return flag*res;
+    while(index < str.size()){
+        if(str[index] < '0' || str[index] > '9'){
+            return flag * res;
         }
         int digit=str[index]-'0';
         if(flag==1 && res*10.0+digit>INT_MAX){
