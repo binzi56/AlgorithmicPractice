@@ -10,5 +10,9 @@
 #define Demo1_1_3_ReverseWordsInAString_hpp
 
 #include <stdio.h>
+#include <string>
+using namespace std;
+
+string reverseWords(string s);
 
 #endif /* Demo1_1_3_ReverseWordsInAString_hpp */

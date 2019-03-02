@@ -10,5 +10,11 @@
 #define Demo1_1_4_StringToInteger__atoi__hpp
 
 #include <stdio.h>
+#include <string>
+#include <iostream>
+
+using namespace std;
+
+int myAtoi(string str);
 
 #endif /* Demo1_1_4_StringToInteger__atoi__hpp */
