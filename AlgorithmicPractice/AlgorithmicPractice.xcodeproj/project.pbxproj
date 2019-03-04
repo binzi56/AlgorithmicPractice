@@ -34,6 +34,7 @@
 		1835FA2E22256270007C8A3A /* Demo4_9_PathSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1835FA2C22256270007C8A3A /* Demo4_9_PathSum.cpp */; };
 		1835FA33222A54BE007C8A3A /* Demo1_1_3_ReverseWordsInAString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1835FA31222A54BE007C8A3A /* Demo1_1_3_ReverseWordsInAString.cpp */; };
 		1835FA37222A54F1007C8A3A /* Demo1_1_4_StringToInteger (atoi).cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1835FA35222A54F1007C8A3A /* Demo1_1_4_StringToInteger (atoi).cpp */; };
+		1835FA40222D4B08007C8A3A /* Demo1_1_5_FirstUniqueCharacterinAString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1835FA3E222D4B08007C8A3A /* Demo1_1_5_FirstUniqueCharacterinAString.cpp */; };
 		183F6BEC21562BA500D3EC63 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6BEB21562BA500D3EC63 /* main.cpp */; };
 		183F6C0221587D5D00D3EC63 /* Demo1_1_1_strStr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6C0021587D5D00D3EC63 /* Demo1_1_1_strStr.cpp */; };
 		183F6C6F2159396300D3EC63 /* Demo1_1_2_reverseString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6C6D2159396300D3EC63 /* Demo1_1_2_reverseString.cpp */; };
@@ -146,6 +147,9 @@
 		1835FA36222A54F1007C8A3A /* Demo1_1_4_StringToInteger (atoi).hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Demo1_1_4_StringToInteger (atoi).hpp"; sourceTree = "<group>"; };
 		1835FA38222A550F007C8A3A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1835FA39222A5517007C8A3A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1835FA3E222D4B08007C8A3A /* Demo1_1_5_FirstUniqueCharacterinAString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo1_1_5_FirstUniqueCharacterinAString.cpp; sourceTree = "<group>"; };
+		1835FA3F222D4B08007C8A3A /* Demo1_1_5_FirstUniqueCharacterinAString.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Demo1_1_5_FirstUniqueCharacterinAString.hpp; sourceTree = "<group>"; };
+		1835FA41222D4B21007C8A3A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		183F6BE821562BA500D3EC63 /* AlgorithmicPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmicPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		183F6BEB21562BA500D3EC63 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		183F6BFB2157EE0400D3EC63 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -548,6 +552,16 @@
 			path = Demo1_1_4;
 			sourceTree = "<group>";
 		};
+		1835FA3D222D4ADF007C8A3A /* Demo1_1_5 */ = {
+			isa = PBXGroup;
+			children = (
+				1835FA41222D4B21007C8A3A /* README.md */,
+				1835FA3E222D4B08007C8A3A /* Demo1_1_5_FirstUniqueCharacterinAString.cpp */,
+				1835FA3F222D4B08007C8A3A /* Demo1_1_5_FirstUniqueCharacterinAString.hpp */,
+			);
+			path = Demo1_1_5;
+			sourceTree = "<group>";
+		};
 		183F6BDF21562BA500D3EC63 = {
 			isa = PBXGroup;
 			children = (
@@ -605,6 +619,7 @@
 		183F6BF92157EE0400D3EC63 /* String */ = {
 			isa = PBXGroup;
 			children = (
+				1835FA3D222D4ADF007C8A3A /* Demo1_1_5 */,
 				1835FA34222A54C6007C8A3A /* Demo1_1_4 */,
 				1835FA30222A543B007C8A3A /* Demo1_1_3 */,
 				183F6C6C2159390700D3EC63 /* Demo1_1_2 */,
@@ -778,6 +793,7 @@
 				183238AB221D9D500033AF7B /* Demo4_5_SameTree.cpp in Sources */,
 				18A01E22215BDFE90083EC54 /* Demo1_2_2_middleNumForArr.cpp in Sources */,
 				183F6C742159408A00D3EC63 /* Demo1_2_1_deleteArrRepeat.cpp in Sources */,
+				1835FA40222D4B08007C8A3A /* Demo1_1_5_FirstUniqueCharacterinAString.cpp in Sources */,
 				1835FA152222D0A5007C8A3A /* Demo6_1_Sqrt(x).cpp in Sources */,
 				1835F9D3221FB9E2007C8A3A /* Demo7_1_ClimbingStairs.cpp in Sources */,
 				1835F9F222218878007C8A3A /* Demo2_6_middleNodeForList.cpp in Sources */,

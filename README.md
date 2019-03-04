@@ -16,6 +16,8 @@
 
 [1.1.4 字符串转换整数 (atoi)](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/String/Demo1_1_4)
 
+[1.1.5 字符串中的第一个唯一字符](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/String/Demo1_1_5)
+
 #### 1.2 数组
 [1.2.1 删除排序数组中的重复项](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/Array/Demo1_2_1)
 

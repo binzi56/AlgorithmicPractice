@@ -13,6 +13,8 @@
 //string
 #include "Demo1_1_1_strStr.hpp"
 #include "Demo1_1_2_reverseString.hpp"
+#include "Demo1_1_5_FirstUniqueCharacterinAString.hpp"
+
 //array
 #include "Demo1_2_1_deleteArrRepeat.hpp"
 #include "Demo1_2_2_middleNumForArr.hpp"
@@ -55,6 +57,7 @@
 //Dynamic programming
 #include "Demo7_1_ClimbingStairs.hpp"
 
+int findFirstNum(string s);
 int main(int argc, const char * argv[]) {
     
     printf("\n#pragma mark - 一.基础数据结构\n");
@@ -192,5 +195,4 @@ int main(int argc, const char * argv[]) {
     printf("\n\n");
     return 0;
 }
-
 
