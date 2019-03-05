@@ -9,8 +9,7 @@
 #include "Demo8_1_TwoSum.hpp"
 
 
-vector<int> twoSum(vector<int> nums,int target)
-{
+vector<int> twoSum(vector<int> nums,int target){
     vector<int> res;
     map<int,int> m;
     for(int i=0;i<nums.size();i++)
