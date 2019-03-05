@@ -94,4 +94,5 @@
 ### 七.动态规划
 [7.1 爬楼梯](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo7/Demo7_1)
 
-
+### 八.哈希表
+[8.1 两数之和](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo8/Demo8_1)

@@ -35,6 +35,7 @@
 		1835FA33222A54BE007C8A3A /* Demo1_1_3_ReverseWordsInAString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1835FA31222A54BE007C8A3A /* Demo1_1_3_ReverseWordsInAString.cpp */; };
 		1835FA37222A54F1007C8A3A /* Demo1_1_4_StringToInteger (atoi).cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1835FA35222A54F1007C8A3A /* Demo1_1_4_StringToInteger (atoi).cpp */; };
 		1835FA40222D4B08007C8A3A /* Demo1_1_5_FirstUniqueCharacterinAString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1835FA3E222D4B08007C8A3A /* Demo1_1_5_FirstUniqueCharacterinAString.cpp */; };
+		1835FA46222EB45D007C8A3A /* Demo8_1_TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1835FA44222EB45D007C8A3A /* Demo8_1_TwoSum.cpp */; };
 		183F6BEC21562BA500D3EC63 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6BEB21562BA500D3EC63 /* main.cpp */; };
 		183F6C0221587D5D00D3EC63 /* Demo1_1_1_strStr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6C0021587D5D00D3EC63 /* Demo1_1_1_strStr.cpp */; };
 		183F6C6F2159396300D3EC63 /* Demo1_1_2_reverseString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6C6D2159396300D3EC63 /* Demo1_1_2_reverseString.cpp */; };
@@ -150,6 +151,9 @@
 		1835FA3E222D4B08007C8A3A /* Demo1_1_5_FirstUniqueCharacterinAString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo1_1_5_FirstUniqueCharacterinAString.cpp; sourceTree = "<group>"; };
 		1835FA3F222D4B08007C8A3A /* Demo1_1_5_FirstUniqueCharacterinAString.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Demo1_1_5_FirstUniqueCharacterinAString.hpp; sourceTree = "<group>"; };
 		1835FA41222D4B21007C8A3A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1835FA44222EB45D007C8A3A /* Demo8_1_TwoSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo8_1_TwoSum.cpp; sourceTree = "<group>"; };
+		1835FA45222EB45D007C8A3A /* Demo8_1_TwoSum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Demo8_1_TwoSum.hpp; sourceTree = "<group>"; };
+		1835FA47222EB476007C8A3A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		183F6BE821562BA500D3EC63 /* AlgorithmicPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmicPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		183F6BEB21562BA500D3EC63 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		183F6BFB2157EE0400D3EC63 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -562,6 +566,24 @@
 			path = Demo1_1_5;
 			sourceTree = "<group>";
 		};
+		1835FA42222EB418007C8A3A /* Demo8 */ = {
+			isa = PBXGroup;
+			children = (
+				1835FA43222EB439007C8A3A /* Demo8_1 */,
+			);
+			path = Demo8;
+			sourceTree = "<group>";
+		};
+		1835FA43222EB439007C8A3A /* Demo8_1 */ = {
+			isa = PBXGroup;
+			children = (
+				1835FA47222EB476007C8A3A /* README.md */,
+				1835FA44222EB45D007C8A3A /* Demo8_1_TwoSum.cpp */,
+				1835FA45222EB45D007C8A3A /* Demo8_1_TwoSum.hpp */,
+			);
+			path = Demo8_1;
+			sourceTree = "<group>";
+		};
 		183F6BDF21562BA500D3EC63 = {
 			isa = PBXGroup;
 			children = (
@@ -584,6 +606,7 @@
 				182588DE221973720059726C /* README.md */,
 				183F6BEB21562BA500D3EC63 /* main.cpp */,
 				18A01DFE215B2BBB0083EC54 /* Common */,
+				1835FA42222EB418007C8A3A /* Demo8 */,
 				18323873221CFF4D0033AF7B /* Demo7 */,
 				18323871221CFF4D0033AF7B /* Demo6 */,
 				18323872221CFF4D0033AF7B /* Demo5 */,
@@ -779,6 +802,7 @@
 			files = (
 				18A01E01215B2BDD0083EC54 /* CommonTools.cpp in Sources */,
 				18A01E27215C75490083EC54 /* Demo1_2_3_mergingTwoOrderlyArr.cpp in Sources */,
+				1835FA46222EB45D007C8A3A /* Demo8_1_TwoSum.cpp in Sources */,
 				1835FA102222CDB4007C8A3A /* Demo3_4_DesignCircularDeque.cpp in Sources */,
 				1835FA33222A54BE007C8A3A /* Demo1_1_3_ReverseWordsInAString.cpp in Sources */,
 				183238A5221D9B040033AF7B /* Demo4_4_SymmetricTree.cpp in Sources */,
