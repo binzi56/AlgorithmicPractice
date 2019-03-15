@@ -191,6 +191,7 @@ int main(int argc, const char * argv[]) {
 //7.1 爬楼梯(斐波那契数列问题)
     int sumStairWay = climbStairs(3);
     
+    
     printf("7.1 爬楼梯:\n%d", sumStairWay);
     
     
