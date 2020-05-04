@@ -24,9 +24,9 @@ int myAtoi(string str) {
             return flag * res;
         }
         int digit=str[index]-'0';
-        if(flag==1 && res*10.0+digit>INT_MAX){
+        if(flag==1 && res*10.0+digit>=INT_MAX){
             return INT_MAX;
-        }else if(flag==-1 && -(res*10.0+digit)<INT_MIN){
+        }else if(flag==-1 && -(res*10.0+digit)<=INT_MIN){
             return INT_MIN;
         }
         res = res*10+digit;
