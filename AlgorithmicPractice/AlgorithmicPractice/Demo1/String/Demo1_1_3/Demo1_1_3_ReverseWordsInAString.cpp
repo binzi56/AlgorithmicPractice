@@ -10,22 +10,27 @@
 
 
 string reverseWords(string s) {
-    int n = (int)s.size();
-    int i = 0, j = 0;
-    int start = 0;
-    while(i < n){
-        while(i < n && s[i] == ' ') i++;      //处理空格
-        if(i < n && j > 0){                   //如果处理到非首单词(j>0)，要在其前加入空格
-            s[j++] = ' ';
+    // 反转整个字符串
+    reverse(s.begin(), s.end());
+
+    int n = s.size();
+    int idx = 0;
+    for (int start = 0; start < n; ++start) {
+        if (s[start] != ' ') {
+            // 填一个空白字符然后将idx移动到下一个单词的开头位置
+            if (idx != 0) s[idx++] = ' ';
+
+            // 循环遍历至单词的末尾
+            int end = start;
+            while (end < n && s[end] != ' ') s[idx++] = s[end++];
+
+            // 反转整个单词
+            reverse(s.begin() + idx - (end - start), s.begin() + idx);
+
+            // 更新start，去找下一个单词
+            start = end;
         }
-        
-        start = j;
-        while(i < n && s[i] != ' '){
-            s[j++] = s[i++];
-        }
-        reverse(s.begin() + start, s.begin() + j);
     }
-    s.resize(j);                              //重置s大小
-    reverse(s.begin(), s.end());              //翻转整个字符串
+    s.erase(s.begin() + idx, s.end());
     return s;
 }

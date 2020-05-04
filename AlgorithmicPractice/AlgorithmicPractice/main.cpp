@@ -193,10 +193,9 @@ int main(int argc, const char * argv[]) {
     
     
     printf("7.1 爬楼梯:\n%d", sumStairWay);
-    
-    
-    
+
     printf("\n\n");
+    
     return 0;
 }
 
