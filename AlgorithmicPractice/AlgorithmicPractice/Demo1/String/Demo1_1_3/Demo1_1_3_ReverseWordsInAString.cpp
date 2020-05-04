@@ -34,3 +34,30 @@ string reverseWords(string s) {
     s.erase(s.begin() + idx, s.end());
     return s;
 }
+
+
+
+string reverseWords2(string s) {
+    vector<string> strs;
+    string ans = "";
+    string sub = "";
+    for (int i = 0; i < s.size(); i++) {
+       //到达空格
+        if (s[i] == ' ') {
+            //到达单词末尾
+            if (sub.size() > 0) {
+                strs.push_back(sub);
+                sub = "";
+            }
+        }else{
+            sub += s[i];
+            if (i == s.size() - 1) strs.push_back(sub);
+        }
+    }
+
+    for (int i = strs.size() - 1; i >= 0; i--) {
+        ans += strs[i];
+        if (i != 0) ans += " ";
+    }
+    return ans;
+}

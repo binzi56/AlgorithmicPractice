@@ -11,8 +11,12 @@
 
 #include <stdio.h>
 #include <string>
+#include <vector>
+
 using namespace std;
 
 string reverseWords(string s);
+
+string reverseWords2(string s);
 
 #endif /* Demo1_1_3_ReverseWordsInAString_hpp */
