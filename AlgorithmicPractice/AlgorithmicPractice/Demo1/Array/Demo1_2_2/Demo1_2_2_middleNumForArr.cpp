@@ -7,7 +7,7 @@
 //
 /*
  >> 位运算
- 将数字转换为二进制后所有数字右移一位;
+ 将数字转换为二进制后所有数字右移一位(相当于十进制数除以2);
  */
 
 #include "Demo1_2_2_middleNumForArr.hpp"
@@ -37,4 +37,11 @@ double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
     } else {
         return ((double)numsAll[middle] + (double)numsAll[middle-1]) / 2.0;
     }
+    
+//    int middle = numsAll.size() / 2.0;
+//    if(numsAll.size() % 2 == 1){
+//       return numsAll[middle];
+//    }else{
+//       return (numsAll[middle - 1] + numsAll[middle]) / 2.0;
+//    }
 }
