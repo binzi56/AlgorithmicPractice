@@ -79,10 +79,10 @@ int main(int argc, const char * argv[]) {
     vector<int> vecArr2{3, 4};
     printf("1.2.2 两个排序数组的中位数:\n%f\n", findMedianSortedArrays(vecArr1, vecArr2));
 //1.2.3 合并两个有序数组
-    vector<int> vecArr3{1,2,3,0,0,0};
-    vector<int> vecArr4{2,5,6};
+    vector<int> vecArr3{0};
+    vector<int> vecArr4{1};
     printf("1.2.3 合并两个有序数组:\n");
-    merge(vecArr3, 3, vecArr4, 3);
+    merge(vecArr3, 0, vecArr4, 1);
     
 //1.2.4 三数之和
     vector<int> vecThree{-1, 0, 1, 2, -1, -4};

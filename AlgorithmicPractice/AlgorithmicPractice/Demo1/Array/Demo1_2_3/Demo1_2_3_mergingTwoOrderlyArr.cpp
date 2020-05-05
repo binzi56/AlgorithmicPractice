@@ -25,6 +25,7 @@ void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
         
     }
     printfIntArr(nums1);
+    printf("j:%d\nk:%d\n", j, k);
     while (j >= 0) {
         nums1[k] = nums2[j];
         k--;
@@ -33,6 +34,7 @@ void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
     
     //打印方法请忽略
     printfIntArr(nums1);
+    
 }
 
 //方法二
