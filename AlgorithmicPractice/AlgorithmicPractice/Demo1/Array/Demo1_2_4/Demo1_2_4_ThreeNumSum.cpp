@@ -11,8 +11,12 @@
 vector<vector<int>> threeSum(vector<int>& nums) {
     vector<vector<int>> ans;
     int n = nums.size();
+    if (n <= 2) return ans;
     sort(nums.begin(), nums.end());
     for(int i = 0 ; i < n - 2; i++){
+        if (nums[i] > 0) {
+            break;
+        }
         int j = i + 1;
         int k = n - 1;
         while(j < k){
