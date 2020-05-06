@@ -27,7 +27,7 @@
 
 [1.2.4 三数之和](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/Array/Demo1_2_4)
 
-[1.2.5 求众数](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/Array/Demo1_2_5)
+[1.2.5 多数元素](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/Array/Demo1_2_5)
 
 ### 二.链表
 [2.1 反转链表(单链表)](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo2/Demo2_1)
