@@ -3,31 +3,27 @@
 本篇是关于`LeetCode`算法练习的总结，内容划分为以下章节：
 
 ***注:***  
-***`main.cpp`展示测试效果;*** 
+***`main.cpp`展示测试效果;***
 
 
 ### 一.基础数据结构
 #### 1.1 字符串
-[1.1.1 实现strStr()函数](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/String/Demo1_1_1)
-
-[1.1.2 反转字符串](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/String/Demo1_1_2)
-
-[1.1.3 翻转字符串里的单词](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/String/Demo1_1_3)
-
-[1.1.4 字符串转换整数 (atoi)](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/String/Demo1_1_4)
-
-[1.1.5 字符串中的第一个唯一字符](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/String/Demo1_1_5)
+序号  | 题目(解答链接) |  LeetCode(原题链接)
+:-:|:-:|:-:
+1|[Implement strStr()](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/String/Demo1_1_1)|   [实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/)
+2|[Reverse String](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/String/Demo1_1_2)|[反转字符串](https://leetcode-cn.com/problems/reverse-string/)
+3|[Reverse Words in a String](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/String/Demo1_1_3)|[翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/)
+4|[String to Integer (atoi)](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/String/Demo1_1_4)|[字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)
+5|[First Unique Character in a String](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/String/Demo1_1_5)|[字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)
 
 #### 1.2 数组
-[1.2.1 删除排序数组中的重复项](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/Array/Demo1_2_1)
-
-[1.2.2 寻找两个有序数组的中位数](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/Array/Demo1_2_2)
-
-[1.2.3 合并两个有序数组](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/Array/Demo1_2_3)
-
-[1.2.4 三数之和](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/Array/Demo1_2_4)
-
-[1.2.5 多数元素](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/Array/Demo1_2_5)
+序号  | 题目(解答链接) |  LeetCode(原题链接)
+:-:|:-:|:-:
+1|[Remove Duplicates from Sorted Array](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/Array/Demo1_2_1)|[删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
+2|[Median of Two Sorted Arrays](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/Array/Demo1_2_2)|[寻找两个正序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)
+3|[Merge Sorted Array](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/Array/Demo1_2_3)|[合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)
+4|[3sum](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/Array/Demo1_2_4)|[三数之和](https://leetcode-cn.com/problems/3sum/)
+5|[Majority Element](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/Array/Demo1_2_5)|[多数元素](https://leetcode-cn.com/problems/majority-element/)
 
 ### 二.链表
 [2.1 反转链表(单链表)](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo2/Demo2_1)
