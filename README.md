@@ -26,15 +26,15 @@
 5|[Majority Element](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/Array/Demo1_2_5)|[多数元素](https://leetcode-cn.com/problems/majority-element/)
 
 ### 二.链表
-[2.1 反转链表(单链表)](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo2/Demo2_1)
+序号  | 题目(解答链接) |  LeetCode(原题链接)
+:-:|:-:|:-:
+1|[Reverse Linked List](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo2/Demo2_1)|[反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
+2|[Add Two Numbers](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo2/Demo2_2)|[两数相加](https://leetcode-cn.com/problems/add-two-numbers/)
+3|[Linked List Cycle](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo2/Demo2_3)|[环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)
+4|[Merge Two Sorted Lists](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo2/Demo2_4)|[合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
+5|[Remove Nth Node From End of List](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo2/Demo2_5)|[删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
+6|[Middle of the Linked List](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo2/Demo2_6)|[链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/)
 
-[2.2 两数相加](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo2/Demo2_2)
-
-[2.3 环形链表](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo2/Demo2_3)
-
-[2.4 合并两个有序链表](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo2/Demo2_4)
-
-[2.5 删除链表的倒数第N个节点](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo2/Demo2_5)
 
 ### 三.栈和队列
 [3.1 有效的括号](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo3/Demo3_1)
