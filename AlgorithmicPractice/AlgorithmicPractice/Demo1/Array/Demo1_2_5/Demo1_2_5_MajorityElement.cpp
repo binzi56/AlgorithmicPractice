@@ -12,20 +12,19 @@
 
 //解法一
 int majorityElement(vector<int>& nums) {
-    int result = nums[0];
-    int times = 1;
-    for (int i = 1; i < nums.size(); i++) {
-        if (result == nums[i]) {
-            times++;
-        } else {
-            times--;
-            if (times == 0) {
-                result = nums[++i];
-                times++;
-            }
-        }
+    int count = 1;
+    int ans = nums[0];
+    for(int i = 1; i < nums.size(); i++){
+          if(count == 0){
+              ans = nums[i];
+              count = 1;
+          }else{
+              if(nums[i] == ans){
+                  count++;
+              }else count--;
+          }
     }
-    return result;
+    return ans;
 }
 
 //解法二
@@ -37,3 +36,10 @@ int majorityElement1(vector<int>& nums) {
     }
     return res;
 }
+
+//解法三
+int majorityElement2(vector<int>& nums) {
+    sort(nums.begin(), nums.end());
+    return nums[nums.size() / 2];
+}
+
