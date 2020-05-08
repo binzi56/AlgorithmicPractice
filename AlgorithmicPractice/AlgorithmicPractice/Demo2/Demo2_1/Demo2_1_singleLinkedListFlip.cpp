@@ -15,14 +15,14 @@ ListNode* reverseList(ListNode* head) {
     ListNode* cur = head;
     while (cur != NULL)
     {
-        ListNode* lat = cur->next;
+        ListNode *lat = cur->next;
         cur->next = pre;
         pre = cur;
         cur = lat;
     }
     return pre;
 }
-
+ 
 //递归
 ListNode* reverseList1(ListNode* head) {
     if(head == NULL || head->next == NULL){

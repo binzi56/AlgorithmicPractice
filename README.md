@@ -37,15 +37,24 @@
 
 
 ### 三.栈和队列
-[3.1 有效的括号](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo3/Demo3_1)
-
-[3.2 最长有效括号](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo3/Demo3_2)
-
-[3.3 逆波兰表达式求值](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo3/Demo3_3)
-
-[3.4 设计循环双端队列](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo3/Demo3_4)
+序号  | 题目(解答链接) |  原题(LeetCode)
+:-:|:-:|:-:
+1|[Valid Parentheses](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo3/Demo3_1)|[有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)
+2|[Longest Valid Parentheses](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo3/Demo3_2)|[最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/)
+3|[Evaluate Reverse Polish Notation](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo3/Demo3_3)|[逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)
+4|[Design Circular Deque](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo3/Demo3_4)|[设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque/)
 
 ### 四.二叉树
+序号  | 题目(解答链接) |  原题(LeetCode)
+:-:|:-:|:-:
+1||
+2||
+3||
+4||
+5||
+6||
+7||
+
 [4.1 二叉树的最大深度](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_1)
 
 [4.2 翻转二叉树](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_2)
