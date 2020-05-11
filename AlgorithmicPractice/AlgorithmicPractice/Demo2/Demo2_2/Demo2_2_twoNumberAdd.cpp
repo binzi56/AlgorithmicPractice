@@ -13,7 +13,7 @@ ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
     ListNode *result = new ListNode(0);
     ListNode *head = result;
     int temp =0;
-    while(l1!=NULL || l2!=NULL || temp!=0){
+    while(l1 || l2 || temp){
         int sum =(l1?l1->val:0)+(l2?l2->val:0)+temp;
         temp=sum/10;
         head->next = new ListNode(sum%10);
