@@ -60,11 +60,16 @@
 11|[Path Sum](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_9)|[路径总和](https://leetcode-cn.com/problems/path-sum/)
 
 ### 五.排序
-#### 5.1 排序链表
-[5.1 排序链表](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_1)
+#### 5.1 排序
+序号  | 题目(解答链接) |  原题(LeetCode)
+:-:|:-:|:-:
+1|[Kth Largest Element in an Array](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_3)|[数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)
+2|[Sort List](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_1)|[排序链表](https://leetcode-cn.com/problems/sort-list/)
+
+[5.1 排序链表]()
 
 #### [5.2 排序算法](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2)
-序号  | 排序类型 |
+序号  | 排序(示例链接) |
 :-:|:-:|
 1|[冒泡排序](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2/Demo5_2_1)|
 2|[选择排序](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2/Demo5_2_2)|
@@ -73,14 +78,20 @@
 5|[快速排序](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2/Demo5_2_5)|
 6|[归并排序](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2/Demo5_2_6)|
 
-
-[5.3 数组中的第K个最大元素](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_3)
-
 ### 六.二分查找
-[6.1 Sqrt(x)](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_3)
+序号  | 题目(解答链接) |  原题(LeetCode)
+:-:|:-:|:-:
+1|[Sqrt(x)](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo6/Demo6_1)|[x 的平方根](https://leetcode-cn.com/problems/sqrtx/)
+2||
 
 ### 七.动态规划
-[7.1 爬楼梯](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo7/Demo7_1)
+序号  | 题目(解答链接) |  原题(LeetCode)
+:-:|:-:|:-:
+1|[Climbing Stairs](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo7/Demo7_1)|[爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)
+2||
 
 ### 八.哈希表
-[8.1 两数之和](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo8/Demo8_1)
+序号  | 题目(解答链接) |  原题(LeetCode)
+:-:|:-:|:-:
+1|[Two Sum](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo8/Demo8_1)|[两数之和](https://leetcode-cn.com/problems/two-sum/)
+2||
