@@ -47,48 +47,31 @@
 ### 四.二叉树
 序号  | 题目(解答链接) |  原题(LeetCode)
 :-:|:-:|:-:
-1||
-2||
-3||
-4||
-5||
-6||
-7||
-
-[4.1 二叉树的最大深度](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_1)
-
-[4.2 翻转二叉树](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_2)
-
-[4.3 平衡二叉树](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_3)
-
-[4.4 对称二叉树](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_4)
-
-[4.5 相同的树](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_5)
-
-[4.6 二叉树的前、中、后序遍历](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_6)
-
-[4.7 二叉树的层次遍历](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_7)
-
-[4.8 验证二叉搜索树](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_8)
-
-[4.9 路径总和](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_9)
+1|[Maximum Depth of Binary Tree](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_1)|[二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
+2|[Invert Binary Tree](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_2)|[翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)
+3|[Balanced Binary Tree](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_3)|[平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree/)
+4|[Symmetric Tree](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_4)|[对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/)
+5|[Same Tree](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_5)|[相同的树](https://leetcode-cn.com/problems/same-tree/)
+6|[Binary Tree Preorder Traversal](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_6)|[二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
+7|[Binary Tree Inorder Traversal](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_6)|[二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
+8|[Binary Tree Postorder Traversal](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_6)|[二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)
+9|[Binary Tree Level Order Traversal II](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_7)|[二叉树的层次遍历 II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)
+10|[Balidate Binary Search Tree](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_8)|[验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/)
+11|[Path Sum](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_9)|[路径总和](https://leetcode-cn.com/problems/path-sum/)
 
 ### 五.排序
 #### 5.1 排序链表
 [5.1 排序链表](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_1)
 
 #### [5.2 排序算法](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2)
-[5.2.1 冒泡排序](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2/Demo5_2_1)
-
-[5.2.2 选择排序](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2/Demo5_2_2)
-
-[5.2.3 插入排序](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2/Demo5_2_3)
-
-[5.2.4 希尔排序](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2/Demo5_2_4)
-
-[5.2.5 快速排序](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2/Demo5_2_5)
-
-[5.2.6 归并排序](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2/Demo5_2_6)
+序号  | 排序类型 |
+:-:|:-:|
+1|[冒泡排序](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2/Demo5_2_1)|
+2|[选择排序](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2/Demo5_2_2)|
+3|[插入排序](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2/Demo5_2_3)|
+4|[希尔排序](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2/Demo5_2_4)|
+5|[快速排序](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2/Demo5_2_5)|
+6|[归并排序](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2/Demo5_2_6)|
 
 
 [5.3 数组中的第K个最大元素](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_3)
