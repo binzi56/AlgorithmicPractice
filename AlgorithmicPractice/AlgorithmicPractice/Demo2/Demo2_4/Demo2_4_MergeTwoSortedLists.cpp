@@ -14,15 +14,12 @@ ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
     }else if(l2 == NULL){
         return l1;
     }
-    
-    ListNode *allNode = NULL;
-    
-    if(l1->val < l2->val){
-        allNode = l1;
-        allNode->next = mergeTwoLists(allNode->next,l2);
+        
+    if(l1->val <= l2->val){
+        l1->next = mergeTwoLists(l1->next,l2);
+        return l1;
     }else{
-        allNode = l2;
-        allNode->next = mergeTwoLists(l1, allNode->next);
+        l2->next = mergeTwoLists(l1, l2->next);
+        return l2;
     }
-    return allNode;
 }
