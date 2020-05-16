@@ -107,6 +107,13 @@ int main(int argc, const char * argv[]) {
     int reverteN = sizeof(reverteArr)/ sizeof(int);
     ListNode *reList = createLinkedList(reverteArr, reverteN);
     ListNode *reverteList = reverseList(reList);
+//    int acount = 1;
+//    while (reList->next) {
+//        reList = reList->next;
+//        acount++;
+//    }
+//
+//    printf("当前链表长度为:%d\n", acount);
     printf("2.1 反转链表(单链表):");
     printLinkedList(reverteList);
 
