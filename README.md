@@ -37,7 +37,7 @@
 
 
 ### 三.栈和队列
-序号  | 题目(解答链接) |  原题(LeetCode)
+序号  | 题目(解答链接) |  LeetCode(原题链接)
 :-:|:-:|:-:
 1|[Valid Parentheses](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo3/Demo3_1)|[有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)
 2|[Longest Valid Parentheses](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo3/Demo3_2)|[最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/)
@@ -45,7 +45,7 @@
 4|[Design Circular Deque](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo3/Demo3_4)|[设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque/)
 
 ### 四.二叉树
-序号  | 题目(解答链接) |  原题(LeetCode)
+序号  | 题目(解答链接) |  LeetCode(原题链接)
 :-:|:-:|:-:
 1|[Maximum Depth of Binary Tree](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_1)|[二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
 2|[Invert Binary Tree](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_2)|[翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)
@@ -61,7 +61,7 @@
 
 ### 五.排序
 #### 5.1 排序
-序号  | 题目(解答链接) |  原题(LeetCode)
+序号  | 题目(解答链接) |  LeetCode(原题链接)
 :-:|:-:|:-:
 1|[Kth Largest Element in an Array](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_3)|[数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)
 2|[Sort List](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_1)|[排序链表](https://leetcode-cn.com/problems/sort-list/)
@@ -79,19 +79,19 @@
 6|[归并排序](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2/Demo5_2_6)|
 
 ### 六.二分查找
-序号  | 题目(解答链接) |  原题(LeetCode)
+序号  | 题目(解答链接) |  LeetCode(原题链接)
 :-:|:-:|:-:
 1|[Sqrt(x)](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo6/Demo6_1)|[x 的平方根](https://leetcode-cn.com/problems/sqrtx/)
 2||
 
 ### 七.动态规划
-序号  | 题目(解答链接) |  原题(LeetCode)
+序号  | 题目(解答链接) |  LeetCode(原题链接)
 :-:|:-:|:-:
 1|[Climbing Stairs](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo7/Demo7_1)|[爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)
 2||
 
 ### 八.哈希表
-序号  | 题目(解答链接) |  原题(LeetCode)
+序号  | 题目(解答链接) |  LeetCode(原题链接)
 :-:|:-:|:-:
 1|[Two Sum](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo8/Demo8_1)|[两数之和](https://leetcode-cn.com/problems/two-sum/)
 2||
