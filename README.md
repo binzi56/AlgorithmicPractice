@@ -39,6 +39,7 @@
 7|[Design Linked List](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo2/Demo2_7)|[设计链表](https://leetcode-cn.com/problems/design-linked-list/)
 8|[Delete The Node Of The Linked List](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo2/Demo2_8)|[删除链表的节点](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)
 9|[The K-th Last Node In The Linked List](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo2/Demo2_9)|[链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)
+10|[Intersection Of Two Linked Lists](ttps://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo2/Demo2_10)|[两个链表的第一个公共节点](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/)
 
 ### 三.栈和队列
 序号  | 题目(解答链接) |  LeetCode(原题链接)

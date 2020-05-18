@@ -178,6 +178,7 @@
 		187E835B247292A5007F6489 /* Demo2_7_shan-chu-lian-biao-de-jie-dian-lcof.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Demo2_7_shan-chu-lian-biao-de-jie-dian-lcof.cpp"; sourceTree = "<group>"; };
 		187E835C247292A5007F6489 /* Demo2_7_shan-chu-lian-biao-de-jie-dian-lcof.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Demo2_7_shan-chu-lian-biao-de-jie-dian-lcof.hpp"; sourceTree = "<group>"; };
 		187E835F24729454007F6489 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		187E83612472C7D6007F6489 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		18A01DFF215B2BDD0083EC54 /* CommonTools.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CommonTools.cpp; sourceTree = "<group>"; };
 		18A01E00215B2BDD0083EC54 /* CommonTools.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CommonTools.hpp; sourceTree = "<group>"; };
 		18A01E20215BDFE90083EC54 /* Demo1_2_2_middleNumForArr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo1_2_2_middleNumForArr.cpp; sourceTree = "<group>"; };
@@ -668,6 +669,7 @@
 		183F6C03215884B900D3EC63 /* Demo2 */ = {
 			isa = PBXGroup;
 			children = (
+				187E83602472C7C3007F6489 /* Demo2_10 */,
 				187E835E24729441007F6489 /* Demo2_9 */,
 				187E835924729202007F6489 /* Demo2_8 */,
 				187E835424727BD3007F6489 /* Demo2_7 */,
@@ -747,6 +749,14 @@
 				187E835F24729454007F6489 /* README.md */,
 			);
 			path = Demo2_9;
+			sourceTree = "<group>";
+		};
+		187E83602472C7C3007F6489 /* Demo2_10 */ = {
+			isa = PBXGroup;
+			children = (
+				187E83612472C7D6007F6489 /* README.md */,
+			);
+			path = Demo2_10;
 			sourceTree = "<group>";
 		};
 		18A01DFE215B2BBB0083EC54 /* Common */ = {
