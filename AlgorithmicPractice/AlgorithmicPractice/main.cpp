@@ -201,7 +201,17 @@ int main(int argc, const char * argv[]) {
     
     printf("7.1 爬楼梯:\n%d", sumStairWay);
 
-    printf("\n\n");
+    printf("\n\n数字相加");
+    
+    char str[5] = {'1', '2', '3', '4', '\0'};
+    int num = 0;
+
+    int i = 0;
+    while(str[i]) {
+        num = num * 10 + (str[i++] - '0');
+    }
+    
+    printf("%d\n", num);
     
     return 0;
 }

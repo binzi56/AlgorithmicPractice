@@ -15,6 +15,8 @@
 3|[Reverse Words in a String](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/String/Demo1_1_3)|[翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/)
 4|[String to Integer (atoi)](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/String/Demo1_1_4)|[字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)
 5|[First Unique Character in a String](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/String/Demo1_1_5)|[字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)
+6|[Add Binary](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/String/Demo1_1_6)|[二进制求和](https://leetcode-cn.com/problems/add-binary/)
+
 
 #### 1.2 数组
 序号  | 题目(解答链接) |  LeetCode(原题链接)

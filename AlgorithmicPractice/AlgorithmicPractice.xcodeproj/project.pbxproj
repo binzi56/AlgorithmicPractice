@@ -40,6 +40,7 @@
 		183F6C0221587D5D00D3EC63 /* Demo1_1_1_strStr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6C0021587D5D00D3EC63 /* Demo1_1_1_strStr.cpp */; };
 		183F6C6F2159396300D3EC63 /* Demo1_1_2_reverseString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6C6D2159396300D3EC63 /* Demo1_1_2_reverseString.cpp */; };
 		183F6C742159408A00D3EC63 /* Demo1_2_1_deleteArrRepeat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6C722159408A00D3EC63 /* Demo1_2_1_deleteArrRepeat.cpp */; };
+		187E8352247119F5007F6489 /* Demo1_1_6_addBinary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 187E8350247119F5007F6489 /* Demo1_1_6_addBinary.cpp */; };
 		18A01E01215B2BDD0083EC54 /* CommonTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18A01DFF215B2BDD0083EC54 /* CommonTools.cpp */; };
 		18A01E22215BDFE90083EC54 /* Demo1_2_2_middleNumForArr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18A01E20215BDFE90083EC54 /* Demo1_2_2_middleNumForArr.cpp */; };
 		18A01E27215C75490083EC54 /* Demo1_2_3_mergingTwoOrderlyArr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18A01E25215C75490083EC54 /* Demo1_2_3_mergingTwoOrderlyArr.cpp */; };
@@ -165,6 +166,9 @@
 		183F6C722159408A00D3EC63 /* Demo1_2_1_deleteArrRepeat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo1_2_1_deleteArrRepeat.cpp; sourceTree = "<group>"; };
 		183F6C732159408A00D3EC63 /* Demo1_2_1_deleteArrRepeat.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Demo1_2_1_deleteArrRepeat.hpp; sourceTree = "<group>"; };
 		183F6C75215940ED00D3EC63 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		187E8350247119F5007F6489 /* Demo1_1_6_addBinary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo1_1_6_addBinary.cpp; sourceTree = "<group>"; };
+		187E8351247119F5007F6489 /* Demo1_1_6_addBinary.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Demo1_1_6_addBinary.hpp; sourceTree = "<group>"; };
+		187E835324711A22007F6489 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		18A01DFF215B2BDD0083EC54 /* CommonTools.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CommonTools.cpp; sourceTree = "<group>"; };
 		18A01E00215B2BDD0083EC54 /* CommonTools.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CommonTools.hpp; sourceTree = "<group>"; };
 		18A01E20215BDFE90083EC54 /* Demo1_2_2_middleNumForArr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo1_2_2_middleNumForArr.cpp; sourceTree = "<group>"; };
@@ -642,6 +646,7 @@
 		183F6BF92157EE0400D3EC63 /* String */ = {
 			isa = PBXGroup;
 			children = (
+				187E834F247119C2007F6489 /* Demo1_1_6 */,
 				1835FA3D222D4ADF007C8A3A /* Demo1_1_5 */,
 				1835FA34222A54C6007C8A3A /* Demo1_1_4 */,
 				1835FA30222A543B007C8A3A /* Demo1_1_3 */,
@@ -692,6 +697,16 @@
 				183F6C732159408A00D3EC63 /* Demo1_2_1_deleteArrRepeat.hpp */,
 			);
 			path = Demo1_2_1;
+			sourceTree = "<group>";
+		};
+		187E834F247119C2007F6489 /* Demo1_1_6 */ = {
+			isa = PBXGroup;
+			children = (
+				187E835324711A22007F6489 /* README.md */,
+				187E8350247119F5007F6489 /* Demo1_1_6_addBinary.cpp */,
+				187E8351247119F5007F6489 /* Demo1_1_6_addBinary.hpp */,
+			);
+			path = Demo1_1_6;
 			sourceTree = "<group>";
 		};
 		18A01DFE215B2BBB0083EC54 /* Common */ = {
@@ -820,6 +835,7 @@
 				1835FA40222D4B08007C8A3A /* Demo1_1_5_FirstUniqueCharacterinAString.cpp in Sources */,
 				1835FA152222D0A5007C8A3A /* Demo6_1_Sqrt(x).cpp in Sources */,
 				1835F9D3221FB9E2007C8A3A /* Demo7_1_ClimbingStairs.cpp in Sources */,
+				187E8352247119F5007F6489 /* Demo1_1_6_addBinary.cpp in Sources */,
 				1835F9F222218878007C8A3A /* Demo2_6_middleNodeForList.cpp in Sources */,
 				182588DC22196EA80059726C /* Demo2_2_twoNumberAdd.cpp in Sources */,
 				183F6BEC21562BA500D3EC63 /* main.cpp in Sources */,
