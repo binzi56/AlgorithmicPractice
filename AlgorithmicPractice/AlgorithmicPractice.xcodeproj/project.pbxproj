@@ -42,6 +42,7 @@
 		183F6C742159408A00D3EC63 /* Demo1_2_1_deleteArrRepeat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6C722159408A00D3EC63 /* Demo1_2_1_deleteArrRepeat.cpp */; };
 		187E8352247119F5007F6489 /* Demo1_1_6_addBinary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 187E8350247119F5007F6489 /* Demo1_1_6_addBinary.cpp */; };
 		187E835824727C4E007F6489 /* Demo2_7_design-linked-list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 187E835624727C4E007F6489 /* Demo2_7_design-linked-list.cpp */; };
+		187E835D247292A5007F6489 /* Demo2_7_shan-chu-lian-biao-de-jie-dian-lcof.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 187E835B247292A5007F6489 /* Demo2_7_shan-chu-lian-biao-de-jie-dian-lcof.cpp */; };
 		18A01E01215B2BDD0083EC54 /* CommonTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18A01DFF215B2BDD0083EC54 /* CommonTools.cpp */; };
 		18A01E22215BDFE90083EC54 /* Demo1_2_2_middleNumForArr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18A01E20215BDFE90083EC54 /* Demo1_2_2_middleNumForArr.cpp */; };
 		18A01E27215C75490083EC54 /* Demo1_2_3_mergingTwoOrderlyArr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18A01E25215C75490083EC54 /* Demo1_2_3_mergingTwoOrderlyArr.cpp */; };
@@ -173,6 +174,9 @@
 		187E835524727BF0007F6489 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		187E835624727C4E007F6489 /* Demo2_7_design-linked-list.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Demo2_7_design-linked-list.cpp"; sourceTree = "<group>"; };
 		187E835724727C4E007F6489 /* Demo2_7_design-linked-list.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Demo2_7_design-linked-list.hpp"; sourceTree = "<group>"; };
+		187E835A24729219007F6489 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		187E835B247292A5007F6489 /* Demo2_7_shan-chu-lian-biao-de-jie-dian-lcof.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Demo2_7_shan-chu-lian-biao-de-jie-dian-lcof.cpp"; sourceTree = "<group>"; };
+		187E835C247292A5007F6489 /* Demo2_7_shan-chu-lian-biao-de-jie-dian-lcof.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Demo2_7_shan-chu-lian-biao-de-jie-dian-lcof.hpp"; sourceTree = "<group>"; };
 		18A01DFF215B2BDD0083EC54 /* CommonTools.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CommonTools.cpp; sourceTree = "<group>"; };
 		18A01E00215B2BDD0083EC54 /* CommonTools.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CommonTools.hpp; sourceTree = "<group>"; };
 		18A01E20215BDFE90083EC54 /* Demo1_2_2_middleNumForArr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo1_2_2_middleNumForArr.cpp; sourceTree = "<group>"; };
@@ -663,6 +667,7 @@
 		183F6C03215884B900D3EC63 /* Demo2 */ = {
 			isa = PBXGroup;
 			children = (
+				187E835924729202007F6489 /* Demo2_8 */,
 				187E835424727BD3007F6489 /* Demo2_7 */,
 				1835F9EF22218854007C8A3A /* Demo2_6 */,
 				1835F9EA22217E53007C8A3A /* Demo2_5 */,
@@ -722,6 +727,16 @@
 				187E835724727C4E007F6489 /* Demo2_7_design-linked-list.hpp */,
 			);
 			path = Demo2_7;
+			sourceTree = "<group>";
+		};
+		187E835924729202007F6489 /* Demo2_8 */ = {
+			isa = PBXGroup;
+			children = (
+				187E835A24729219007F6489 /* README.md */,
+				187E835B247292A5007F6489 /* Demo2_7_shan-chu-lian-biao-de-jie-dian-lcof.cpp */,
+				187E835C247292A5007F6489 /* Demo2_7_shan-chu-lian-biao-de-jie-dian-lcof.hpp */,
+			);
+			path = Demo2_8;
 			sourceTree = "<group>";
 		};
 		18A01DFE215B2BBB0083EC54 /* Common */ = {
@@ -863,6 +878,7 @@
 				183238A0221D99A10033AF7B /* Demo4_3_BalancedBinaryTree.cpp in Sources */,
 				183F6C6F2159396300D3EC63 /* Demo1_1_2_reverseString.cpp in Sources */,
 				1835FA1F222538D8007C8A3A /* Demo4_6_BinaryTreePreorderTraversal.cpp in Sources */,
+				187E835D247292A5007F6489 /* Demo2_7_shan-chu-lian-biao-de-jie-dian-lcof.cpp in Sources */,
 				18323869221C57A40033AF7B /* Demo2_3_LinkedListCycle.cpp in Sources */,
 				1832386E221CF9190033AF7B /* Demo2_4_MergeTwoSortedLists.cpp in Sources */,
 				1835FA2E22256270007C8A3A /* Demo4_9_PathSum.cpp in Sources */,

@@ -37,6 +37,7 @@
 5|[Remove Nth Node From End of List](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo2/Demo2_5)|[删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
 6|[Middle of the Linked List](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo2/Demo2_6)|[链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/)
 7|[Design Linked List](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo2/Demo2_7)|[设计链表](https://leetcode-cn.com/problems/design-linked-list/)
+8|[Delete The Node Of The Linked List](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo2/Demo2_8)|[删除链表的节点](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)
 
 
 ### 三.栈和队列
