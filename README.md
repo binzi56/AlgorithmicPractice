@@ -74,14 +74,14 @@
 [5.1 排序链表]()
 
 #### [5.2 排序算法](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2)
-序号  | 排序(示例链接) |
-:-:|:-:|
-1|[冒泡排序](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2/Demo5_2_1)|
-2|[选择排序](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2/Demo5_2_2)|
-3|[插入排序](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2/Demo5_2_3)|
-4|[希尔排序](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2/Demo5_2_4)|
-5|[快速排序](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2/Demo5_2_5)|
-6|[归并排序](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2/Demo5_2_6)|
+序号  | 排序(示例链接)
+:-:|:-:
+1|[冒泡排序](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2/Demo5_2_1)
+2|[选择排序](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2/Demo5_2_2)
+3|[插入排序](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2/Demo5_2_3)
+4|[希尔排序](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2/Demo5_2_4)
+5|[快速排序](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2/Demo5_2_5)
+6|[归并排序](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2/Demo5_2_6)
 
 ### 六.二分查找
 序号  | 题目(解答链接) |  LeetCode(原题链接)
