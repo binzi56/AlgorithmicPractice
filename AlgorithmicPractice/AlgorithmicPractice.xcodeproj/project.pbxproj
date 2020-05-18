@@ -41,6 +41,7 @@
 		183F6C6F2159396300D3EC63 /* Demo1_1_2_reverseString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6C6D2159396300D3EC63 /* Demo1_1_2_reverseString.cpp */; };
 		183F6C742159408A00D3EC63 /* Demo1_2_1_deleteArrRepeat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 183F6C722159408A00D3EC63 /* Demo1_2_1_deleteArrRepeat.cpp */; };
 		187E8352247119F5007F6489 /* Demo1_1_6_addBinary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 187E8350247119F5007F6489 /* Demo1_1_6_addBinary.cpp */; };
+		187E835824727C4E007F6489 /* Demo2_7_design-linked-list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 187E835624727C4E007F6489 /* Demo2_7_design-linked-list.cpp */; };
 		18A01E01215B2BDD0083EC54 /* CommonTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18A01DFF215B2BDD0083EC54 /* CommonTools.cpp */; };
 		18A01E22215BDFE90083EC54 /* Demo1_2_2_middleNumForArr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18A01E20215BDFE90083EC54 /* Demo1_2_2_middleNumForArr.cpp */; };
 		18A01E27215C75490083EC54 /* Demo1_2_3_mergingTwoOrderlyArr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18A01E25215C75490083EC54 /* Demo1_2_3_mergingTwoOrderlyArr.cpp */; };
@@ -169,6 +170,9 @@
 		187E8350247119F5007F6489 /* Demo1_1_6_addBinary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo1_1_6_addBinary.cpp; sourceTree = "<group>"; };
 		187E8351247119F5007F6489 /* Demo1_1_6_addBinary.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Demo1_1_6_addBinary.hpp; sourceTree = "<group>"; };
 		187E835324711A22007F6489 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		187E835524727BF0007F6489 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		187E835624727C4E007F6489 /* Demo2_7_design-linked-list.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Demo2_7_design-linked-list.cpp"; sourceTree = "<group>"; };
+		187E835724727C4E007F6489 /* Demo2_7_design-linked-list.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Demo2_7_design-linked-list.hpp"; sourceTree = "<group>"; };
 		18A01DFF215B2BDD0083EC54 /* CommonTools.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CommonTools.cpp; sourceTree = "<group>"; };
 		18A01E00215B2BDD0083EC54 /* CommonTools.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CommonTools.hpp; sourceTree = "<group>"; };
 		18A01E20215BDFE90083EC54 /* Demo1_2_2_middleNumForArr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo1_2_2_middleNumForArr.cpp; sourceTree = "<group>"; };
@@ -659,6 +663,7 @@
 		183F6C03215884B900D3EC63 /* Demo2 */ = {
 			isa = PBXGroup;
 			children = (
+				187E835424727BD3007F6489 /* Demo2_7 */,
 				1835F9EF22218854007C8A3A /* Demo2_6 */,
 				1835F9EA22217E53007C8A3A /* Demo2_5 */,
 				1832386B221CF8ED0033AF7B /* Demo2_4 */,
@@ -707,6 +712,16 @@
 				187E8351247119F5007F6489 /* Demo1_1_6_addBinary.hpp */,
 			);
 			path = Demo1_1_6;
+			sourceTree = "<group>";
+		};
+		187E835424727BD3007F6489 /* Demo2_7 */ = {
+			isa = PBXGroup;
+			children = (
+				187E835524727BF0007F6489 /* README.md */,
+				187E835624727C4E007F6489 /* Demo2_7_design-linked-list.cpp */,
+				187E835724727C4E007F6489 /* Demo2_7_design-linked-list.hpp */,
+			);
+			path = Demo2_7;
 			sourceTree = "<group>";
 		};
 		18A01DFE215B2BBB0083EC54 /* Common */ = {
@@ -815,6 +830,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187E835824727C4E007F6489 /* Demo2_7_design-linked-list.cpp in Sources */,
 				18A01E01215B2BDD0083EC54 /* CommonTools.cpp in Sources */,
 				18A01E27215C75490083EC54 /* Demo1_2_3_mergingTwoOrderlyArr.cpp in Sources */,
 				1835FA46222EB45D007C8A3A /* Demo8_1_TwoSum.cpp in Sources */,
