@@ -14,3 +14,39 @@
 ```
 
 
+
+解法:
+```
+//快慢指针
+ListNode* getKthFromEnd(ListNode* head, int k) {
+    ListNode* fast = head;
+    ListNode* low = head;
+    while (fast != NULL) {
+        fast = fast->next;
+        if (k == 0) {
+            low = low->next;
+        } else {
+            k--;
+        }
+    }
+    return low;        
+}
+
+//递归
+ListNode* getKthFromEnd1(ListNode* head, int k) {
+    int pos = 0;
+    ListNode* getKthFromEnd(ListNode* head, int k) {
+        if (head == NULL) {
+            return 0;
+        }
+        ListNode* ret = getKthFromEnd(head->next, k);
+        pos++;
+        if (pos == k) {
+            return head;
+        }
+        return ret;    
+    }
+}
+
+```
+
