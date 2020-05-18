@@ -5,7 +5,6 @@
 ***注:***  
 ***`main.cpp`展示测试效果;***
 
-
 ### 一.基础数据结构
 #### 1.1 字符串
 序号  | 题目(解答链接) |  LeetCode(原题链接)
@@ -101,3 +100,10 @@
 :-:|:-:|:-:
 1|[Two Sum](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo8/Demo8_1)|[两数之和](https://leetcode-cn.com/problems/two-sum/)
 2||
+
+附:
+
+![性能对比图](./Resources/Performance.png)
+
+> * 如果需要经常添加或删除结点，链表可能是一个不错的选择。
+* 如果需要经常按索引访问元素，数组可能是比链表更好的选择。
