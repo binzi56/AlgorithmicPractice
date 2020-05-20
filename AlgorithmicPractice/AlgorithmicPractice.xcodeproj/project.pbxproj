@@ -180,6 +180,7 @@
 		187E835F24729454007F6489 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		187E83612472C7D6007F6489 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		187E83632472D20F007F6489 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		187E83A6247595B7007F6489 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		18A01DFF215B2BDD0083EC54 /* CommonTools.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CommonTools.cpp; sourceTree = "<group>"; };
 		18A01E00215B2BDD0083EC54 /* CommonTools.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CommonTools.hpp; sourceTree = "<group>"; };
 		18A01E20215BDFE90083EC54 /* Demo1_2_2_middleNumForArr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo1_2_2_middleNumForArr.cpp; sourceTree = "<group>"; };
@@ -657,6 +658,7 @@
 		183F6BF92157EE0400D3EC63 /* String */ = {
 			isa = PBXGroup;
 			children = (
+				187E83A5247595A1007F6489 /* Demo1_1_7 */,
 				187E834F247119C2007F6489 /* Demo1_1_6 */,
 				1835FA3D222D4ADF007C8A3A /* Demo1_1_5 */,
 				1835FA34222A54C6007C8A3A /* Demo1_1_4 */,
@@ -767,6 +769,14 @@
 				187E83632472D20F007F6489 /* README.md */,
 			);
 			path = Demo2_11;
+			sourceTree = "<group>";
+		};
+		187E83A5247595A1007F6489 /* Demo1_1_7 */ = {
+			isa = PBXGroup;
+			children = (
+				187E83A6247595B7007F6489 /* README.md */,
+			);
+			path = Demo1_1_7;
 			sourceTree = "<group>";
 		};
 		18A01DFE215B2BBB0083EC54 /* Common */ = {

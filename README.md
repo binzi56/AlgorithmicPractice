@@ -15,6 +15,8 @@
 4|[String to Integer (atoi)](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/String/Demo1_1_4)|[字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)
 5|[First Unique Character in a String](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/String/Demo1_1_5)|[字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)
 6|[Add Binary](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/String/Demo1_1_6)|[二进制求和](https://leetcode-cn.com/problems/add-binary/)
+7|[Longest Substring Without Repeating Characters](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/String/Demo1_1_7)|[无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
+
 
 
 #### 1.2 数组
