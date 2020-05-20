@@ -28,14 +28,10 @@
 
 
 
-
-
-
-
-
-
+解法:
 
 ```
+//滑动窗口
 int lengthOfLongestSubstring(string s) {
     if(s.empty()) return 0;
     vector<int> map(128, -1);           //int map[128] = {-1}会出错;这只让第一个值为-1，其余的还是为0

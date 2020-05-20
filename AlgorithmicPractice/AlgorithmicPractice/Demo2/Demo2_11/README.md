@@ -10,6 +10,7 @@
 * random_index：随机指针指向的节点索引（范围从 0 到 n-1）；如果不指向任何节点，则为  null 。
 
 
+解法:
 ```
 //方法1
 Node* copyRandomList(Node* head)
