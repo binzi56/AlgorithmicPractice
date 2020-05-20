@@ -8,34 +8,55 @@
 
 #include "Demo3_1_ValidParentheses.hpp"
 
+ unordered_map<char, char> um = {
+            {'{', '}'},
+            {'(', ')'},
+            {'[', ']'}
+};
+
 bool isValid(string s) {
-    stack<char> parentheses;
-    for (int i = 0; i < s.size(); ++i) {
-        if (s[i] == '(' || s[i] == '[' || s[i] == '{') parentheses.push(s[i]);
-        else {
-            if (parentheses.empty()) return false;
-            if (s[i] == ')' && parentheses.top() != '(') return false;
-            if (s[i] == ']' && parentheses.top() != '[') return false;
-            if (s[i] == '}' && parentheses.top() != '{') return false;
-            parentheses.pop();
+    if (s.empty()) {
+        return true;
+    } else if (s.size() % 2) {
+        return false;
+    } else {
+        stack<char> ss;
+        for (int i = 0; i < s.size(); i++) {
+            if (ss.empty()) {
+                ss.push(s[i]);
+            } else {
+                if (s[i] == um[ss.top()]) {
+                    ss.pop();
+                } else {
+                    ss.push(s[i]);
+                }
+            }
         }
+        return ss.empty();
     }
-    return parentheses.empty();
 }
+
 
 
 bool isValid1(string s) {
-    stack<char> paren;
-    for (char& c : s) {
-        switch (c) {
-            case '(':
-            case '{':
-            case '[': paren.push(c); break;
-            case ')': if (paren.empty() || paren.top()!='(') return false; else paren.pop(); break;
-            case '}': if (paren.empty() || paren.top()!='{') return false; else paren.pop(); break;
-            case ']': if (paren.empty() || paren.top()!='[') return false; else paren.pop(); break;
-            default: ;
-        }
+    if(s.empty()) return true;
+    
+    unordered_map<char, int> m{
+        {'(', -1},
+        {'[', -2},
+        {'{', -3},
+        {')', 4},
+        {']', 5},
+        {'}', 6}
+    };
+
+    stack<char> st;
+    for(char c: s) {
+        if (m[c] < 0) st.push(c);
+        else if (!st.empty() && m[st.top()] == -m[c]) st.pop();
+        else return false;
     }
-    return paren.empty() ;
+    return st.empty();
 }
+
+
