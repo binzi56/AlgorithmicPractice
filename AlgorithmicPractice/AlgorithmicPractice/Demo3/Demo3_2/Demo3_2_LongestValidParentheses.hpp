@@ -11,6 +11,7 @@
 
 #include <stdio.h>
 #include "Demo3_1_ValidParentheses.hpp"
+#include <vector>
 
 int longestValidParentheses(string s);
 

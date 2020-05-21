@@ -24,3 +24,22 @@ int longestValidParentheses(string s) {
     }
     return res;
 }
+
+
+int longestValidParentheses1(string s) {
+    int maxLen = 0;
+    vector<int> dp(s.length());
+    for (int i = 1; i < s.length(); i++) {
+        if (s[i] == ')') {
+            if (s[i - 1] == '(') {
+                dp[i] = (i - 2 >= 0 ? dp[i - 2] : 0) + 2;
+            } else if (i - dp[i - 1] - 1 >= 0 && s[i - dp[i - 1] - 1] == '(') {//倒数第二个
+                dp[i] = (i - dp[i - 1] - 2 >= 0 ? dp[i - dp[i - 1] - 2] : 0) + dp[i - 1] + 2;
+            }
+        }
+        maxLen = max(dp[i], maxLen);
+    }
+    return maxLen;
+}
+
+

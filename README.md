@@ -95,7 +95,7 @@
 序号  | 题目(解答链接) |  LeetCode(原题链接)
 :-:|:-:|:-:
 1|[Climbing Stairs](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo7/Demo7_1)|[爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)
-2||
+2|[Unique Paths](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo7/Demo7_2)|[不同路径](https://leetcode-cn.com/problems/unique-paths/)
 
 ### 八.哈希表
 序号  | 题目(解答链接) |  LeetCode(原题链接)
