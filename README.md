@@ -109,6 +109,8 @@
 序号  | 题目(解答链接) |  LeetCode(原题链接)
 :-:|:-:|:-:
 1|[Sliding Window Maximum](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo9/Demo9_1)|[滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)
+2|[The maximum value of the queue](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo9/Demo9_1)|[队列的最大值](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/)
+
 
 
 附:
