@@ -103,6 +103,14 @@
 1|[Two Sum](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo8/Demo8_1)|[两数之和](https://leetcode-cn.com/problems/two-sum/)
 2||
 
+
+### 九.其他
+#### 9.1 滑动窗口
+序号  | 题目(解答链接) |  LeetCode(原题链接)
+:-:|:-:|:-:
+1|[Sliding Window Maximum](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo9/Demo9_1)|[滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)
+
+
 附:
 
 ![性能对比图](./Resources/Performance.png)
