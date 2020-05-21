@@ -27,6 +27,7 @@
 3|[Merge Sorted Array](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/Array/Demo1_2_3)|[合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)
 4|[3sum](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/Array/Demo1_2_4)|[三数之和](https://leetcode-cn.com/problems/3sum/)
 5|[Majority Element](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/Array/Demo1_2_5)|[多数元素](https://leetcode-cn.com/problems/majority-element/)
+6|[Search A 2d Matrix Ⅱ](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/Array/Demo1_2_6)|[搜索二维矩阵 II](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/)
 
 ### 二.链表
 序号  | 题目(解答链接) |  LeetCode(原题链接)
