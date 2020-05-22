@@ -17,5 +17,11 @@
 
 解法:
 ```
+string reverseLeftWords(string s, int n) {
+   return s.substr(n, s.size() - 1) + s.substr(0, n);
+}
 
+string reverseLeftWords1(string s, int n) {
+   return (s + s).substr(n, s.size());
+}
 ```
