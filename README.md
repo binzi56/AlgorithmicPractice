@@ -74,7 +74,6 @@
 1|[Kth Largest Element in an Array](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_3)|[数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)
 2|[Sort List](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_1)|[排序链表](https://leetcode-cn.com/problems/sort-list/)
 
-[5.1 排序链表]()
 
 #### [5.2 排序算法](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2)
 序号  | 排序(示例链接)
