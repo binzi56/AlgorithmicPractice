@@ -51,6 +51,7 @@
 2|[Longest Valid Parentheses](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo3/Demo3_2)|[最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/)
 3|[Evaluate Reverse Polish Notation](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo3/Demo3_3)|[逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)
 4|[Design Circular Deque](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo3/Demo3_4)|[设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque/)
+5|[Implement queue with two stacks](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo3/Demo3_5)|[用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)
 
 ### 四.二叉树
 序号  | 题目(解答链接) |  LeetCode(原题链接)
