@@ -8,13 +8,28 @@
 
 #include "Demo4_1_MaximumDepthOfBinaryTree.hpp"
 
+//DFS
 int maxDepth(TreeNode* root) {
-    if (root == NULL){
-        return 0;
-    }
-    
-    int l = maxDepth(root->left);
-    int r = maxDepth(root->right);
-    
-    return l > r ? l + 1:r + 1;
+    if (root == nullptr) return 0;
+    return max(maxDepth(root->left), maxDepth(root->right)) + 1;
 }
+
+//BFS
+int maxDepth1(TreeNode* root) {
+    if(!root) return 0;
+    queue<TreeNode*> q;
+    q.push(root);
+    int ans = 0;
+    while(!q.empty()){
+        int qSize = q.size();
+        for(int i = 0; i < qSize; i++){
+            TreeNode *node = q.front();
+            q.pop();
+            if(node->left) q.push(node->left);
+            if(node->right) q.push(node->right);
+        }
+        ans++;
+    }
+    return ans;
+}
+
