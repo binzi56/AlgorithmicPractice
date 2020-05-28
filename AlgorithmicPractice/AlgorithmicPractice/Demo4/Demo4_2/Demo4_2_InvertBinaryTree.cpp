@@ -22,3 +22,20 @@ TreeNode* invertTree(TreeNode* root) {
     
     return root;
 }
+
+TreeNode* invertTree1(TreeNode* root) {
+  if(!root) return nullptr;
+  queue<TreeNode*> q;
+  q.push(root);
+  while(!q.empty()){
+      TreeNode* node =  q.front();
+      q.pop();
+      if(node){
+          swap(node->left, node->right);
+          q.push(node->left);
+          q.push(node->right);
+      }
+  }
+  return root;
+}
+
