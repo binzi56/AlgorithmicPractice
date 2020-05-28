@@ -8,15 +8,11 @@
 
 #include "Demo4_9_PathSum.hpp"
 
-bool hasPathSum(TreeNode *root, int sum) {
-    if(root == NULL){
-        return false;
-    }
-    
-    if(root->left == NULL && root->right == NULL){
-        return sum == root->val;
-    }
-    
-    return hasPathSum(root->left, sum - root->val) ||
-           hasPathSum(root->right, sum - root->val);
+//DFS
+bool hasPathSum(TreeNode* root, int sum) {
+    if(!root)   return false;
+    sum -= root -> val;
+    if((!root -> left) && (!root -> right)) return sum == 0;
+    return hasPathSum(root -> left, sum) || hasPathSum(root -> right, sum);
 }
+
