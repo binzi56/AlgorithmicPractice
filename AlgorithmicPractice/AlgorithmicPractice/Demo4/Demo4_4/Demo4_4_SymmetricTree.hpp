@@ -14,6 +14,4 @@
 
 bool isSymmetric(TreeNode* root);
 
-bool checkLeftAndRightNodes(TreeNode *leftNode, TreeNode *rightNode);
-
 #endif /* Demo4_4_SymmetricTree_hpp */
