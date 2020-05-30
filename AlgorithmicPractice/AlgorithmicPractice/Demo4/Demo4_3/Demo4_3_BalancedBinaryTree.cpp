@@ -8,30 +8,34 @@
 
 #include "Demo4_3_BalancedBinaryTree.hpp"
 
-
-int height(TreeNode* root) {
-    if(root==NULL){
-        return 0;
-    }else{
-        int l=height(root->left);
-        int r=height(root->right);
-        return 1+((l>r)?l:r);
-    }
+/*
+ 自底向上
+     遍历到最底部，开始从零计算从叶节点开始向上的高度
+     每个节点都对比左右子树的高度
+ */
+int box(TreeNode* root){
+    if(!root)   return 0;
+    int l = box(root -> left);
+    if(l == - 1)    return -1;
+    int r = box(root -> right);
+    if(r == - 1)    return -1;
+    return abs(l - r) < 2 ? max(l, r) + 1 : - 1;
+}
+bool isBalanced(TreeNode* root) {
+    return box(root) != -1;
 }
 
-bool isBalanced(TreeNode *root) {
-    if(root==NULL){
-        return true;
-    }else{
-        int l,r;
-        
-        l=height(root->left);
-        r=height(root->right);
-        
-        if((l > r+1)||(r > l+1)){
-            return false;
-        }else{
-            return isBalanced(root->left)&&isBalanced(root->right);
-        }
-    }
+/*
+ 自顶向下
+     每个节点都计算且对比左右子树的高度
+     此方法会重复计算
+ */
+int depth(TreeNode* root){
+    if(!root)   return 0;
+    return max(depth(root -> left), depth(root -> right)) + 1;
 }
+bool isBalanced1(TreeNode* root) {
+    if(!root)   return true;
+    return abs(depth(root -> left) - depth(root -> right)) < 2 && isBalanced(root -> left) && isBalanced(root -> right);
+}
+
