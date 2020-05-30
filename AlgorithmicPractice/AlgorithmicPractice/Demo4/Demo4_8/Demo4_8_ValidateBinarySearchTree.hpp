@@ -11,8 +11,8 @@
 
 #include <stdio.h>
 #include "Demo4_1_MaximumDepthOfBinaryTree.hpp"
+#include <stack>
 
 bool isValidBST(TreeNode* root);
-bool __isValidBST(TreeNode* root, TreeNode*& prev);
 
 #endif /* Demo4_8_ValidateBinarySearchTree_hpp */

@@ -5,6 +5,9 @@
 //  Created by 帅斌 on 2019/2/20.
 //  Copyright © 2019 personal. All rights reserved.
 //
+//写树算法的套路框架
+//https://leetcode-cn.com/problems/same-tree/solution/xie-shu-suan-fa-de-tao-lu-kuang-jia-by-wei-lai-bu-/
+//
 
 #ifndef Demo4_1_MaximumDepthOfBinaryTree_hpp
 #define Demo4_1_MaximumDepthOfBinaryTree_hpp

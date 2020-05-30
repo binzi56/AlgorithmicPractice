@@ -27,16 +27,20 @@ bool isSymmetric1(TreeNode* root) {
     queue<TreeNode*> q;
     q.push(root);
     while(!q.empty()){
-        int size = q.size();
-        vector<int> v(size);
-        for(int i = 0; i<size; ++i){
-            root = q.front(); q.pop();
-            v[i] = root ? root->val : INT_MIN;
-            if(root) { q.push(root->left); q.push(root->right); }
+        int qSize = q.size();
+        vector<int> v(qSize);
+        for(int i = 0; i < qSize; i++){
+            TreeNode *t = q.front(); q.pop();
+            v[i] = t ? t->val : INT_MIN;
+            if(t){
+                q.push(t->left);
+                q.push(t->right);
+            }
         }
-        // 判断是否回文
-        for(int i = 0; i< size/2; ++i){
-            if(v[i] != v[size-1-i]) return false;
+        
+        //判断是否回文
+        for(int i = 0; i < qSize / 2; i++){
+            if(v[i] != v[qSize - i - 1]) return false;
         }
     }
     return true;
