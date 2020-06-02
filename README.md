@@ -119,7 +119,7 @@
 #### 9.2 递归
 序号  | 题目(解答链接) |  LeetCode(原题链接)
 :-:|:-:|:-:
-1|[Fibonacci Number](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo9/Demo9_2/Demo9_2_1)|[斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/)
+1|[Fibonacci Number](./AlgorithmicPractice/AlgorithmicPractice/Demo9/Demo9_2/Demo9_2_1)|[斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/)
 
 
 附:
