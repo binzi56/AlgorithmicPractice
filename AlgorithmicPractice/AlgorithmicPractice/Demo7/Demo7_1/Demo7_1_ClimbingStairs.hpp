@@ -10,6 +10,8 @@
 #define Demo7_1_ClimbingStairs_hpp
 
 #include <stdio.h>
+#include <vector>
+using namespace std;
 
 int climbStairs(int n);
 
