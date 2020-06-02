@@ -120,7 +120,8 @@
 序号  | 题目(解答链接) |  LeetCode(原题链接)
 :-:|:-:|:-:
 1|[Fibonacci Number](./AlgorithmicPractice/AlgorithmicPractice/Demo9/Demo9_2/Demo9_2_1)|[斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/)
-
+2|[Construct Binary Tree From Preorder And Inorder Traversal](./AlgorithmicPractice/AlgorithmicPractice/Demo9/Demo9_2/Demo9_2_2)|[从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+3|[Powx N](./AlgorithmicPractice/AlgorithmicPractice/Demo9/Demo9_2/Demo9_2_3)|[Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)
 
 附:
 
