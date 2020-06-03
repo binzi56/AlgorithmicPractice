@@ -206,6 +206,9 @@
 		18F288FA2485589500AC3B77 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		18F289022486B60C00AC3B77 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		18F289042486B68E00AC3B77 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		18F289082488125300AC3B77 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		18F289092488125A00AC3B77 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		18F2890A2488125E00AC3B77 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -269,6 +272,9 @@
 		18323871221CFF4D0033AF7B /* Demo6 */ = {
 			isa = PBXGroup;
 			children = (
+				18F289072488124A00AC3B77 /* Demo6_4 */,
+				18F289062488124400AC3B77 /* Demo6_3 */,
+				18F289052488123600AC3B77 /* Demo6_2 */,
 				1835FA122222D085007C8A3A /* Demo6_1 */,
 			);
 			path = Demo6;
@@ -991,6 +997,30 @@
 				18F289042486B68E00AC3B77 /* README.md */,
 			);
 			path = Demo9_2_3;
+			sourceTree = "<group>";
+		};
+		18F289052488123600AC3B77 /* Demo6_2 */ = {
+			isa = PBXGroup;
+			children = (
+				18F289082488125300AC3B77 /* README.md */,
+			);
+			path = Demo6_2;
+			sourceTree = "<group>";
+		};
+		18F289062488124400AC3B77 /* Demo6_3 */ = {
+			isa = PBXGroup;
+			children = (
+				18F289092488125A00AC3B77 /* README.md */,
+			);
+			path = Demo6_3;
+			sourceTree = "<group>";
+		};
+		18F289072488124A00AC3B77 /* Demo6_4 */ = {
+			isa = PBXGroup;
+			children = (
+				18F2890A2488125E00AC3B77 /* README.md */,
+			);
+			path = Demo6_4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
