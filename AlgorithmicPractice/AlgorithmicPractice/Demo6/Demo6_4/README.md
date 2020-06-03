@@ -19,5 +19,68 @@
 
 解法:
 ```
+//解法一:
+class Solution {
+public:
+    vector<int> searchRange(vector<int>& nums, int target) {
+        int index  = search(nums, 0 ,nums.size()-1, target);
+        if(index == -1) return {-1, -1};
+        // 开始左查找
+        int left_end = index - 1;
+        while(left_end >= 0 && nums[left_end] == target){
+            left_end = search(nums, 0, left_end, target) - 1;
+        }
+        // 开始右查找
+        int right_start = index + 1;
+        while(right_start < nums.size()  && nums[right_start] == target){
+            right_start = search(nums, right_start, nums.size()-1, target) + 1;
+        }
+
+        // 返回结果
+        return {left_end + 1, right_start - 1};
+    }
+private:
+    int search(vector<int>& nums, int start, int end, int target){
+        while(start <= end){
+            int mid = (start + end)/2;
+            if(nums[mid] == target){
+                return mid;
+            }else if(nums[mid] > target){
+                end = mid - 1;
+            }else{
+                start = mid + 1;
+            }
+        }
+        return -1;
+    }
+};
+
+//解法二:
+class Solution {
+public:
+    vector<int> searchRange(vector<int>& nums, int target) {
+        vector<int> ans = {-1, -1};
+        if(nums.empty()) return ans; // 数组为空的情况
+        int l = 0, r = nums.size()-1;
+        if(nums[l] > target) return ans; // 若target不在数组范围内
+        if(nums[r] < target) return ans;
+        
+        while(l < r){ // 先查找元素的第一个位置
+            int mid = l + (r - l)/2;
+            if(nums[mid] >= target) r = mid;
+            else l = mid + 1;
+        } // 到出循环时，索引 l 和 r 在同一个位置，即查找元素的第一个位置
+        if(nums[l] == target)   ans[0] = l; // 防止查找元素在数组位置内 但 数组内没有目标元素
+        r = nums.size(); // 不设成 nums.size() - 1 的原因是，应对数组大小为一的情况，后面操作会超出索引。
+        while(l < r){ // 查找元素的最后一个位置
+            int mid = l + (r - l)/2;
+            if(nums[mid] > target) r = mid;
+            else l = mid + 1;
+        }
+        // 到处循环时，l和r 在同一个位置，即 查找元素的最后一个位置的下一位
+        if(nums[l - 1] == target)   ans[1] = l - 1;
+        return ans;
+    }
+};
 
 ```
