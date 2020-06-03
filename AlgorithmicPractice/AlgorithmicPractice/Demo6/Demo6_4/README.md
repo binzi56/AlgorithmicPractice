@@ -59,27 +59,26 @@ private:
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
-        vector<int> ans = {-1, -1};
-        if(nums.empty()) return ans; // 数组为空的情况
-        int l = 0, r = nums.size()-1;
-        if(nums[l] > target) return ans; // 若target不在数组范围内
-        if(nums[r] < target) return ans;
-        
-        while(l < r){ // 先查找元素的第一个位置
-            int mid = l + (r - l)/2;
-            if(nums[mid] >= target) r = mid;
-            else l = mid + 1;
-        } // 到出循环时，索引 l 和 r 在同一个位置，即查找元素的第一个位置
-        if(nums[l] == target)   ans[0] = l; // 防止查找元素在数组位置内 但 数组内没有目标元素
-        r = nums.size(); // 不设成 nums.size() - 1 的原因是，应对数组大小为一的情况，后面操作会超出索引。
-        while(l < r){ // 查找元素的最后一个位置
-            int mid = l + (r - l)/2;
-            if(nums[mid] > target) r = mid;
-            else l = mid + 1;
+        vector<int> res = {-1, -1};
+        if(nums.size() < 1) return res;
+        // 第一次二分查找，找到左边界
+        int lo = 0, hi = nums.size();
+        while(lo < hi){
+            int mi = ( lo + hi ) / 2;
+            nums[mi] < target ? lo = mi + 1 : hi = mi;
         }
-        // 到处循环时，l和r 在同一个位置，即 查找元素的最后一个位置的下一位
-        if(nums[l - 1] == target)   ans[1] = l - 1;
-        return ans;
+        //如果查找元素不存在且大于最大值，会发生越界，所以需要单独对数组越界情况进行判断
+        if(lo == nums.size()) return res; 
+        if( target == nums[lo]) res[0] = lo;
+        else return res;
+        // 第二次二分查找，找到右边界
+        hi = nums.size();
+        while(lo < hi){
+            int mi = ( lo + hi ) / 2;
+            target < nums[mi] ? hi = mi : lo = mi + 1;
+        }
+        res[1] = lo - 1;
+        return res;
     }
 };
 
