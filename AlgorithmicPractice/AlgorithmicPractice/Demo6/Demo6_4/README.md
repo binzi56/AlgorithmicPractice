@@ -59,26 +59,26 @@ private:
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
-        vector<int> res = {-1, -1};
-        if(nums.size() < 1) return res;
-        // 第一次二分查找，找到左边界
-        int lo = 0, hi = nums.size();
-        while(lo < hi){
-            int mi = ( lo + hi ) / 2;
-            nums[mi] < target ? lo = mi + 1 : hi = mi;
-        }
-        //如果查找元素不存在且大于最大值，会发生越界，所以需要单独对数组越界情况进行判断
-        if(lo == nums.size()) return res; 
-        if( target == nums[lo]) res[0] = lo;
-        else return res;
-        // 第二次二分查找，找到右边界
-        hi = nums.size();
-        while(lo < hi){
-            int mi = ( lo + hi ) / 2;
-            target < nums[mi] ? hi = mi : lo = mi + 1;
-        }
-        res[1] = lo - 1;
-        return res;
+        vector<int> res{-1, -1};
+          if(nums.size() < 1) return res;
+          // 第一次二分查找，找到左边界
+          int left = 0, right = nums.size();
+          while(left < right){
+              int mid = (left + right) / 2;
+              nums[mid] < target ? left = mid + 1 : right = mid;
+          }
+
+          if(left == nums.size()) return res;
+          if(target == nums[left]) res[0] = left;
+          else return res;
+          // 第二次二分查找，找到右边界
+          right = nums.size();
+          while(left < right){
+              int mid = (left + right) / 2;
+              nums[mid] > target ? right = mid : left = mid + 1; 
+          }
+          res[1] = left - 1;
+          return res;
     }
 };
 
