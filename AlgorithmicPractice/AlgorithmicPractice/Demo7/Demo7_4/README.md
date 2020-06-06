@@ -24,5 +24,17 @@
 
 解法:
 ```
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+       int minPrice = INT_MAX;
+       int maxPrice = 0;
+       for(auto price : prices){
+           maxPrice = max(maxPrice, price - minPrice);
+           minPrice = min(minPrice, price);
+       }
 
+       return maxPrice;
+    }
+};
 ```
