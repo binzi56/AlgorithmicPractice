@@ -83,3 +83,30 @@ public:
 };
 
 ```
+
+>  统计一个数字在排序数组中出现的次数
+```
+class Solution {
+public:
+    int search(vector<int>& nums, int target) {
+        if(nums.empty()) return 0;
+        int left = 0, right = nums.size() - 1, x, y;
+        while(left < right){
+            int mid = (left + right) / 2;
+            nums[mid] >= target ? right = mid : left = mid + 1;
+        }
+
+        if(nums[left] != target) return 0;
+        
+        x = left;
+        right = nums.size();
+        while(left < right){
+            int mid = (left + right) / 2;
+            nums[mid] <= target ?  left = mid + 1 : right = mid;
+        }
+        y = left;
+        return y - x;
+    }
+};
+```
+
