@@ -107,6 +107,8 @@
 4|[Best Time to Buy and Sell Stock](./AlgorithmicPractice/AlgorithmicPractice/Demo7/Demo7_4)|[买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)
 5|[The greatest value of gifts](./AlgorithmicPractice/AlgorithmicPractice/Demo7/Demo7_5)|[礼物的最大价值](https://leetcode-cn.com/problems/li-wu-de-zui-da-jie-zhi-lcof/)
 6|[Word Search](./AlgorithmicPractice/AlgorithmicPractice/Demo7/Demo7_6)|[单词搜索](https://leetcode-cn.com/problems/word-search/)
+7|[Integer Break](./AlgorithmicPractice/AlgorithmicPractice/Demo7/Demo7_7)|[整数拆分](https://leetcode-cn.com/problems/integer-break/)
+8|[Regular Expression Matching](./AlgorithmicPractice/AlgorithmicPractice/Demo7/Demo7_7)|[正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching/)
 
 ### 八.哈希表
 序号  | 题目(解答链接) |  LeetCode(原题链接)
