@@ -136,6 +136,13 @@
 :-:|:-:|:-:
 1|[Arrangement of strings](./AlgorithmicPractice/AlgorithmicPractice/Demo9/Demo9_3/Demo9_3_1)|[字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/)
 
+#### 9.4 分治算法
+序号  | 题目(解答链接) |  LeetCode(原题链接)
+:-:|:-:|:-:
+1|[The smallest k number](./AlgorithmicPractice/AlgorithmicPractice/Demo9/Demo9_4/Demo9_4_1)|[最小的k个数](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/)
+2|[Majority Element](./AlgorithmicPractice/AlgorithmicPractice/Demo9/Demo9_4/Demo9_4_2)|[多数元素](https://leetcode-cn.com/problems/majority-element/)
+3|[convert binary search tree to sorted doubly linked list](./AlgorithmicPractice/AlgorithmicPractice/Demo9/Demo9_4/Demo9_4_3)|[二叉搜索树与双向链表](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof/)
+
 附:
 
 ![性能对比图](./Resources/Performance.png)
