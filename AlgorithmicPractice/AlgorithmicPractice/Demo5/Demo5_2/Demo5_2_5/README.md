@@ -5,33 +5,34 @@
 
 ```
 //快速排序
-void quickSort(vector<int>& nums, int n){
-    __quickSort(nums,0,n - 1);
+void __quickSort(vector<int>& nums, int  low, int high){
+    if (low >= high) return;
     
+    int left = low;
+    int right = high;
+    int key = nums[left];
+    while (left < right) {
+        while (left < right && nums[right] >= key) {
+            right--;
+        }
+        
+        nums[left] = nums[right];
+        
+        while (left < right && nums[left] <= key) {
+             left++;
+        }
+        
+        nums[right] = nums[left];
+    }
+    
+    nums[left] = key;
+    
+    __quickSort(nums, low, left);
+    __quickSort(nums, left + 1, high);
 }
-void __quickSort(vector<int>& nums, int low,int high){
-    if(low >= high){
-        return;
-    }
-    int first = low;
-    int last = high;
-    int key = nums[first];
-    
-    while(first < last){
-        while(first < last && nums[last] >= key){
-            --last;
-        }
-        
-        nums[first] = nums[last];
-        
-        while(first < last && nums[first] <= key){
-            ++first;
-        }
-        
-        nums[last] = nums[first];
-    }
-    nums[first] = key;
-    __quickSort(nums, low, first-1);
-    __quickSort(nums, first+1, high);
+
+
+void quickSort(vector<int>& nums, int n){
+    __quickSort(nums, 0, n - 1);
 }
 ```

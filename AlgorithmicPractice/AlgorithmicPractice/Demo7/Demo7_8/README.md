@@ -52,6 +52,9 @@ p = "mis*is*p*."
 输出: false
 ```
 
+* s 可能为空，且只包含从 a-z 的小写字母。
+* p 可能为空，且只包含从 a-z 的小写字母以及字符 . 和 *，无连续的 '*'。
+
 解答:
 ```
 //动态规划
@@ -91,12 +94,15 @@ class Solution {
 public:
     bool isMatch(string s, string p) {
         if(p.empty()) return s.empty();
-        if(p.length()>1 && p[1]=='*')
-            return isMatch(s,p.substr(2)) ||
-                    (!s.empty() && (s[0]==p[0]||p[0]=='.') && isMatch(s.substr(1),p));
-        else return !s.empty() && (s[0]==p[0]||p[0]=='.') &&
-                    isMatch(s.substr(1),p.substr(1));
-    }
+
+        bool isFirstMatch = false;
+        if(!s.empty() && (s[0] == p[0] || p[0] == '.')) isFirstMatch = true;
+
+        if(p.size() > 1 && p[1] == '*') {
+             return isMatch(s, p.substr(2)) || isFirstMatch && isMatch(s.substr(1), p);
+        }else{
+             return isFirstMatch && isMatch(s.substr(1), p.substr(1));
+        }
 };
 
 ```
@@ -114,3 +120,5 @@ public:
 附:
 [动态规划解答](https://leetcode-cn.com/problems/regular-expression-matching/solution/dong-tai-gui-hua-de-li-jie-by-heifansy/)
 [递归解答](https://leetcode-cn.com/problems/regular-expression-matching/solution/di-gui-dong-tai-gui-hua-by-joy-teng/)
+
+[详解 回溯+动态规划](https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof/solution/hui-su-dong-tai-gui-hua-by-ml-zimingmeng/)
