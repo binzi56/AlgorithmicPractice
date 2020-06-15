@@ -4,7 +4,6 @@
 
 单词必须按照字母顺序，通过相邻的单元格内的字母构成，其中“相邻”单元格是那些水平相邻或垂直相邻的单元格。同一个单元格内的字母不允许被重复使用。
 
- 
 
 示例:
 ```
@@ -54,7 +53,7 @@ private:
         char tmp = board[x][y]; 
         board[x][y] = 0; // 避免该位重复使用
         wordIndex++;
-        if((x > 0 && backtrack(board, word, wordIndex, x - 1, y)) // 往上走 (此处多谢笑川兄指正)
+        if((x > 0 && backtrack(board, word, wordIndex, x - 1, y)) // 往上走 
         || (y > 0 && backtrack(board, word, wordIndex, x, y - 1)) // 往左走
         || (x < board.size() - 1 && backtrack(board, word, wordIndex, x + 1, y)) // 往下走
         || (y < board[0].size() - 1 && backtrack(board, word, wordIndex, x, y + 1))){ // 往右走
