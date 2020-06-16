@@ -144,6 +144,11 @@
 2|[Majority Element](./AlgorithmicPractice/AlgorithmicPractice/Demo9/Demo9_4/Demo9_4_2)|[多数元素](https://leetcode-cn.com/problems/majority-element/)
 3|[convert binary search tree to sorted doubly linked list](./AlgorithmicPractice/AlgorithmicPractice/Demo9/Demo9_4/Demo9_4_3)|[二叉搜索树与双向链表](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof/)
 
+#### 9.5 堆
+序号  | 题目(解答链接) |  LeetCode(原题链接)
+:-:|:-:|:-:
+1|[Find Median From Data Stream](./AlgorithmicPractice/AlgorithmicPractice/Demo9/Demo9_5/Demo9_5_1)|[数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream/)
+
 附:
 
 ![性能对比图](./Resources/Performance.png)
