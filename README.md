@@ -113,8 +113,9 @@
 ### 八.哈希表
 序号  | 题目(解答链接) |  LeetCode(原题链接)
 :-:|:-:|:-:
-1|[Two Sum](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo8/Demo8_1)|[两数之和](https://leetcode-cn.com/problems/two-sum/)
-2||
+1|[Two Sum](./AlgorithmicPractice/AlgorithmicPractice/Demo8/Demo8_1)|[两数之和](https://leetcode-cn.com/problems/two-sum/)
+2|[The first character that appears only once](./AlgorithmicPractice/AlgorithmicPractice/Demo8/Demo8_2)|[第一个只出现一次的字符](https://leetcode-cn.com/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/)
+3|[Repeating numbers in the array](./AlgorithmicPractice/AlgorithmicPractice/Demo8/Demo8_3)|[数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)
 
 
 ### 九.其他
