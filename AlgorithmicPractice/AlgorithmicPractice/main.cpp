@@ -213,6 +213,22 @@ int main(int argc, const char * argv[]) {
     
     printf("%d\n", num);
     
+    //大顶堆
+    priority_queue<int> p;
+    //小顶堆
+    priority_queue<int, vector<int>, greater<int>> q;
+    for (int i = 0; i < 10; i++) {
+        q.push(rand()%20);
+    }
+
+    while (!q.empty()) {
+        printf("%d_", q.top());
+        q.pop();
+    }
+    
+
+    
+    printf("\n\n\n");
     
     return 0;
 }
