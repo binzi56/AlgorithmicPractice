@@ -149,6 +149,12 @@
 :-:|:-:|:-:
 1|[Find Median From Data Stream](./AlgorithmicPractice/AlgorithmicPractice/Demo9/Demo9_5/Demo9_5_1)|[数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream/)
 
+### 十.数学
+#### 10.1 位运算
+序号  | 题目(解答链接) |  LeetCode(原题链接)
+:-:|:-:|:-:
+1|[Number Of 1 Bits](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_1/Demo10_1_1)|[位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/)
+
 附:
 
 ![性能对比图](./Resources/Performance.png)

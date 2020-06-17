@@ -25,5 +25,40 @@
 
 解法:
 ```
+class Solution 1{
+public:
+    string minNumber(vector<int>& nums) {
+        vector<string>strs;
+        string ans;
+        for(int i = 0; i < nums.size(); i ++){
+            strs.push_back(to_string(nums[i]));
+        }
+        sort(strs.begin(), strs.end(), [](string& s1, string& s2){return s1 + s2 < s2 + s1;});
+        for(int i = 0; i < strs.size(); i ++)
+            ans += strs[i];
+        return ans;
+    }
+};
+
+
+
+class Solution 2{
+public:
+    string minNumber(vector<int>& nums) {
+        vector<string> strs;
+        string res;
+        for(auto num:nums)
+            strs.push_back(to_string(num));
+        sort(strs.begin(),strs.end(),compare);
+        for(auto str:strs)
+            res+=str;
+        return res;
+    }
+private:
+    static bool compare(const string &a,const string &b)
+    {
+        return a+b<b+a;
+    }
+};
 
 ```
