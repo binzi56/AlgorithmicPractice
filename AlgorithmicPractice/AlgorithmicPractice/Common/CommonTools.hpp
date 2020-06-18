@@ -19,6 +19,8 @@ std::vector<type> name(name##_a, name##_a + sizeof(name##_a) / sizeof(*name##_a)
 #include <vector>
 #include <string>
 #include "Demo2_1_singleLinkedListFlip.hpp"
+#include "Demo4_1_MaximumDepthOfBinaryTree.hpp"
+
 using namespace std;
 
 template <typename T> void printfArr (vector<T>& arr);
@@ -33,5 +35,8 @@ int calculateLength(ListNode *head);
 ListNode* createLinkedList(int arr[], int n);
 //生成环形链表(首位相连)
 ListNode* createCycleList(int num);
+
+//生成二叉树
+TreeNode *createBinaryTree(int arr[], int n, int i);
 
 #endif /* CommonTools_hpp */

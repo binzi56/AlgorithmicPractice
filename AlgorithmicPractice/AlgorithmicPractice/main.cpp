@@ -57,6 +57,7 @@
 //Dynamic programming
 #include "Demo7_1_ClimbingStairs.hpp"
 
+
 int findFirstNum(string s);
 int main(int argc, const char * argv[]) {
     
@@ -171,6 +172,16 @@ int main(int argc, const char * argv[]) {
     printf("3.3 最长有效括号:\n%d", longestValidParentheses(longStr));
     printf("\n\n#pragma mark - 四.二叉树\n");
 #pragma mark - 四.二叉树
+//4.7 二叉树的层次遍历
+    int a6Arr[] = {3,9,20,10,15,7};
+    int a6N = sizeof(a4Arr)/ sizeof(int);
+    TreeNode *a6 = createBinaryTree(a6Arr, a6N, 0);
+    vector<vector<int>> aa6 = levelOrder(a6);
+    for (int i = 0; i < aa6.size(); i++) {
+        vector<int> temp = aa6[i];
+        printfIntArr(temp);
+    }
+    
     printf("\n\n#pragma mark - 五.排序\n");
 #pragma mark - 五.排序
 //5.1 排序链表

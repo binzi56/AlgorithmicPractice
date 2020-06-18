@@ -95,3 +95,18 @@ ListNode* createCycleList(int num) // 创建环形链表
     cur->next = head;//让最后一个元素的指针域指向头结点，形成环
     return head;
 }
+
+
+TreeNode *createBinaryTree(int arr[], int n, int i){
+    if (!arr || n < 1)return NULL;
+    TreeNode *root = NULL;
+    if (i < n && arr[i] != '#'){
+        root = new TreeNode(arr[0]);
+        if (root == NULL)return NULL;
+        root->val = arr[i];
+        root->left = createBinaryTree(arr, n, 2 * i + 1);
+        root->right = createBinaryTree(arr, n, 2 * i + 2);
+    }
+    return root;
+}
+
