@@ -17,7 +17,9 @@
 6|[Add Binary](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/String/Demo1_1_6)|[二进制求和](https://leetcode-cn.com/problems/add-binary/)
 7|[Longest Substring Without Repeating Characters](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/String/Demo1_1_7)|[无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
 8|[II. Left rotate string](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/String/Demo1_1_8)|[II. 左旋转字符串](https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/)
-9|[Rotate String](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo1/String/Demo1_1_9)|[旋转字符串](https://leetcode-cn.com/problems/rotate-string/)
+9|[Rotate String](./AlgorithmicPractice/AlgorithmicPractice/Demo1/String/Demo1_1_9)|[旋转字符串](https://leetcode-cn.com/problems/rotate-string/)
+10|[Replace spaces](./AlgorithmicPractice/AlgorithmicPractice/Demo1/String/Demo1_1_10)|[替换空格](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/)
+
 
 #### 1.2 数组
 序号  | 题目(解答链接) |  LeetCode(原题链接)
@@ -167,6 +169,10 @@
 3|[Print n digits from 1 to maximum](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_3)|[打印从1到最大的n位数](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/)
 4|[Ugly Number II](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_4)|[丑数 II](https://leetcode-cn.com/problems/ugly-number-ii/)
 5|[Number Of Digit One](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_5)|[数字 1 的个数](https://leetcode-cn.com/problems/number-of-digit-one/)
+6|[Adjust the array order so that odd numbers are in front of even numbers](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_6)|[调整数组顺序使奇数位于偶数前面](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/)
+7|[Find 1+2+...+n](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_7)|[求1+2+…+n](https://leetcode-cn.com/problems/qiu-12n-lcof/)
+8|[And two numbers for s](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_8)|[和为s的两个数字](https://leetcode-cn.com/problems/he-wei-sde-liang-ge-shu-zi-lcof/)
+
 
 附:
 
