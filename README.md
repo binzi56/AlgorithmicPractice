@@ -159,6 +159,12 @@
 :-:|:-:|:-:
 1|[Number Of 1 Bits](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_1/Demo10_1_1)|[位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/)
 
+#### 10.2 其他
+序号  | 题目(解答链接) |  LeetCode(原题链接)
+:-:|:-:|:-:
+1|[Valid Number](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_1)|[有效数字](https://leetcode-cn.com/problems/valid-number/)
+2||
+
 附:
 
 ![性能对比图](./Resources/Performance.png)
