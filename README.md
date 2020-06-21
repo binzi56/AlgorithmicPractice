@@ -163,7 +163,10 @@
 序号  | 题目(解答链接) |  LeetCode(原题链接)
 :-:|:-:|:-:
 1|[Valid Number](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_1)|[有效数字](https://leetcode-cn.com/problems/valid-number/)
-2||
+2|[Nth Digit](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_2)|[第N个数字](https://leetcode-cn.com/problems/nth-digit/)
+3|[Print n digits from 1 to maximum](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_3)|[打印从1到最大的n位数](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/)
+4|[Ugly Number II](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_4)|[丑数 II](https://leetcode-cn.com/problems/ugly-number-ii/)
+5|[Number Of Digit One](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_5)|[数字 1 的个数](https://leetcode-cn.com/problems/number-of-digit-one/)
 
 附:
 
