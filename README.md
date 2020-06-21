@@ -72,6 +72,9 @@
 11|[Path Sum](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_9)|[路径总和](https://leetcode-cn.com/problems/path-sum/)
 12|[Path Sum II](./AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_10)|[路径总和 II](https://leetcode-cn.com/problems/path-sum-ii/)
 13|[Tree substructure](./AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_11)|[树的子结构](https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof/)
+14|[Lowest Common Ancestor Of A Binary Tree](./AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_12)|[二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+15|[The k-th largest node of the binary search tree](./AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_13)|[二叉搜索树的第k大节点](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/)
+16|[Serialize And Deserialize Binary Tree](./AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_14)|[二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/)
 
 ### 五.排序
 #### 5.1 排序
