@@ -130,6 +130,7 @@
 :-:|:-:|:-:
 1|[Sliding Window Maximum](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo9/Demo9_1/Demo9_1_1)|[滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)
 2|[The maximum value of the queue](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo9/Demo9_1/Demo9_1_2)|[队列的最大值](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/)
+3|[And is a sequence of consecutive positive Numbers for S](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_10)|[和为s的连续正数序列](https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/)
 
 #### 9.2 递归
 序号  | 题目(解答链接) |  LeetCode(原题链接)
@@ -172,7 +173,9 @@
 6|[Adjust the array order so that odd numbers are in front of even numbers](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_6)|[调整数组顺序使奇数位于偶数前面](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/)
 7|[Find 1+2+...+n](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_7)|[求1+2+…+n](https://leetcode-cn.com/problems/qiu-12n-lcof/)
 8|[And two numbers for s](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_8)|[和为s的两个数字](https://leetcode-cn.com/problems/he-wei-sde-liang-ge-shu-zi-lcof/)
-
+9|[The last number left in the circle](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_9)|[圆圈中最后剩下的数字](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/)
+10|[Straight in playing cards](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_10)|[扑克牌中的顺子](https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof/)
+11|[Translate numbers into strings](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_11)|[把数字翻译成字符串](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/)
 
 附:
 
