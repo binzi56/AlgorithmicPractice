@@ -161,6 +161,7 @@
 序号  | 题目(解答链接) |  LeetCode(原题链接)
 :-:|:-:|:-:
 1|[Number Of 1 Bits](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_1/Demo10_1_1)|[位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/)
+2|[No addition, subtraction, multiplication and division](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_1/Demo10_1_2)|[不用加减乘除做加法](https://leetcode-cn.com/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof/)
 
 #### 10.2 其他
 序号  | 题目(解答链接) |  LeetCode(原题链接)
