@@ -163,6 +163,8 @@
 :-:|:-:|:-:
 1|[Number Of 1 Bits](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_1/Demo10_1_1)|[位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/)
 2|[No addition, subtraction, multiplication and division](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_1/Demo10_1_2)|[不用加减乘除做加法](https://leetcode-cn.com/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof/)
+3|[Number of occurrences of numbers in the array](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_1/Demo10_1_3)|[数组中数字出现的次数](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/)
+4|[Number of occurrences of numbers in the array II](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_1/Demo10_1_4)|[数组中数字出现的次数 II](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof/)
 
 #### 10.2 其他
 序号  | 题目(解答链接) |  LeetCode(原题链接)
@@ -178,6 +180,7 @@
 9|[The last number left in the circle](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_9)|[圆圈中最后剩下的数字](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/)
 10|[Straight in playing cards](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_10)|[扑克牌中的顺子](https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof/)
 11|[Translate numbers into strings](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_11)|[把数字翻译成字符串](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/)
+12|[Build product array](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_12)|[构建乘积数组](https://leetcode-cn.com/problems/gou-jian-cheng-ji-shu-zu-lcof/)
 
 附:
 
