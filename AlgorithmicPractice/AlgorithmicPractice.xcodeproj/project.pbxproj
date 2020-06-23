@@ -242,6 +242,7 @@
 		18F2895324A1114200AC3B77 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		18F2895524A1159700AC3B77 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		18F2895724A11C4500AC3B77 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		18F2895924A23FE400AC3B77 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -331,6 +332,7 @@
 		18323873221CFF4D0033AF7B /* Demo7 */ = {
 			isa = PBXGroup;
 			children = (
+				18F2895824A23FD700AC3B77 /* Demo7_9 */,
 				18F28915248EADDB00AC3B77 /* Demo7_8 */,
 				18F28913248EA4DC00AC3B77 /* Demo7_7 */,
 				18F28911248BDA1C00AC3B77 /* Demo7_6 */,
@@ -1399,6 +1401,14 @@
 				18F2895724A11C4500AC3B77 /* README.md */,
 			);
 			path = Demo10_1_2;
+			sourceTree = "<group>";
+		};
+		18F2895824A23FD700AC3B77 /* Demo7_9 */ = {
+			isa = PBXGroup;
+			children = (
+				18F2895924A23FE400AC3B77 /* README.md */,
+			);
+			path = Demo7_9;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
