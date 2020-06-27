@@ -78,6 +78,7 @@
 14|[Lowest Common Ancestor Of A Binary Tree](./AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_12)|[二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)
 15|[The k-th largest node of the binary search tree](./AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_13)|[二叉搜索树的第k大节点](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/)
 16|[Serialize And Deserialize Binary Tree](./AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_14)|[二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/)
+17|[Postorder traversal sequence of binary search tree](./AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_15)|[二叉搜索树的后序遍历序列](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/)
 
 ### 五.排序
 #### 5.1 排序
@@ -145,6 +146,7 @@
 序号  | 题目(解答链接) |  LeetCode(原题链接)
 :-:|:-:|:-:
 1|[Arrangement of strings](./AlgorithmicPractice/AlgorithmicPractice/Demo9/Demo9_3/Demo9_3_1)|[字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/)
+2|[Robot's range of motion](./AlgorithmicPractice/AlgorithmicPractice/Demo9/Demo9_3/Demo9_3_6)|[机器人的运动范围](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/)
 
 #### 9.4 分治算法
 序号  | 题目(解答链接) |  LeetCode(原题链接)
