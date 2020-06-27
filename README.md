@@ -56,7 +56,8 @@
 3|[Evaluate Reverse Polish Notation](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo3/Demo3_3)|[逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)
 4|[Design Circular Deque](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo3/Demo3_4)|[设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque/)
 5|[Implement queue with two stacks](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo3/Demo3_5)|[用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)
-6|[Min Stack](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo3/Demo3_6)|[最小栈](https://leetcode-cn.com/problems/min-stack/)
+6|[Min Stack](./AlgorithmicPractice/AlgorithmicPractice/Demo3/Demo3_6)|[最小栈](https://leetcode-cn.com/problems/min-stack/)
+7|[Validate Stack Sequences](./AlgorithmicPractice/AlgorithmicPractice/Demo3/Demo3_7)|[验证栈序列](https://leetcode-cn.com/problems/validate-stack-sequences/)
 
 ### 四.二叉树
 序号  | 题目(解答链接) |  LeetCode(原题链接)

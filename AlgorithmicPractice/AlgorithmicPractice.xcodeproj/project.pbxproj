@@ -246,6 +246,7 @@
 		18F2895B24A2483800AC3B77 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		18F2895D24A2532500AC3B77 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		18F2895F24A25A3800AC3B77 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		18F2896124A6E20C00AC3B77 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -892,6 +893,7 @@
 		18A01E2D215E4B7B0083EC54 /* Demo3 */ = {
 			isa = PBXGroup;
 			children = (
+				18F2896024A6E1FF00AC3B77 /* Demo3_7 */,
 				18F288EE247ABB4400AC3B77 /* Demo3_6 */,
 				18F288EC247AAE6700AC3B77 /* Demo3_5 */,
 				1835FA0D2222CD94007C8A3A /* Demo3_4 */,
@@ -1439,6 +1441,14 @@
 				18F2895F24A25A3800AC3B77 /* README.md */,
 			);
 			path = Demo10_1_4;
+			sourceTree = "<group>";
+		};
+		18F2896024A6E1FF00AC3B77 /* Demo3_7 */ = {
+			isa = PBXGroup;
+			children = (
+				18F2896124A6E20C00AC3B77 /* README.md */,
+			);
+			path = Demo3_7;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
