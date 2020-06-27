@@ -27,6 +27,20 @@ pushed 是 popped 的排列。
 
 解法:
 ```
-
-
+class Solution {
+public:
+    bool validateStackSequences(vector<int>& pushed, vector<int>& popped) {
+        stack<int> s;
+        int j = 0;//用来标记poped数组出栈的元素
+        for(int i = 0; i < pushed.size(); i ++) {
+            s.push(pushed[i]);//入栈pushed数组元素
+            //如果入栈元素为要出栈的元素，进行出栈，直到不需要出栈为止
+            while(!s.empty() && s.top() == popped[j]) {
+                s.pop();
+                j++;
+            }
+        }
+        return s.empty();
+    }
+};
 ```
