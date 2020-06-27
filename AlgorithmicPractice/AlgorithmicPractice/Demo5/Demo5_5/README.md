@@ -13,5 +13,43 @@
 
 解法:
 ```
+class Solution {
+public:
+    int res = 0;
+    int reversePairs(vector<int>& nums) {
+        merge(nums, 0, nums.size() - 1);
+        return res;
+    }
+    
+    void merge(vector<int>& nums, int start, int end){
+        if(nums.empty() || start >= end) return;
 
+        int mid = (start + end) / 2;
+        merge(nums, start, mid);
+        merge(nums, mid + 1, end);
+
+        hepler(nums, start, mid, end);
+    }
+
+    void hepler(vector<int>& nums, int start, int middle, int end){
+        vector<int> temp(end - start + 1, 0);
+        int i = start, j = middle + 1, k = 0;
+
+        while(i <= middle && j<= end){
+            if(nums[i] <= nums[j]){
+                temp[k++] = nums[i++];
+            }else{
+                temp[k++] = nums[j++];
+                res += middle + 1 - i;
+            }
+        }
+
+         while(i <= middle) temp[k++] = nums[i++];
+         while(j <= end) temp[k++] = nums[j++];
+
+         for(i = 0; i < k; i++){
+             nums[start + i] = temp[i];
+         }
+    }
+};
 ```
