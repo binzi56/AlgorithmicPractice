@@ -186,6 +186,11 @@
 11|[Translate numbers into strings](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_11)|[把数字翻译成字符串](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/)
 12|[Build product array](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_12)|[构建乘积数组](https://leetcode-cn.com/problems/gou-jian-cheng-ji-shu-zu-lcof/)
 
+
+知识点:
+* [单调栈,单调队列和优先队列](./Note/单调栈_单调队列和优先队列.md)
+
+
 附:
 
 ![性能对比图](./Resources/Performance.png)
