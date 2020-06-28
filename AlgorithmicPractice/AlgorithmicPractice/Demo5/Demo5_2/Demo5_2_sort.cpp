@@ -141,10 +141,7 @@ void __merge(vector<int>& nums, int start, int mid, int end){
     
     //将部分小的移动到前面
     while(i <= mid && j <= end){
-        if (nums[i] <= nums[j])
-            temp[k++] = nums[i++];
-        else
-            temp[k++] = nums[j++];
+        temp[k++] = (nums[i] <= nums[j]) ? nums[i++] : nums[j++];
     }
     
     while(i <= mid)
@@ -159,9 +156,6 @@ void __merge(vector<int>& nums, int start, int mid, int end){
     
     delete[] temp;
 }
-
-
-
 
 //对数组a做若干次合并：数组a的总长度为len，将它分为若干个长度为gap的子数组；将"每2个相邻的子数组" 进行合并排序
 void __mergeGroups(vector<int>& nums, int len, int gap){

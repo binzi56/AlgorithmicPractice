@@ -56,7 +56,8 @@
 3|[Evaluate Reverse Polish Notation](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo3/Demo3_3)|[逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)
 4|[Design Circular Deque](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo3/Demo3_4)|[设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque/)
 5|[Implement queue with two stacks](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo3/Demo3_5)|[用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)
-6|[Min Stack](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo3/Demo3_6)|[最小栈](https://leetcode-cn.com/problems/min-stack/)
+6|[Min Stack](./AlgorithmicPractice/AlgorithmicPractice/Demo3/Demo3_6)|[最小栈](https://leetcode-cn.com/problems/min-stack/)
+7|[Validate Stack Sequences](./AlgorithmicPractice/AlgorithmicPractice/Demo3/Demo3_7)|[验证栈序列](https://leetcode-cn.com/problems/validate-stack-sequences/)
 
 ### 四.二叉树
 序号  | 题目(解答链接) |  LeetCode(原题链接)
@@ -77,13 +78,15 @@
 14|[Lowest Common Ancestor Of A Binary Tree](./AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_12)|[二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)
 15|[The k-th largest node of the binary search tree](./AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_13)|[二叉搜索树的第k大节点](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/)
 16|[Serialize And Deserialize Binary Tree](./AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_14)|[二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/)
+17|[Postorder traversal sequence of binary search tree](./AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_15)|[二叉搜索树的后序遍历序列](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/)
 
 ### 五.排序
 #### 5.1 排序
 序号  | 题目(解答链接) |  LeetCode(原题链接)
 :-:|:-:|:-:
 1|[Kth Largest Element in an Array](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_3)|[数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)
-2|[Sort List](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_1)|[排序链表](https://leetcode-cn.com/problems/sort-list/)
+2|[Sort List](./AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_1)|[排序链表](https://leetcode-cn.com/problems/sort-list/)
+3|[Reverse pair in array](./AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_5)|[数组中的逆序对](https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/)
 
 
 #### [5.2 排序算法](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo5/Demo5_2)
@@ -144,6 +147,7 @@
 序号  | 题目(解答链接) |  LeetCode(原题链接)
 :-:|:-:|:-:
 1|[Arrangement of strings](./AlgorithmicPractice/AlgorithmicPractice/Demo9/Demo9_3/Demo9_3_1)|[字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/)
+2|[Robot's range of motion](./AlgorithmicPractice/AlgorithmicPractice/Demo9/Demo9_3/Demo9_3_6)|[机器人的运动范围](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/)
 
 #### 9.4 分治算法
 序号  | 题目(解答链接) |  LeetCode(原题链接)
