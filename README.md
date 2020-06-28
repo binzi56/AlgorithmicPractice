@@ -1,6 +1,6 @@
 # AlgorithmicPractice
 
-本篇是关于`LeetCode`算法练习的总结，内容划分为以下章节：
+本篇是关于`LeetCode`算法练习的总结(主要包含**剑指offer**)，内容划分为以下章节：
 
 ***注:***  
 ***`main.cpp`展示测试效果;***
