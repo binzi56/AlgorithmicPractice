@@ -16,10 +16,9 @@ vector<vector<int>> levelOrder(TreeNode* root) {
     queue <TreeNode*> q;
     q.push(root);
     while (!q.empty()) {
-        int currentLevelSize = q.size();
-        printf("currentLevelSize:%d\n", currentLevelSize);
+        int level = q.size();
         ret.push_back(vector <int> ());
-        for (int i = 1; i <= currentLevelSize; ++i) {
+        for (int i = 0; i < level; ++i) {
             auto node = q.front(); q.pop();
             ret.back().push_back(node->val);
             if (node->left) q.push(node->left);
