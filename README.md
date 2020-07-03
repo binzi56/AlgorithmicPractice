@@ -187,13 +187,37 @@
 12|[Build product array](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_12)|[构建乘积数组](https://leetcode-cn.com/problems/gou-jian-cheng-ji-shu-zu-lcof/)
 
 
-知识点:
-* [单调栈,单调队列和优先队列](./Note/单调栈_单调队列和优先队列.md)
-* [散列表(哈希表)](./Note/散列表.md)
+---
+**知识点**:
+1. 算法知识
+   * [单调栈,单调队列和优先队列](./Note/单调栈_单调队列和优先队列.md)
+   * [散列表(哈希表)](./Note/散列表.md)
+   * [字符串匹配(BF/RK/BM/KMP/Trie树/AC自动机)](./Note/字符串匹配.md)
+   * [树](./Note/树.md)
+   * [图]()
+   * [排序]()
+   * [基本算法思想]()
+
+2. 算法问题处理
+   * [海量数据处理]()
+
+3. 算法知识收藏
+   * [算法知识收藏(blog/img/pdf)](./Note/算法知识收藏.md)
+
+---
 
 附:
-
-![性能对比图](./Resources/Performance.png)
+1. 性能对比图
 
 > * 如果需要经常添加或删除结点，链表可能是一个不错的选择。
 * 如果需要经常按索引访问元素，数组可能是比链表更好的选择。
+
+![性能对比图](./Resources/Performance.png)
+
+2. 十大排序算法比较图
+
+![十大排序算法比较图](./Resources/十大排序算法比较图.png)
+
+3. 算法知识体系图
+
+![算法知识体系图](./Resources/算法知识体系图.jpeg)
