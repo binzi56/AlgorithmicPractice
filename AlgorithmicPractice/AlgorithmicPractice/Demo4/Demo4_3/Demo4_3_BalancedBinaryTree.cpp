@@ -15,10 +15,12 @@
  */
 int box(TreeNode* root){
     if(!root)   return 0;
+    
     int l = box(root -> left);
-    if(l == - 1)    return -1;
     int r = box(root -> right);
-    if(r == - 1)    return -1;
+
+    if(l == -1 || r == -1) return -1;
+
     return abs(l - r) < 2 ? max(l, r) + 1 : - 1;
 }
 bool isBalanced(TreeNode* root) {
