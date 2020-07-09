@@ -42,7 +42,7 @@ bool isValidBST1(TreeNode* root) {
 
 
 //中序遍历
-long pre = INT_MIN;
+long pre = LONG_MIN;
 bool isValidBST2(TreeNode* root) {
     if (root == NULL) {
         return true;
