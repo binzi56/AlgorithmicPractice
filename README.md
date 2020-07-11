@@ -222,8 +222,6 @@
 
 ![算法知识体系图](./Resources/算法知识体系图.jpeg)
 
-4. 算法时间复杂度
+4. 常用算法时间复杂度
 
 ![Common Data Structure Operations](./Resources/Common Data Structure Operations.png)
-
-![Array Sorting Algorithms](./Resources/Array Sorting Algorithms.png)
