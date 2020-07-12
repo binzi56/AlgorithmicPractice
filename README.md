@@ -185,7 +185,7 @@
 10|[Straight in playing cards](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_10)|[扑克牌中的顺子](https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof/)
 11|[Translate numbers into strings](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_11)|[把数字翻译成字符串](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/)
 12|[Build product array](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_12)|[构建乘积数组](https://leetcode-cn.com/problems/gou-jian-cheng-ji-shu-zu-lcof/)
-
+13|[LRU Cache](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_13)|[LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/)
 
 ---
 **知识点**:
