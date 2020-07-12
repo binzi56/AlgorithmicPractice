@@ -41,43 +41,37 @@ Node* copyRandomList(Node* head)
 }
 
 //方法2
-Node* copyRandomList(Node* head)
-{
-    if (head == nullptr)
-        return head;
+Node* copyRandomList(Node* head) {
+    if(head == NULL) return head;
 
-    //遍历原链表 遍历过程中插入新副本节点
-    Node* cur = head;
-    while (cur)
-    {
-        Node* node = new Node(cur->val);
-        Node* next = cur->next;
-        node->next = next;
-        cur->next = node;
-        cur = next;
+    // 复制节点，紧挨到到后面
+    // 1->2->3  ==>  1->1'->2->2'->3->3'
+    Node *cur = head;
+    while(cur != NULL){
+        Node *clone = new Node(cur->val);
+        clone->next = cur->next;
+        cur->next = clone;
+        cur = clone->next;
     }
 
-    //遍历原链表 对新副本节点设置random指针
+    // 处理random指针
     cur = head;
-    while (cur)
-    {
-        cur->next->random = cur->random ? cur->random->next : nullptr;
+    while(cur != NULL){
+        cur->next->random = (cur->random != NULL) ? cur->random->next : NULL;
         cur = cur->next->next;
     }
 
-    //分离出原链表与新副本链表
+    // 分离两个链表
     cur = head;
-    Node* new_cur = head->next;
-    Node* res = new_cur;
-    while (cur)
-    {
+    Node *cloneRandom = cur->next;
+    while(cur != NULL && cur->next != NULL){
+        Node *temp = cur->next;
         cur->next = cur->next->next;
-        cur = cur->next;
-
-        new_cur->next = cur ? cur->next : nullptr;
-        new_cur = new_cur->next;
+        cur = temp;
     }
 
-    return res; //注意：不能再返回head->next了，head已经是分离后的原链表
+    // 原始链表头：head 1->2->3
+    // 克隆的链表头：cloneHead 1'->2'->3'
+    return cloneRandom;
 }
 ```
