@@ -9,18 +9,17 @@
 #include "Demo1_2_1_deleteArrRepeat.hpp"
 
 int removeDuplicates(vector<int>& nums) {
-    if (nums.empty()) {
-        return 0;
-    }
-    int num = 0;
-    for (int i = 0; i < nums.size(); i++) {
-//        printf("i----%d&&num----%d\n", i,num);
-        if (nums[num] != nums[i]) {
-            num++;
-            nums[num] = nums[i];
+    if(nums.empty()) return 0;
+
+    int k = 0;
+    for(int i = 0; i < nums.size(); i++){
+        if(nums[k] != nums[i]){
+            k++;
+            nums[k] = nums[i];
         }
     }
-    return ++num;
+
+    return ++k;
 }
 
 
