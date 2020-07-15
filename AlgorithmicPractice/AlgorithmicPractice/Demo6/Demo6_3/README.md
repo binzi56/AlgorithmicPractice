@@ -13,33 +13,32 @@
 输出：0
 ```
 
-解法:
+解法:(包含重复元素)
 ```
 int findMin(vector<int>& nums) {
-    int left = 0, mid, right = nums.size() - 1;
+    // 思路：跳过重复元素，mid值和end值比较，分为两种情况进行处理
+    if(nums.size() == 0) return -1;
 
-    while(left < right) {
-        mid = left + (right - left) / 2;
-        if(nums[mid] < nums[right]) right = mid;
-        else left = mid + 1;
+    int begin = 0, end = nums.size() - 1;
+    while(begin + 1 < end){
+        // 去除重复元素
+        while(begin < end && nums[end] == nums[end - 1]) end--;
+        while(begin < end && nums[begin] == nums[begin + 1]) begin++;
+
+        int mid = begin + (end - begin) / 2;
+        // 中间元素和最后一个元素比较（判断中间点落在左边上升区，还是右边上升区）
+        if(nums[mid] <= nums[end]){
+            end = mid;
+        }else{
+            begin = mid;
+        }
     }
 
-    return nums[left];
+    if(nums[begin] > nums[end]){
+        return nums[end];
+    }
+
+    return nums[begin];
 }
-
-// nums[mid] < nums[right]，即 [mid, right] 有序，[left, mid] 可能有序可能无序
-// 此时最小值一定在 [left, mid] 区间（mid自己也可能是最小数）
-// eg: [6, 7, 1, 2, 3, 4, 5] or [1, 2, 3, 4, 5, 6, 7]
-if(nums[mid] < nums[right]) right = mid;
-
-// nums[mid] > nums[right]，即 [left, mid] 有序，[mid, right] 一定无序，[mid + 1, right] 可能有序可能无序
-// 此时最小值一定在 [mid + 1, right] 区间（mid自己就比右边界大了，一定不是最小值）
-// eg: [4, 5, 6, 7, 1, 2, 3]
-else left = mid + 1;
-
-
-// 因为不存在重复元素，所以非空数组一定存在最小值
-return nums[left];
-
 ```
 

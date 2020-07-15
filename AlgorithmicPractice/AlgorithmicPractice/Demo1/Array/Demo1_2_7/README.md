@@ -18,6 +18,26 @@
 输出: [-1,-1]
 ```
 
-解答:
+解答:(无重复元素)
 ```
+// 思路：最后一个值作为target，然后往左移动，最后比较start、end的值
+int findMin(vector<int>& nums) {
+    if(nums.size() == 0) return -1;
+
+    int begin = 0, end = nums.size() - 1;
+    while(begin + 1 < end){
+        int mid = begin + (end - begin)/2;
+        if(nums[mid] <= nums[end]){
+             end = mid;
+        }else{
+             begin = mid;
+        }
+    }
+
+    if(nums[begin] > nums[end]){
+        return nums[end];
+    }
+
+    return nums[begin];
+}
 ```

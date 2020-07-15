@@ -105,7 +105,7 @@
 1|[Sqrt(x)](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo6/Demo6_1)|[x 的平方根](https://leetcode-cn.com/problems/sqrtx/)
 2|[Numbers missing from 0 to n-1](./AlgorithmicPractice/AlgorithmicPractice/Demo6/Demo6_2)|[0～n-1中缺失的数字](https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof/)
 3|[Find Minimum In Rotated Sorted Array](./AlgorithmicPractice/AlgorithmicPractice/Demo6/Demo6_3)|[寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/description/)
-4|[Find First and Last Position of Element in Sorted Array](./AlgorithmicPractice/AlgorithmicPractice/Demo6/Demo6_4)|[在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+4|[Find First and Last Position of Element in Sorted Array](./AlgorithmicPractice/AlgorithmicPractice/Demo6/Demo6_4)|[在排序数组中查找元素的第一个和最后一个位置 II](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 
 ### 七.动态规划
 序号  | 题目(解答链接) |  LeetCode(原题链接)
