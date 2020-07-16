@@ -33,4 +33,9 @@ void mergeSortUpToDown(vector<int>& nums, int start, int end);
 //归并排序(从下往上)
 void mergeSortDownToUp(vector<int>& nums, int n);
 
+//堆排序
+void heapSort(vector<int>& nums);
+void buildMaxHeap(vector<int>& nums);
+void heapHelper(vector<int>& nums, int i, int length);
+
 #endif /* Demo5_2_sort_hpp */

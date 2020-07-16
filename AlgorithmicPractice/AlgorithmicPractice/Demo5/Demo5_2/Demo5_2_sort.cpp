@@ -26,7 +26,7 @@ void sortDemoTest(){
 //    printfIntArr(a);
 }
 
-//冒泡排序
+#pragma mark - 冒泡排序
 void bubbleSort(vector<int>& nums, int n){
     for (int i = 0; i < n; i++){
         for (int j = 0; j < n - i - 1; j++){
@@ -37,7 +37,7 @@ void bubbleSort(vector<int>& nums, int n){
     }
 }
 
-//选择排序
+#pragma mark - 选择排序
 void selectSort(vector<int>& nums, int n){
     for (int i = 0; i < n; i++){
         int min = i;
@@ -53,13 +53,13 @@ void selectSort(vector<int>& nums, int n){
     }
 }
 
-//插入排序
+#pragma mark - 插入排序
 void insertSort(vector<int>& nums, int n){
     if(n <= 1) return;
     for (int i = 1; i < n; ++i) {
         for (int j = i; j > 0; j--) {
             if (nums[j] < nums[j - 1]){
-                __swap(nums[j],nums[j -1]);
+                __swap(nums[j], nums[j - 1]);
             } else{
                 break;
             }
@@ -67,7 +67,7 @@ void insertSort(vector<int>& nums, int n){
     }
 }
 
-//希尔排序
+#pragma mark - 希尔排序
 void shellSort(vector<int>& nums, int n){
     int temp;
     int gap = n;
@@ -135,7 +135,7 @@ void mergeSortUpToDown(vector<int>& nums, int start, int end){
 
 //归并排序
 void __merge(vector<int>& nums, int start, int mid, int end){
-    int *temp = new int[end-start+1];    //temp是汇总2个有序区的临时区域
+    vector<int>temp(end-start+1, 0);     //temp是汇总2个有序区的临时区域
     int i = start;                       //第1个有序区的索引
     int j = mid + 1;                     //第2个有序区的索引
     int k = 0;                           //临时区域的索引
@@ -154,8 +154,6 @@ void __merge(vector<int>& nums, int start, int mid, int end){
     //将排序后的元素，全部都整合到数组nums中
     for (i = 0; i < k; i++)
         nums[start + i] = temp[i];
-    
-    delete[] temp;
 }
 
 //对数组a做若干次合并：数组a的总长度为len，将它分为若干个长度为gap的子数组；将"每2个相邻的子数组" 进行合并排序
@@ -194,4 +192,53 @@ void __swap(int &a, int &b){
     int temp = a;
     a = b;
     b = temp;
+}
+
+
+#pragma mark - 堆排序
+//堆排序
+void heapSort(vector<int>& nums){
+    // 1、无序数组nums
+    // 2、将无序数组nums构建为一个大根堆
+    buildMaxHeap(nums);
+
+    // 3、交换nums[0]和nums[nums.size()-1]
+    // 4、然后把前面这段数组继续下沉保持堆结构，如此循环即可
+    int len = nums.size();  //此处len需要变换,单独拎出来
+    for (int i = nums.size() - 1; i > 0; i--) {
+        swap(nums[0], nums[i]);  // 从后往前填充值
+        len--;                   // 前面的长度也减一
+        heapHelper(nums, 0, len);
+    }
+}
+
+// 建立大顶堆
+void buildMaxHeap(vector<int>& nums){
+    int length = nums.size();
+    for (int i = length / 2; i >= 0; i--) {
+        heapHelper(nums, i, length);
+    }
+}
+
+//堆调整
+void heapHelper(vector<int>& nums, int i, int length){
+    int left = 2 * i + 1;  // 左节点索引(从0开始，所以左节点为i*2+1)
+    int right = 2 * i + 2; // 右节点索引
+    int largest = i;
+
+    // largest保存根、左、右三者之间较大值的索引
+    // 存在左节点，左节点值较大，则取左节点
+    if (left < length && nums[left] > nums[largest]) {
+        largest = left;
+    }
+    // 存在有节点，且值较大，取右节点
+    if (right < length && nums[right] > nums[largest]) {
+        largest = right;
+    }
+
+    // 如果非根节点较大，则继续递归
+    if (largest != i) {
+        swap(nums[i], nums[largest]);
+        heapHelper(nums, largest, length);
+    }
 }
