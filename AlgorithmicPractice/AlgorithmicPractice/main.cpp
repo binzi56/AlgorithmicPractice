@@ -57,10 +57,8 @@
 //Dynamic programming
 #include "Demo7_1_ClimbingStairs.hpp"
 
-
 int findFirstNum(string s);
 int main(int argc, const char * argv[]) {
-    
     printf("\n#pragma mark - 一.基础数据结构\n");
 #pragma mark - 一.基础数据结构
     printf("\n#pragma mark - 1.1 字符串\n");

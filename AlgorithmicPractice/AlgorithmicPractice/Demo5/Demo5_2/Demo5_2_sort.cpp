@@ -87,38 +87,39 @@ void shellSort(vector<int>& nums, int n){
     } while (gap > 1);
 }
 
-
-//快速排序
+#pragma mark - 快速排序
 void quickSort(vector<int>& nums, int n){
-    __quickSort(nums,0,n - 1);
-}
-void __quickSort(vector<int>& nums, int low,int high){
-    if(low >= high){
-        return;
-    }
-    int first = low;
-    int last = high;
-    int key = nums[first];          //用字表的第一个记录作为枢轴
-    
-    while(first < last){
-        while(first < last && nums[last] >= key){
-            --last;
-        }
-        
-        nums[first] = nums[last];    //将比第一个小的移到低端
-        
-        while(first < last && nums[first] <= key){
-            ++first;
-        }
-        
-        nums[last] = nums[first];    //将比第一个大的移到高端
-    }
-    nums[first] = key;               //枢轴记录到位
-    __quickSort(nums, low, first-1);
-    __quickSort(nums, first+1, high);
+    // 思路：把一个数组分为左右两段，左段小于右段
+    __quickSort(nums, 0, n - 1);
 }
 
+// 原地交换，所以传入交换索引
+void __quickSort(vector<int>& nums, int start, int end){
+    if (start < end) {
+        int pivot = partition(nums, start, end);
+        __quickSort(nums, start, pivot - 1);
+        __quickSort(nums, pivot + 1, end);
+    }
+}
 
+// 分区
+int partition(vector<int>& nums, int start, int end){
+    // 选取最后一个元素作为基准pivot
+    int p = nums[end];
+    int i = start;
+    // 最后一个值就是基准所以不用比较
+    for (int j = start; j < end; j++) {
+        if (nums[j] < p) {
+            swap(nums[i], nums[j]);
+            i++;
+        }
+    }
+    // 把基准值换到中间
+    swap(nums[i], nums[end]);
+    return i;
+}
+
+#pragma mark - 归并排序
 //归并排序(从上往下)
 void mergeSortUpToDown(vector<int>& nums, int start, int end){
     if(nums.empty() || start >= end){
