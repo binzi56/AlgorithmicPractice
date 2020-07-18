@@ -27,4 +27,8 @@ ListNode* reverseList(ListNode* head);
 //递归
 ListNode* reverseList1(ListNode* head);
 
+
+
+ListNode *swap(ListNode *head);
+
 #endif /* Demo2_1_singleLinkedListFlip_hpp */
