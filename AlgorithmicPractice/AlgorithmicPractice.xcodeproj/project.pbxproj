@@ -193,6 +193,7 @@
 		18A01E32215E4C1C0083EC54 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		18DD2F6D24BAEDEC001A5060 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		18DD2F6E24C0C74B001A5060 /* 十大排序算法比较图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "十大排序算法比较图.png"; path = "../../../../Resources/十大排序算法比较图.png"; sourceTree = "<group>"; };
+		18DD2F7024C7338F001A5060 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		18F288E12476626500AC3B77 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		18F288E32476CA8000AC3B77 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		18F288E52476CAF500AC3B77 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -424,6 +425,7 @@
 				1835F9C3221EDC95007C8A3A /* Demo5_2_4 */,
 				1835F9C5221EDC95007C8A3A /* Demo5_2_5 */,
 				1835F9CE221FACEA007C8A3A /* Demo5_2_6 */,
+				18DD2F6F24C73365001A5060 /* Demo5_2_7 */,
 				1835F9C0221EDC08007C8A3A /* Demo5_2_sort.cpp */,
 				1835F9C1221EDC08007C8A3A /* Demo5_2_sort.hpp */,
 				18DD2F6E24C0C74B001A5060 /* 十大排序算法比较图.png */,
@@ -926,6 +928,14 @@
 				18DD2F6D24BAEDEC001A5060 /* README.md */,
 			);
 			path = Demo10_2_13;
+			sourceTree = "<group>";
+		};
+		18DD2F6F24C73365001A5060 /* Demo5_2_7 */ = {
+			isa = PBXGroup;
+			children = (
+				18DD2F7024C7338F001A5060 /* README.md */,
+			);
+			path = Demo5_2_7;
 			sourceTree = "<group>";
 		};
 		18F288DF247661FF00AC3B77 /* Demo9 */ = {
