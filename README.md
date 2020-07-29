@@ -225,4 +225,4 @@
 
 4. 常用算法时间复杂度
 
-![Common Data Structure Operations](./Resources/Common Data Structure Operations.png)
+![Common Data Structure Operations](./Resources/Common_Data_Structure_Operations.png)
