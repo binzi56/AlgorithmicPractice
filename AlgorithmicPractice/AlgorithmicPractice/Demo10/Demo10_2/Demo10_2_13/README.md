@@ -80,36 +80,33 @@ public:
 
 //解法二
 class LRUCache {
-public:
-    LRUCache(int capacity) : cap(capacity) {
-    }
-
-    int get(int key) {
-        if (map.find(key) == map.end()) return -1;
-        auto key_value = *map[key];
-        cache.erase(map[key]);
-        cache.push_front(key_value);
-        map[key] = cache.begin();
-        return key_value.second;
-    }
-
-    void put(int key, int value) {
-        if (map.find(key) == map.end()) {
-            if (cache.size() == cap) {
-                map.erase(cache.back().first);
-                cache.pop_back();
-            }
-        }
-        else {
-            cache.erase(map[key]);
-        }
-        cache.push_front({key, value});
-        map[key] = cache.begin();
-    }
 private:
     int cap;
-    list<pair<int, int>> cache;
-    unordered_map<int, list<pair<int, int>>::iterator> map;
+    list<pair<int, int>> li;
+    unordered_map<int, list<pair<int, int>>::iterator> mp;
+public:
+    LRUCache(int capacity) {
+        cap = capacity;
+    }
+    
+    int get(int key) {
+        auto it = mp.find(key);
+        if(it == mp.end()) return -1; //没找到返回-1
+        li.splice(li.begin(), li, it->second);
+        return it->second->second;
+    }
+    
+    void put(int key, int value) {
+        auto it = mp.find(key);
+        if(it != mp.end()) li.erase(it->second); //找到后删除其值
+        li.push_front({key, value});
+        mp[key] = li.begin();
+        if(mp.size() > cap){
+            int last = li.rbegin()->first;
+            li.pop_back();
+            mp.erase(last);
+        }
+    }
 };
 
 ```
