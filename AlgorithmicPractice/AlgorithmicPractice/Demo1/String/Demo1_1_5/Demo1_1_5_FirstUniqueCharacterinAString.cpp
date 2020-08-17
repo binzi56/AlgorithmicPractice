@@ -41,3 +41,12 @@ int firstUniqChar1(string s) {
             return i;
     return -1;
 }
+
+
+int firstUniqChar3(string s) {
+     //如果该字符第一次出现的位置和最后一次出现的位置一样，就证明不重复
+     for(int i = 0; i < s.size(); i++){
+         if(s.find(s[i]) == s.rfind(s[i])) return i;
+     }
+     return -1;
+}
