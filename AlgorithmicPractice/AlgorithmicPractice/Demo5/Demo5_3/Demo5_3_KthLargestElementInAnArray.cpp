@@ -40,3 +40,18 @@ int findKLargestElement(int k, vector<int>& nums, int low, int high){
     }
 }
 
+//大顶堆
+int findKthLargest1(vector<int>& nums, int k) {
+    int size = nums.size();
+    if(k > size || size == 0) return 0;
+
+    priority_queue<int, vector<int>, greater<int>> p;
+    for(int n : nums){
+        p.push(n);
+        if(p.size() > k){
+            p.pop();
+        }
+    }
+    
+    return p.top();
+}

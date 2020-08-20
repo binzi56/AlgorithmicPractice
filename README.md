@@ -188,6 +188,18 @@
 12|[Build product array](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_12)|[构建乘积数组](https://leetcode-cn.com/problems/gou-jian-cheng-ji-shu-zu-lcof/)
 13|[LRU Cache](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_13)|[LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/)
 
+#### 热门题型练习
+序号  |LeetCode(题目链接)| 备注
+:-:|:-:|:-:
+1|[反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
+2|[二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)|の
+3|[环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)|の
+4|[最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)|の
+5|[合并两个有序链表](https://leetcode-cn.com/problems/)
+6|[数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)|の
+7|[二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
+
+
 ---
 **知识点**:
 1. 算法知识
