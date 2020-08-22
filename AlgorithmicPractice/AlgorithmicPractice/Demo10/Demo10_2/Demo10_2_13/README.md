@@ -91,18 +91,18 @@ public:
     
     int get(int key) {
         auto it = mp.find(key);
-        if(it == mp.end()) return -1; //没找到返回-1
-        li.splice(li.begin(), li, it->second);
+        if(it == mp.end()) return -1; //没找到返回-1 
+        li.splice(li.begin(), li, it->second);    //将该链表节点移动到链表头节点
         return it->second->second;
     }
     
     void put(int key, int value) {
         auto it = mp.find(key);
-        if(it != mp.end()) li.erase(it->second); //找到后删除其值
+        if(it != mp.end()) li.erase(it->second); //删除某个值
         li.push_front({key, value});
         mp[key] = li.begin();
         if(mp.size() > cap){
-            int last = li.rbegin()->first;
+            int last = li.rbegin()->first; //移除某个键
             li.pop_back();
             mp.erase(last);
         }

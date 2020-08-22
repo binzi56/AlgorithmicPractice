@@ -47,6 +47,7 @@
 9|[The K-th Last Node In The Linked List](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo2/Demo2_9)|[链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)
 10|[Intersection Of Two Linked Lists](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo2/Demo2_10)|[相交链表](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/)
 11|[Copy List With Random Pointer](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo2/Demo2_11)|[复制带随机指针的链表](https://leetcode-cn.com/problems/copy-list-with-random-pointer/)
+12|[reverse nodes in k group](https://github.com/binzi56/AlgorithmicPractice/tree/master/AlgorithmicPractice/AlgorithmicPractice/Demo2/Demo2_12)|[K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)
 
 ### 三.栈和队列
 序号  | 题目(解答链接) |  LeetCode(原题链接)
@@ -79,6 +80,8 @@
 15|[The k-th largest node of the binary search tree](./AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_13)|[二叉搜索树的第k大节点](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/)
 16|[Serialize And Deserialize Binary Tree](./AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_14)|[二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/)
 17|[Postorder traversal sequence of binary search tree](./AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_15)|[二叉搜索树的后序遍历序列](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/)
+18|[check completeness of a binary tree](./AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_16)|[二叉树的完全性检验](https://leetcode-cn.com/problems/check-completeness-of-a-binary-tree/)
+19|[diameter of binary tree](./AlgorithmicPractice/AlgorithmicPractice/Demo4/Demo4_17)|[二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree/)
 
 ### 五.排序
 #### 5.1 排序
@@ -198,7 +201,16 @@
 5|[合并两个有序链表](https://leetcode-cn.com/problems/)
 6|[数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)|の
 7|[二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
-
+8|[K个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)|の
+9|[用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)|の
+10|[相交链表](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/)|の
+11|[LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/)|のの
+12|[买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)|の
+13|[二叉树的完全性检验](https://leetcode-cn.com/problems/check-completeness-of-a-binary-tree/)|の
+14|[反转字符串](https://leetcode-cn.com/problems/reverse-string/)|
+15|[二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)|の
+16|[二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree/)|の
+17||
 
 ---
 **知识点**:
