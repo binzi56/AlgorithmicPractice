@@ -192,8 +192,8 @@
 13|[LRU Cache](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_13)|[LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/)
 
 #### 热门题型练习
-序号  |LeetCode(题目链接)| 备注
-:-:|:-:|:-:
+序号  |LeetCode(题目链接)| 备注| 题解 | 
+:-:|:-:|:-:|:-:
 1|[反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
 2|[二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)|の
 3|[环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)|の
@@ -213,6 +213,10 @@
 17|[翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)|の
 18|[两数之和](https://leetcode-cn.com/problems/two-sum/)|の
 19|[无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)|
+20|[分隔链表](https://leetcode-cn.com/problems/partition-list/)|の|[题解](./AlgorithmicPractice/AlgorithmicPractice/HotPractice/20.md)|
+21|[旋转数组](https://leetcode-cn.com/problems/rotate-array/)|の|[题解](./AlgorithmicPractice/AlgorithmicPractice/HotPractice/21.md)
+22|[路径总和 II](https://leetcode-cn.com/problems/path-sum-ii/)|の
+23|[翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/)|の
 
 ---
 **知识点**:

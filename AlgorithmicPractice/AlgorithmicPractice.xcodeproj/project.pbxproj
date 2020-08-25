@@ -93,6 +93,8 @@
 		1835D02724F10CB50084D413 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1835D02924F177BA0084D413 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1835D02B24F17EDA0084D413 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1835D04724F55A6E0084D413 /* 20.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = 20.md; sourceTree = "<group>"; };
+		1835D04824F55DA50084D413 /* 21.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = 21.md; sourceTree = "<group>"; };
 		1835F9C0221EDC08007C8A3A /* Demo5_2_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo5_2_sort.cpp; sourceTree = "<group>"; };
 		1835F9C1221EDC08007C8A3A /* Demo5_2_sort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Demo5_2_sort.hpp; sourceTree = "<group>"; };
 		1835F9C4221EDC95007C8A3A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -445,6 +447,15 @@
 			path = Demo4_17;
 			sourceTree = "<group>";
 		};
+		1835D04524F55A040084D413 /* HotPractice */ = {
+			isa = PBXGroup;
+			children = (
+				1835D04724F55A6E0084D413 /* 20.md */,
+				1835D04824F55DA50084D413 /* 21.md */,
+			);
+			path = HotPractice;
+			sourceTree = "<group>";
+		};
 		1835F9B8221ED857007C8A3A /* Demo5_2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -733,6 +744,7 @@
 				182588DE221973720059726C /* README.md */,
 				183F6BEB21562BA500D3EC63 /* main.cpp */,
 				18A01DFE215B2BBB0083EC54 /* Common */,
+				1835D04524F55A040084D413 /* HotPractice */,
 				18F2892D2499314300AC3B77 /* Demo10 */,
 				18F288DF247661FF00AC3B77 /* Demo9 */,
 				1835FA42222EB418007C8A3A /* Demo8 */,

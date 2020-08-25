@@ -32,6 +32,7 @@
 
 ```
 //滑动窗口
+//解法一：
 int lengthOfLongestSubstring(string s) {
     if(s.empty()) return 0;
     vector<int> map(128, -1);           //int map[128] = {-1}会出错;这只让第一个值为-1，其余的还是为0
@@ -44,5 +45,30 @@ int lengthOfLongestSubstring(string s) {
         len = max(len,i - start + 1);
     }
     return len;
+}
+
+//解法二：
+int lengthOfLongestSubstring(string s) {
+        if(s.empty()) return 0;
+        // 滑动窗口核心点：1、右指针右移 2、根据题意收缩窗口 3、左指针右移更新窗口 4、根据题意计算结果
+        unordered_map<char,int> window;
+        
+        int left = 0, right = 0, ans = 1;
+        while(right < s.size()){
+            char c = s[right];
+            right++;
+            window[c]++;
+            
+            // 缩小窗口
+            while(window[c] > 1){
+                char d = s[left];
+                left++;
+                window[d]--;
+            }
+            // 计算结果
+            ans = max(ans, right - left);
+        }
+
+        return ans;
 }
 ```
