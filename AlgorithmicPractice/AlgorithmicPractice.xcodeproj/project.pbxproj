@@ -95,6 +95,7 @@
 		1835D02B24F17EDA0084D413 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1835D04724F55A6E0084D413 /* 20.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = 20.md; sourceTree = "<group>"; };
 		1835D04824F55DA50084D413 /* 21.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = 21.md; sourceTree = "<group>"; };
+		1835D04924F566170084D413 /* 24.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = 24.md; sourceTree = "<group>"; };
 		1835F9C0221EDC08007C8A3A /* Demo5_2_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo5_2_sort.cpp; sourceTree = "<group>"; };
 		1835F9C1221EDC08007C8A3A /* Demo5_2_sort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Demo5_2_sort.hpp; sourceTree = "<group>"; };
 		1835F9C4221EDC95007C8A3A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -452,6 +453,7 @@
 			children = (
 				1835D04724F55A6E0084D413 /* 20.md */,
 				1835D04824F55DA50084D413 /* 21.md */,
+				1835D04924F566170084D413 /* 24.md */,
 			);
 			path = HotPractice;
 			sourceTree = "<group>";

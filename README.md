@@ -217,6 +217,8 @@
 21|[旋转数组](https://leetcode-cn.com/problems/rotate-array/)|の|[题解](./AlgorithmicPractice/AlgorithmicPractice/HotPractice/21.md)
 22|[路径总和 II](https://leetcode-cn.com/problems/path-sum-ii/)|の
 23|[翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/)|の
+24|[字符串解码](https://leetcode-cn.com/problems/decode-string/)|
+25|[爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)|
 
 ---
 **知识点**:
