@@ -202,8 +202,8 @@
 6|[数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)|の2
 7|[二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)|1
 8|[K个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)|の2
-9|[用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)|の
-10|[相交链表](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/)|の
+9|[用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)|の1
+10|[相交链表](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/)|の2
 11|[LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/)|のの
 12|[买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)|の
 13|[二叉树的完全性检验](https://leetcode-cn.com/problems/check-completeness-of-a-binary-tree/)|の
