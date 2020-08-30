@@ -206,26 +206,26 @@
 9|[用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)|の1
 10|[相交链表](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/)|の2
 11|[LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/)|のの3
-12|[买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)|の
+12|[买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)|の1
 13|[二叉树的完全性检验](https://leetcode-cn.com/problems/check-completeness-of-a-binary-tree/)|の
 14|[反转字符串](https://leetcode-cn.com/problems/reverse-string/)|
-15|[二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)|の
-16|[二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree/)|の
-17|[翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)|の
-18|[两数之和](https://leetcode-cn.com/problems/two-sum/)|の
-19|[无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)|
-20|[分隔链表](https://leetcode-cn.com/problems/partition-list/)|の|[题解](./AlgorithmicPractice/AlgorithmicPractice/HotPractice/20.md)|
-21|[旋转数组](https://leetcode-cn.com/problems/rotate-array/)|の|[题解](./AlgorithmicPractice/AlgorithmicPractice/HotPractice/21.md)
-22|[路径总和 II](https://leetcode-cn.com/problems/path-sum-ii/)|の
-23|[翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/)|の
+15|[二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)|の1
+16|[二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree/)|の2
+17|[翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)|の1
+18|[两数之和](https://leetcode-cn.com/problems/two-sum/)|の1
+19|[无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)|2
+20|[分隔链表](https://leetcode-cn.com/problems/partition-list/)|の2|[题解](./AlgorithmicPractice/AlgorithmicPractice/HotPractice/20.md)|
+21|[旋转数组](https://leetcode-cn.com/problems/rotate-array/)|の2|[题解](./AlgorithmicPractice/AlgorithmicPractice/HotPractice/21.md)
+22|[路径总和 II](https://leetcode-cn.com/problems/path-sum-ii/)|の2
+23|[翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/)|の1
 24|[字符串解码](https://leetcode-cn.com/problems/decode-string/)|の|[题解](./AlgorithmicPractice/AlgorithmicPractice/HotPractice/24.md)
 25|[爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)|
-26|[螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/)|の
+26|[螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/)|の2
 27|[LFU缓存](https://leetcode-cn.com/problems/lfu-cache/)|ののの
 
 ---
-**知识点**:
-1. 算法知识
+#### 知识点
+##### 1. 算法知识
    * [单调栈,单调队列和优先队列](./Note/单调栈_单调队列和优先队列.md)
    * [散列表(哈希表)](./Note/散列表.md)
    * [字符串匹配(BF/RK/BM/KMP/Trie树/AC自动机)](./Note/字符串匹配.md)
@@ -236,10 +236,10 @@
 TODO:
 - [ ] [基本算法思想(贪心/回溯/分治/动态规划)]()
 
-2. 算法问题处理
+##### 2. 算法问题处理
    * [海量数据处理](./Note/海量数据问题.md)
 
-3. 算法知识收藏
+##### 3. 算法知识收藏
    * [算法知识收藏(blog/img/pdf)](./Note/算法知识收藏.md)
 
 ---
