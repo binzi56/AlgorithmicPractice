@@ -173,6 +173,7 @@
 		183F6C722159408A00D3EC63 /* Demo1_2_1_deleteArrRepeat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo1_2_1_deleteArrRepeat.cpp; sourceTree = "<group>"; };
 		183F6C732159408A00D3EC63 /* Demo1_2_1_deleteArrRepeat.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Demo1_2_1_deleteArrRepeat.hpp; sourceTree = "<group>"; };
 		183F6C75215940ED00D3EC63 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		184A910124FB8D85004D7497 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		187E8350247119F5007F6489 /* Demo1_1_6_addBinary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo1_1_6_addBinary.cpp; sourceTree = "<group>"; };
 		187E8351247119F5007F6489 /* Demo1_1_6_addBinary.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Demo1_1_6_addBinary.hpp; sourceTree = "<group>"; };
 		187E835324711A22007F6489 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -851,6 +852,14 @@
 			path = Demo1_2_1;
 			sourceTree = "<group>";
 		};
+		184A910024FB8D6C004D7497 /* Demo10_2_14 */ = {
+			isa = PBXGroup;
+			children = (
+				184A910124FB8D85004D7497 /* README.md */,
+			);
+			path = Demo10_2_14;
+			sourceTree = "<group>";
+		};
 		187E834F247119C2007F6489 /* Demo1_1_6 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1352,6 +1361,7 @@
 		18F28939249F67AE00AC3B77 /* Demo10_2 */ = {
 			isa = PBXGroup;
 			children = (
+				184A910024FB8D6C004D7497 /* Demo10_2_14 */,
 				18DD2F6C24BAEDD5001A5060 /* Demo10_2_13 */,
 				18F2895A24A2482B00AC3B77 /* Demo10_2_12 */,
 				18F2895424A1158B00AC3B77 /* Demo10_2_11 */,

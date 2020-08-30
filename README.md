@@ -189,7 +189,8 @@
 10|[Straight in playing cards](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_10)|[扑克牌中的顺子](https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof/)
 11|[Translate numbers into strings](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_11)|[把数字翻译成字符串](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/)
 12|[Build product array](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_12)|[构建乘积数组](https://leetcode-cn.com/problems/gou-jian-cheng-ji-shu-zu-lcof/)
-13|[LRU Cache](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_13)|[LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/)
+13|[LRU Cache](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_13)|[LRU缓存](https://leetcode-cn.com/problems/lru-cache/)
+14|[LFU Cache](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_14)|[LFU缓存](https://leetcode-cn.com/problems/lfu-cache/)
 
 #### 热门题型练习
 序号  |LeetCode(题目链接)| 备注| 题解 | 
@@ -204,7 +205,7 @@
 8|[K个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)|の2
 9|[用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)|の1
 10|[相交链表](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/)|の2
-11|[LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/)|のの
+11|[LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/)|のの3
 12|[买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)|の
 13|[二叉树的完全性检验](https://leetcode-cn.com/problems/check-completeness-of-a-binary-tree/)|の
 14|[反转字符串](https://leetcode-cn.com/problems/reverse-string/)|
@@ -220,6 +221,7 @@
 24|[字符串解码](https://leetcode-cn.com/problems/decode-string/)|の|[题解](./AlgorithmicPractice/AlgorithmicPractice/HotPractice/24.md)
 25|[爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)|
 26|[螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/)|の
+27|[LFU缓存](https://leetcode-cn.com/problems/lfu-cache/)|ののの
 
 ---
 **知识点**:
