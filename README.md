@@ -196,15 +196,15 @@
 序号  |LeetCode(题目链接)| 备注| 题解 | 
 :-:|:-:|:-:|:-:
 1|[反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
-2|[二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)|の2
-3|[环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)|の1
-4|[最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)|の2
+2|[二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)|-2
+3|[环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)|-1
+4|[最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)|-2
 5|[合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
-6|[数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)|の2
+6|[数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)|
 7|[二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)|1
-8|[K个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)|の2
-9|[用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)|の1
-10|[相交链表](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/)|の2
+8|[K个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)|-2
+9|[用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)|-1
+10|[相交链表](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/)|-2
 11|[LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/)|のの3
 12|[买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)|の1
 13|[二叉树的完全性检验](https://leetcode-cn.com/problems/check-completeness-of-a-binary-tree/)|の
