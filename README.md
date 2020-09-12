@@ -205,8 +205,8 @@
 8|[K个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)|-2
 9|[用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)|-1
 10|[相交链表](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/)|-2
-11|[LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/)|のの3
-12|[买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)|の1
+11|[LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/)|-2
+12|[买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)|-1
 13|[二叉树的完全性检验](https://leetcode-cn.com/problems/check-completeness-of-a-binary-tree/)|の
 14|[反转字符串](https://leetcode-cn.com/problems/reverse-string/)|
 15|[二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)|の1
