@@ -207,15 +207,15 @@
 10|[相交链表](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/)|-2
 11|[LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/)|-2
 12|[买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)|-1
-13|[二叉树的完全性检验](https://leetcode-cn.com/problems/check-completeness-of-a-binary-tree/)|の
+13|[二叉树的完全性检验](https://leetcode-cn.com/problems/check-completeness-of-a-binary-tree/)|-2
 14|[反转字符串](https://leetcode-cn.com/problems/reverse-string/)|
-15|[二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)|の1
-16|[二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree/)|の2
-17|[翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)|の1
-18|[两数之和](https://leetcode-cn.com/problems/two-sum/)|の1
-19|[无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)|2
-20|[分隔链表](https://leetcode-cn.com/problems/partition-list/)|の2|[题解](./AlgorithmicPractice/AlgorithmicPractice/HotPractice/20.md)|
-21|[旋转数组](https://leetcode-cn.com/problems/rotate-array/)|の2|[题解](./AlgorithmicPractice/AlgorithmicPractice/HotPractice/21.md)
+15|[二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)|
+16|[二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree/)|-2
+17|[翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)|-1
+18|[两数之和](https://leetcode-cn.com/problems/two-sum/)|-1
+19|[无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)|-1
+20|[分隔链表](https://leetcode-cn.com/problems/partition-list/)|-2|[题解](./AlgorithmicPractice/AlgorithmicPractice/HotPractice/20.md)|
+21|[旋转数组](https://leetcode-cn.com/problems/rotate-array/)|-1|[题解](./AlgorithmicPractice/AlgorithmicPractice/HotPractice/21.md)
 22|[路径总和 II](https://leetcode-cn.com/problems/path-sum-ii/)|の2
 23|[翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/)|の1
 24|[字符串解码](https://leetcode-cn.com/problems/decode-string/)|の|[题解](./AlgorithmicPractice/AlgorithmicPractice/HotPractice/24.md)
