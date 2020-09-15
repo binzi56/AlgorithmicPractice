@@ -216,12 +216,12 @@
 19|[无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)|-1
 20|[分隔链表](https://leetcode-cn.com/problems/partition-list/)|-2|[题解](./AlgorithmicPractice/AlgorithmicPractice/HotPractice/20.md)|
 21|[旋转数组](https://leetcode-cn.com/problems/rotate-array/)|-1|[题解](./AlgorithmicPractice/AlgorithmicPractice/HotPractice/21.md)
-22|[路径总和 II](https://leetcode-cn.com/problems/path-sum-ii/)|の2
-23|[翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/)|の1
-24|[字符串解码](https://leetcode-cn.com/problems/decode-string/)|の|[题解](./AlgorithmicPractice/AlgorithmicPractice/HotPractice/24.md)
-25|[爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)|
-26|[螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/)|の2
-27|[LFU缓存](https://leetcode-cn.com/problems/lfu-cache/)|ののの
+22|[路径总和 II](https://leetcode-cn.com/problems/path-sum-ii/)|-1
+23|[翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/)|-1
+24|[字符串解码](https://leetcode-cn.com/problems/decode-string/)|-2|[题解](./AlgorithmicPractice/AlgorithmicPractice/HotPractice/24.md)
+25|[爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)|-1
+26|[螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/)|-1
+27|[LFU缓存](https://leetcode-cn.com/problems/lfu-cache/)|-2
 
 ---
 #### 知识点
