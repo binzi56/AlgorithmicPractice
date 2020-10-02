@@ -40,7 +40,7 @@ B是A的子结构， 即 A中有出现和B相同的结构和节点值。
 class Solution {
 public:
    bool helper(TreeNode* A, TreeNode* B){
-       if(A == NULL || B == NULL) return B == NULL ? true : false;
+       if(A == NULL || B == NULL) return B == NULL;
        
        if(A->val != B->val) return false;
        
