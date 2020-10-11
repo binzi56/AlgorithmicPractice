@@ -222,6 +222,7 @@
 25|[爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)|-1
 26|[螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/)|-1
 27|[LFU缓存](https://leetcode-cn.com/problems/lfu-cache/)|-2
+28|[x 的平方根](https://leetcode-cn.com/problems/sqrtx/)|-1|[题解](./AlgorithmicPractice/AlgorithmicPractice/Demo6/Demo6_1)
 
 ---
 #### 知识点

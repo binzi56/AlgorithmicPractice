@@ -27,6 +27,8 @@ cache.get(4);       // 返回 4
 ```
 
 解法：
+// 注: operator 运算符重载
+
 ```
 struct Node {
     int count, time, key, value;
