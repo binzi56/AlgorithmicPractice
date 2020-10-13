@@ -187,6 +187,7 @@
 		187E83612472C7D6007F6489 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		187E83632472D20F007F6489 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		187E83A6247595B7007F6489 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		189505392536065400454F8D /* 25.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = 25.md; sourceTree = "<group>"; };
 		18A01DFF215B2BDD0083EC54 /* CommonTools.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CommonTools.cpp; sourceTree = "<group>"; };
 		18A01E00215B2BDD0083EC54 /* CommonTools.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CommonTools.hpp; sourceTree = "<group>"; };
 		18A01E20215BDFE90083EC54 /* Demo1_2_2_middleNumForArr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Demo1_2_2_middleNumForArr.cpp; sourceTree = "<group>"; };
@@ -455,6 +456,7 @@
 				1835D04724F55A6E0084D413 /* 20.md */,
 				1835D04824F55DA50084D413 /* 21.md */,
 				1835D04924F566170084D413 /* 24.md */,
+				189505392536065400454F8D /* 25.md */,
 			);
 			path = HotPractice;
 			sourceTree = "<group>";

@@ -223,7 +223,7 @@
 26|[螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/)|-1
 27|[LFU缓存](https://leetcode-cn.com/problems/lfu-cache/)|-2
 28|[x 的平方根](https://leetcode-cn.com/problems/sqrtx/)|-1|[题解](./AlgorithmicPractice/AlgorithmicPractice/Demo6/Demo6_1)
-
+29|[零钱兑换](https://leetcode-cn.com/problems/coin-change/)|-2|[题解](./AlgorithmicPractice/AlgorithmicPractice/HotPractice/25)
 ---
 #### 知识点
 ##### 1. 算法知识
