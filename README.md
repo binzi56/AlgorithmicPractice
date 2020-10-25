@@ -232,7 +232,7 @@
    * [字符串匹配(BF/RK/BM/KMP/Trie树/AC自动机)](./Note/字符串匹配.md)
    * [树(AVL/红黑树/B/B+/2-3/堆/堆排序)](./Note/树.md)
    * [图(关键路径/最小生成树/最短路径/拓扑排序)](./Note/图.md)
-   * [其他(跳表/并查集/BitMap/Bloom filter/LRU)](./Note/图.md)
+   * [其他(跳表/并查集/BitMap/Bloom filter/LRU)](./Note/其他.md)
 
 TODO:
 - [ ] [基本算法思想(贪心/回溯/分治/动态规划)]()
