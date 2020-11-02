@@ -191,6 +191,7 @@
 12|[Build product array](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_12)|[构建乘积数组](https://leetcode-cn.com/problems/gou-jian-cheng-ji-shu-zu-lcof/)
 13|[LRU Cache](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_13)|[LRU缓存](https://leetcode-cn.com/problems/lru-cache/)
 14|[LFU Cache](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_14)|[LFU缓存](https://leetcode-cn.com/problems/lfu-cache/)
+15|[Largest rectangle in histogram](./AlgorithmicPractice/AlgorithmicPractice/Demo10/Demo10_2/Demo10_2_15)|[柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)
 
 #### 热门题型练习
 序号  |LeetCode(题目链接)| 备注| 题解 | 
