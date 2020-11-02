@@ -29,15 +29,18 @@ public:
 
 
 class Solution 2{
-    public int maxSubArray(int[] nums) {
+    int maxSubArray(vector<int>& nums) {
+        if(nums.empty()) return 0;
+        
         int res = nums[0];
         int sum = 0;
-        for (int num : nums) {
-            if (sum > 0)
+        for(int num : nums){
+             if(sum > 0){
                 sum += num;
-            else
+             }else{
                 sum = num;
-            res = max(res, sum);
+             }
+             res = max(res, sum);
         }
         return res;
     }
