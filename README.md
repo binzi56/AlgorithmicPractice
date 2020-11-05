@@ -203,12 +203,12 @@
 5|[合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
 6|[数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)|
 7|[二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)|1
-8|[K个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)|-2
+8|[K个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)|:2
 9|[用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)|-1
 10|[相交链表](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/)|-2
 11|[LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/)|-2
-12|[买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)|-1
-13|[二叉树的完全性检验](https://leetcode-cn.com/problems/check-completeness-of-a-binary-tree/)|-2
+12|[买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)|:1
+13|[二叉树的完全性检验](https://leetcode-cn.com/problems/check-completeness-of-a-binary-tree/)|:2
 14|[反转字符串](https://leetcode-cn.com/problems/reverse-string/)|
 15|[二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)|
 16|[二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree/)|-2
