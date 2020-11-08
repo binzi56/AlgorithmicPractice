@@ -31,7 +31,7 @@
 double myPow(double x, int n) {
     double res = 1.0;
     for(int i = n; i != 0; i /= 2){
-        if(i % 2 != 0){
+        if(i % 2 != 0){                         // or (n & 1) or (n % 2) or (n % 2 == 1)
             res *= x;
         }
         x *= x;
@@ -115,6 +115,29 @@ double myPow4(double x, int n) {
     double half = myPow(x, n / 2);
     double rest = myPow(x, n % 2);
     return rest * half * half;
+}
+
+----------- 递归 ---------------------
+double pow2(double x, int n){
+    if(n == 0){
+        return 1;
+    }
+    
+    double mul = pow2(x, n/2);
+    
+    if(n & 1) {
+        return x * mul * mul;
+    } else {
+        return mul * mul;
+    }
+}
+
+double pow(double x, int n) {  
+    if(n < 0){
+        return 1.0 / pow2(x, -n);
+    } else {
+        return pow2(x, n);
+    }
 }
 
 ```
