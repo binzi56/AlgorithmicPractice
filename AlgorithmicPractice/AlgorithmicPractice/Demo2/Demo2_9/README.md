@@ -48,5 +48,24 @@ ListNode* getKthFromEnd1(ListNode* head, int k) {
     }
 }
 
+
+ListNode* getKthFromEnd(ListNode* head, int k) {
+     if(head == NULL) return head;
+
+     ListNode *pre = head;
+     ListNode *cur = head;
+     for(int i = 0; i < k; i++){
+         pre = pre->next;
+     }
+
+     if(pre == NULL) return head;
+
+     while(pre != NULL){
+         pre = pre->next;
+         cur = cur->next;
+     }
+
+     return cur;
+}
 ```
 
